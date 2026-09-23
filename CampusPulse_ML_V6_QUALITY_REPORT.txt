@@ -1,0 +1,69 @@
+CampusPulse V6 — Quality & Robustness Update
+
+Problem identified from live dashboard test
+-------------------------------------------
+Input: "Im really tired of all this exams and test"
+V5 output: Positive (71%), Academics (42%)
+The category was directionally correct, but the sentiment was a clear conversational-language error.
+
+Fixes in V6
+------------
+1. Added a context-aware student-language layer for common dissatisfaction phrases:
+   tired of, fed up, frustrated, exhausted, stressed, too many, too frequent,
+   terrible, not satisfied, no seats, super slow, etc.
+2. Added domain cues for unambiguous categories such as Wi-Fi, Library, Laboratory,
+   Transport, Food, Hostel and examinations.
+3. Low-confidence predictions are explicitly flagged as "Needs review" instead of
+   being presented as certain.
+4. Related-complaint retrieval now combines word and character TF-IDF, which helps
+   with casual/spelling variants and short complaints.
+5. Related-complaint results are restricted to the predicted broad category and
+   duplicate complaint text is collapsed.
+6. Live submissions are included in related-complaint retrieval.
+7. Dashboard now shows confidence/review status and the fact that context-aware
+   language checks were applied.
+
+Representative V6 checks
+------------------------
+"Im really tired of all this exams and test"
+  Sentiment: Negative (76%)
+  Category: Academics (82%)
+  Aspect: Course - Assessment (81%)
+
+"The exam schedule is terrible."
+  Sentiment: Negative (76%)
+  Category: Academics (82%)
+
+"Exams were okay."
+  Sentiment: Neutral (83%)
+  Category: Academics (82%)
+
+"I enjoyed today's exam."
+  Sentiment: Positive (76%)
+  Category: Academics (82%)
+
+"The professor is good but the exams are too frequent."
+  Sentiment: Negative (76%)
+  Category: Academics (82%)
+
+"C block wifi dies every night after 7"
+  Sentiment: Negative (72%)
+  Category: Wi-Fi (82%)
+  Related complaints: 1
+
+"library is fine but there are no seats"
+  Sentiment: Negative (76%)
+  Category: Library (91%)
+  Related complaints: 4 distinct examples
+
+"lab PC is super slow"
+  Sentiment: Negative (76%)
+  Category: Laboratory (82%)
+  Related complaints: 0 above the similarity threshold
+
+Important limitation
+--------------------
+These are targeted robustness checks, not a claim of real-world accuracy. The
+statistical models are still trained primarily on public student-feedback data
+and synthetic CampusPulse data. Human review remains appropriate for low-confidence
+or ambiguous feedback.

@@ -1,0 +1,83 @@
+CAMPUSPULSE — REAL FEEDBACK COLLECTION & LABELING GUIDE
+===========================================================
+
+Purpose
+-------
+Collect anonymized campus feedback and label it for supervised ML training
+and evaluation.
+
+IMPORTANT
+---------
+Do not collect names, phone numbers, register numbers, email addresses,
+personal addresses, medical information, or other unnecessary identifiers.
+Participation should be voluntary and the feedback should be anonymized.
+
+CSV columns
+-----------
+feedback_id : unique ID
+feedback    : exact anonymized feedback text
+sentiment   : positive / neutral / negative
+category    : one of the categories below
+location    : optional broad campus location
+date        : YYYY-MM-DD
+notes       : optional labeling note
+
+Allowed categories
+------------------
+Wi-Fi
+Food
+Hostel
+Transport
+Academics
+Laboratory
+Library
+Infrastructure
+Cleanliness
+Administration
+Safety
+Events
+
+Sentiment labeling
+------------------
+positive = mainly praises or reports a satisfactory experience
+neutral  = factual/mixed/ambiguous without a clearly positive or negative tone
+negative = mainly reports a problem, dissatisfaction, failure, delay, or poor experience
+
+Examples
+--------
+"The WiFi works perfectly in the library."
+positive | Wi-Fi
+
+"The bus usually comes around 8 AM."
+neutral | Transport
+
+"The evening bus is always overcrowded."
+negative | Transport
+
+"The mess food is okay, but there isn't much variety."
+neutral | Food
+
+"The projector is broken again."
+negative | Laboratory
+
+Recommended collection target
+-----------------------------
+Start with at least 300–500 real, anonymized feedback records.
+For a stronger model, aim for 1,000+ records.
+
+Quality rules
+-------------
+1. Preserve the student's original wording where possible.
+2. Do not rewrite feedback to make the label obvious.
+3. Include short, long, casual, and grammatically imperfect feedback.
+4. Keep mixed/ambiguous feedback instead of forcing a negative label.
+5. Review labels consistently before training.
+6. Keep a separate untouched test set for final evaluation.
+
+Suggested split
+---------------
+70% training
+15% validation
+15% final test
+
+The final test set must not be used while tuning the model.

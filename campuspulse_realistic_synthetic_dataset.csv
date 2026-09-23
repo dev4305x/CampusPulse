@@ -1,0 +1,977 @@
+feedback_id,feedback,sentiment,category,location
+R00001,wifi is stable today,positive,Wi-Fi,Hostel A
+R00002,campus net is fast,positive,Wi-Fi,Campus
+R00003,wifis stable today in B Block,positive,Wi-Fi,Hostel A
+R00004,campus internet is fast,positive,Wi-Fi,Central Lab
+R00006,network works smoothly in my block,positive,Wi-Fi,C Block
+R00007,good internet connection in library in Hostel A,positive,Wi-Fi,Main Gate
+R00008,WiFi is stable today,positive,Wi-Fi,Main Gate
+R00009,network works smoothly in my block bro,positive,Wi-Fi,ECE Lab
+R00010,wifis stable today in Hostel B,positive,Wi-Fi,Campus
+R00011,network works smoothly in my block pls fix,positive,Wi-Fi,A Block
+R00012,campus internet is fast bro,positive,Wi-Fi,Hostel A
+R00013,wifis stable today in Campus,positive,Wi-Fi,Main Gate
+R00019,network works smoothly in my block in Canteen,positive,Wi-Fi,Main Gate
+R00020,campus internet is fast asap,positive,Wi-Fi,Campus
+R00021,good net connection in the library in Hostel A,positive,Wi-Fi,Central Lab
+R00024,good internet connection in the library,positive,Wi-Fi,B Block
+R00026,wifis stable today,positive,Wi-Fi,ECE Lab
+R00029,network works smoothly in my block in C Block,positive,Wi-Fi,ECE Lab
+R00030,wifi is stable today bro,positive,Wi-Fi,C Block
+R00034,network works smoothly in my block bro in Hostel A,positive,Wi-Fi,Canteen
+R00038,good internet connection in the library pls fix,positive,Wi-Fi,Hostel A
+R00040,network works smoothly in my block asap,positive,Wi-Fi,ECE Lab
+R00041,wifi is stable today pls fix in Main Gate,positive,Wi-Fi,A Block
+R00042,campus internet is fast pls fix in Campus,positive,Wi-Fi,A Block
+R00044,wifi is stable today in Campus,positive,Wi-Fi,ECE Lab
+R00045,campus internet is fast in Canteen,positive,Wi-Fi,Canteen
+R00046,wifi works most of the time pls fix,neutral,Wi-Fi,Library
+R00047,internet is available but average in Library,neutral,Wi-Fi,Main Gate
+R00048,wifi works most of the time,neutral,Wi-Fi,A Block
+R00049,wifi is okay in my block,neutral,Wi-Fi,Main Gate
+R00050,wifi is okay in my block pls fix in Central Lab,neutral,Wi-Fi,ECE Lab
+R00051,internets available but average in ECE Lab,neutral,Wi-Fi,Hostel A
+R00052,wifi is okay in my block asap,neutral,Wi-Fi,Central Lab
+R00054,WiFi is okay in my block,neutral,Wi-Fi,Hostel A
+R00055,internets available but average,neutral,Wi-Fi,Hostel A
+R00056,wifi works most of the time in A Block,neutral,Wi-Fi,Library
+R00057,network speed is normal today asap in Central Lab,neutral,Wi-Fi,Campus
+R00058,wifi works most of the time in Hostel A,neutral,Wi-Fi,A Block
+R00059,wifi is okay in my block in Canteen,neutral,Wi-Fi,ECE Lab
+R00060,internet is available but average,neutral,Wi-Fi,B Block
+R00062,internets available but average in Canteen,neutral,Wi-Fi,Hostel A
+R00064,network speed is normal today bro in Main Gate,neutral,Wi-Fi,Hostel A
+R00065,network speeds normal today in Campus,neutral,Wi-Fi,Hostel B
+R00066,wifi works most of time,neutral,Wi-Fi,B Block
+R00069,network speed is normal today,neutral,Wi-Fi,B Block
+R00070,internet is available but average in ECE Lab,neutral,Wi-Fi,Central Lab
+R00071,network speed is normal today in Central Lab,neutral,Wi-Fi,Hostel B
+R00072,wifi is okay in my block in B Block,neutral,Wi-Fi,Central Lab
+R00073,internet is available but average bro in Hostel A,neutral,Wi-Fi,Main Gate
+R00074,internet is available but average bro,neutral,Wi-Fi,Hostel B
+R00076,wifi is okay in my block in C Block,neutral,Wi-Fi,Campus
+R00078,wifi works most of the time in B Block,neutral,Wi-Fi,C Block
+R00080,wifi works most of the time in Main Gate,neutral,Wi-Fi,A Block
+R00081,network speed is normal today pls fix,neutral,Wi-Fi,Campus
+R00083,internet is available but average pls fix,neutral,Wi-Fi,C Block
+R00085,internet is available but average bro in B Block,neutral,Wi-Fi,Library
+R00086,wifi is okay in my block asap in ECE Lab,neutral,Wi-Fi,Main Gate
+R00087,network speed is normal today pls fix in Campus,neutral,Wi-Fi,Hostel A
+R00088,wifi works most of time in B Block,neutral,Wi-Fi,Hostel B
+R00090,network speed is normal today in Hostel B,neutral,Wi-Fi,C Block
+R00091,campus wifi is not working properly bro in Canteen,negative,Wi-Fi,Library
+R00092,wifi drops every few minutes,negative,Wi-Fi,Central Lab
+R00093,wifi keeps disconnecting,negative,Wi-Fi,Hostel A
+R00095,campus wifi is not working properly,negative,Wi-Fi,Campus
+R00096,internet is painfully slow,negative,Wi-Fi,Campus
+R00098,internet gets stuck whenever I try to upload bro,negative,Wi-Fi,Campus
+R00099,network is terrible after evening,negative,Wi-Fi,Hostel B
+R00100,campus wifi is not working properly in Campus,negative,Wi-Fi,Library
+R00101,net gets stuck whenever I try to upload,negative,Wi-Fi,Hostel B
+R00103,wifi drops every few minutes pls fix,negative,Wi-Fi,Canteen
+R00105,internet gets stuck whenever I try to upload pls fix,negative,Wi-Fi,C Block
+R00106,internet gets stuck whenever I try to upload in Campus,negative,Wi-Fi,Campus
+R00107,campus wifi is not working properly in Hostel A,negative,Wi-Fi,Campus
+R00109,wifi keeps disconnecting in ECE Lab,negative,Wi-Fi,Canteen
+R00110,WiFi signal is weak in my block,negative,Wi-Fi,Campus
+R00111,campus wifi is not working properly pls fix,negative,Wi-Fi,Library
+R00112,networks terrible after evening in Campus,negative,Wi-Fi,A Block
+R00116,internet gets stuck whenever I try to upload,negative,Wi-Fi,Canteen
+R00117,wifi drops every few minutes asap,negative,Wi-Fi,Central Lab
+R00119,internet gets stuck whenever I try to upload asap,negative,Wi-Fi,Hostel A
+R00120,wifi signal is weak in my block bro,negative,Wi-Fi,Central Lab
+R00121,network is terrible after evening pls fix in B Block,negative,Wi-Fi,Hostel B
+R00122,internet is painfully slow bro in Central Lab,negative,Wi-Fi,B Block
+R00123,net is painfully slow in C Block,negative,Wi-Fi,Hostel A
+R00125,networks terrible after evening in Library,negative,Wi-Fi,Library
+R00126,wifi signal is weak in my block,negative,Wi-Fi,Canteen
+R00127,network is terrible after evening asap in Main Gate,negative,Wi-Fi,Hostel B
+R00128,wifi signals weak in my block,negative,Wi-Fi,Library
+R00130,network is terrible after evening pls fix in ECE Lab,negative,Wi-Fi,A Block
+R00133,campus wifi is not working properly in Library,negative,Wi-Fi,Canteen
+R00135,wifi signal is weak in my block asap in Hostel B,negative,Wi-Fi,Library
+R00136,lunch was fresh and good pls fix,positive,Food,Main Gate
+R00137,the menu has nice variety bro,positive,Food,Library
+R00138,lunch was fresh and good,positive,Food,Central Lab
+R00139,food is tasty today in B Block,positive,Food,Campus
+R00140,food is tasty today,positive,Food,Hostel A
+R00141,food is tasty today in ECE Lab,positive,Food,Campus
+R00142,food is tasty today pls fix,positive,Food,Hostel B
+R00144,mess food quality has improved bro in A Block,positive,Food,Hostel B
+R00145,the menu has nice variety,positive,Food,Hostel A
+R00146,food is tasty today pls fix in Hostel B,positive,Food,Campus
+R00147,food is tasty today in Library,positive,Food,Campus
+R00149,foods tasty today,positive,Food,B Block
+R00150,menu has nice variety,positive,Food,ECE Lab
+R00151,mess food quality has improved in Central Lab,positive,Food,Campus
+R00153,the menu has nice variety bro in Hostel A,positive,Food,B Block
+R00154,lunch was fresh and good asap in ECE Lab,positive,Food,Canteen
+R00155,menu has nice variety in Main Gate,positive,Food,C Block
+R00156,the menu has nice variety pls fix,positive,Food,Hostel B
+R00157,lunch was fresh and good bro,positive,Food,Hostel B
+R00159,mess food quality has improved,positive,Food,Hostel A
+R00160,the menu has nice variety asap,positive,Food,A Block
+R00161,food is tasty today bro in Hostel A,positive,Food,Hostel B
+R00162,lunch was fresh and good asap,positive,Food,Main Gate
+R00163,the menu has nice variety in ECE Lab,positive,Food,Hostel B
+R00164,lunch was fresh and good bro in Hostel A,positive,Food,Main Gate
+R00166,mess food quality has improved pls fix,positive,Food,Hostel B
+R00168,mess food quality has improved in A Block,positive,Food,Central Lab
+R00172,the menu has nice variety asap in A Block,positive,Food,Hostel B
+R00175,food is tasty today in Canteen,positive,Food,Hostel B
+R00176,food is tasty today pls fix in Library,positive,Food,Canteen
+R00178,lunch was fresh and good in Canteen,positive,Food,A Block
+R00180,food is tasty today in Central Lab,positive,Food,B Block
+R00181,food is average today,neutral,Food,Canteen
+R00182,dinner was neither good nor bad bro in Hostel B,neutral,Food,Hostel B
+R00183,dinner was neither good nor bad,neutral,Food,Hostel B
+R00184,foods average today in Hostel A,neutral,Food,Campus
+R00185,food is average today bro,neutral,Food,B Block
+R00186,mess food is okay,neutral,Food,Canteen
+R00187,the menu is manageable asap in Hostel B,neutral,Food,Library
+R00188,the menu is manageable,neutral,Food,ECE Lab
+R00190,the menu is manageable in Campus,neutral,Food,Canteen
+R00191,mess food is okay bro,neutral,Food,C Block
+R00193,foods average today,neutral,Food,ECE Lab
+R00194,mess food is okay asap in Main Gate,neutral,Food,Main Gate
+R00195,mess food is okay in ECE Lab,neutral,Food,Hostel B
+R00196,dinner was neither good nor bad in B Block,neutral,Food,Main Gate
+R00197,menu is manageable in Library,neutral,Food,Central Lab
+R00200,dinner was neither good nor bad in Central Lab,neutral,Food,C Block
+R00201,the menu is manageable asap,neutral,Food,ECE Lab
+R00203,food is average today in A Block,neutral,Food,Central Lab
+R00206,the menus manageable,neutral,Food,ECE Lab
+R00207,food is average today asap,neutral,Food,Library
+R00210,the menu is manageable in A Block,neutral,Food,Hostel B
+R00214,dinner was neither good nor bad pls fix,neutral,Food,Library
+R00218,mess food is okay asap in ECE Lab,neutral,Food,A Block
+R00220,mess food is okay asap,neutral,Food,Hostel B
+R00223,mess food is okay in Campus,neutral,Food,Hostel B
+R00225,mess food is okay asap in Hostel B,neutral,Food,A Block
+R00226,mess food is too oily,negative,Food,Hostel B
+R00227,there is hardly any variety,negative,Food,Hostel A
+R00228,dinner tastes bad lately,negative,Food,C Block
+R00229,food is often cold in Library,negative,Food,Canteen
+R00230,too much salt in the food pls fix,negative,Food,Canteen
+R00231,food is often cold pls fix,negative,Food,Hostel B
+R00232,the food quality has become poor bro,negative,Food,ECE Lab
+R00233,there is hardly any variety in ECE Lab,negative,Food,Main Gate
+R00234,dinner tastes bad lately bro,negative,Food,Library
+R00235,too much salt in the food bro,negative,Food,Hostel B
+R00236,foods often cold,negative,Food,B Block
+R00238,there is hardly any variety bro in Campus,negative,Food,Library
+R00240,too much salt in the food,negative,Food,ECE Lab
+R00241,there is hardly any variety pls fix,negative,Food,Main Gate
+R00244,too much salt in the food in ECE Lab,negative,Food,A Block
+R00247,food is often cold,negative,Food,Main Gate
+R00249,there is hardly any variety asap,negative,Food,Hostel B
+R00250,too much salt in food,negative,Food,ECE Lab
+R00254,there is hardly any variety in Main Gate,negative,Food,Campus
+R00257,mess food is very oily in Canteen,negative,Food,Hostel A
+R00261,the food quality has become poor in Central Lab,negative,Food,C Block
+R00262,the food quality has become poor asap,negative,Food,Central Lab
+R00263,the food quality has become poor,negative,Food,Campus
+R00264,mess food is too oily asap,negative,Food,Hostel B
+R00265,mess food is too oily in ECE Lab,negative,Food,Hostel A
+R00267,dinner tastes bad lately in Hostel B,negative,Food,Hostel A
+R00268,mess food is too oily asap in Hostel A,negative,Food,Campus
+R00269,too much salt in the food in Main Gate,negative,Food,Hostel A
+R00270,food is often cold pls fix in Central Lab,negative,Food,Hostel A
+R00271,hostel facilities are comfortable pls fix in C Block,positive,Hostel,Canteen
+R00272,hostel room is clean bro,positive,Hostel,C Block
+R00273,hostel facilities are comfortable in C Block,positive,Hostel,B Block
+R00274,hostel room is clean in Hostel A,positive,Hostel,Canteen
+R00275,water supply is good in A Block,positive,Hostel,C Block
+R00276,the room maintenance is good in B Block,positive,Hostel,ECE Lab
+R00277,room maintenance is good,positive,Hostel,B Block
+R00278,the room maintenance is good in Canteen,positive,Hostel,A Block
+R00279,water supply is good asap,positive,Hostel,A Block
+R00280,hostel room is clean asap,positive,Hostel,Library
+R00282,hostel room is clean in C Block,positive,Hostel,B Block
+R00283,hostel facilities are comfortable bro,positive,Hostel,Canteen
+R00284,water supplys good,positive,Hostel,Central Lab
+R00286,hostel room is clean,positive,Hostel,Campus
+R00287,hostel facilities are comfortable,positive,Hostel,Hostel A
+R00289,the room maintenance is good in Main Gate,positive,Hostel,Campus
+R00290,water supply is good,positive,Hostel,Campus
+R00292,the room maintenance is good,positive,Hostel,Main Gate
+R00293,hostel facilities are comfortable in Central Lab,positive,Hostel,Central Lab
+R00296,water supply is good in Central Lab,positive,Hostel,Hostel A
+R00297,hostel facilities are comfortable asap in B Block,positive,Hostel,Main Gate
+R00300,hostel room is clean bro in Hostel B,positive,Hostel,Hostel B
+R00301,water supply is good in C Block,positive,Hostel,Canteen
+R00302,the room maintenance is good in Campus,positive,Hostel,A Block
+R00303,hostel room is clean in Library,positive,Hostel,ECE Lab
+R00305,hostel room is clean in Canteen,positive,Hostel,A Block
+R00307,the room maintenance is good asap,positive,Hostel,Hostel A
+R00311,hostel room is clean pls fix in Hostel A,positive,Hostel,C Block
+R00312,water supply is good bro in A Block,positive,Hostel,ECE Lab
+R00313,the room maintenance is good in Central Lab,positive,Hostel,Hostel A
+R00316,maintenances manageable,neutral,Hostel,Campus
+R00317,hostel experience is normal bro in A Block,neutral,Hostel,Main Gate
+R00318,room facilities are average asap,neutral,Hostel,Main Gate
+R00319,hostels okay,neutral,Hostel,Hostel A
+R00320,hostel experiences normal,neutral,Hostel,Library
+R00321,maintenance is manageable in C Block,neutral,Hostel,B Block
+R00322,hostel is okay,neutral,Hostel,Main Gate
+R00324,room facilities are average,neutral,Hostel,Campus
+R00326,hostel experience is normal asap,neutral,Hostel,Canteen
+R00327,hostel experience is normal,neutral,Hostel,Campus
+R00328,maintenance is manageable,neutral,Hostel,ECE Lab
+R00329,hostel experience is normal bro,neutral,Hostel,Canteen
+R00331,hostel experience is normal asap in Main Gate,neutral,Hostel,Hostel B
+R00334,hostel experience is normal pls fix in ECE Lab,neutral,Hostel,Central Lab
+R00340,hostel is okay in B Block,neutral,Hostel,Central Lab
+R00341,hostel experience is normal bro in Campus,neutral,Hostel,Canteen
+R00342,room facilities are average in Campus,neutral,Hostel,C Block
+R00343,maintenance is manageable bro,neutral,Hostel,Campus
+R00349,room facilities are average pls fix,neutral,Hostel,C Block
+R00350,hostel is okay bro,neutral,Hostel,B Block
+R00352,room facilities are average in C Block,neutral,Hostel,Canteen
+R00353,room facilities are average asap in Main Gate,neutral,Hostel,Campus
+R00355,room facilities are average in ECE Lab,neutral,Hostel,Hostel A
+R00356,maintenance is manageable asap,neutral,Hostel,Hostel B
+R00360,hostel is okay bro in C Block,neutral,Hostel,Hostel B
+R00361,hostel rooms have leaking taps in Library,negative,Hostel,B Block
+R00362,water supply keeps getting interrupted asap,negative,Hostel,A Block
+R00363,hostel rooms have leaking taps,negative,Hostel,Main Gate
+R00364,water supply keeps getting interrupted,negative,Hostel,Main Gate
+R00365,water supply keeps getting interrupted in B Block,negative,Hostel,Campus
+R00366,room maintenance is poor in Hostel B,negative,Hostel,ECE Lab
+R00368,hostel room is not cleaned properly in C Block,negative,Hostel,Central Lab
+R00369,the hostel is very noisy at night,negative,Hostel,Hostel B
+R00370,water supply keeps getting interrupted bro in Hostel A,negative,Hostel,Library
+R00371,the hostel is too noisy at night asap in ECE Lab,negative,Hostel,Canteen
+R00372,the hostel is too noisy at night,negative,Hostel,Canteen
+R00373,water supply keeps getting interrupted in A Block,negative,Hostel,Canteen
+R00374,room maintenance is poor pls fix,negative,Hostel,C Block
+R00375,hostel room is not cleaned properly,negative,Hostel,B Block
+R00378,hostel rooms not cleaned properly,negative,Hostel,Hostel B
+R00383,water supply keeps getting interrupted in ECE Lab,negative,Hostel,A Block
+R00384,room maintenance is poor pls fix in Hostel A,negative,Hostel,A Block
+R00385,room maintenance is poor bro,negative,Hostel,Central Lab
+R00386,hostel rooms have leaking taps bro in Campus,negative,Hostel,Hostel A
+R00387,room maintenance is poor,negative,Hostel,A Block
+R00388,room maintenance is poor bro in Main Gate,negative,Hostel,Library
+R00389,hostel rooms have leaking taps asap,negative,Hostel,Library
+R00391,room maintenance is poor in B Block,negative,Hostel,Library
+R00393,the hostel is too noisy at night bro in B Block,negative,Hostel,Main Gate
+R00396,room maintenances poor in A Block,negative,Hostel,B Block
+R00398,water supply keeps getting interrupted in Canteen,negative,Hostel,Campus
+R00399,hostel rooms have leaking taps in Hostel A,negative,Hostel,Campus
+R00402,room maintenance is poor asap,negative,Hostel,Canteen
+R00406,college bus is punctual bro,positive,Transport,ECE Lab
+R00407,transport service is convenient bro,positive,Transport,ECE Lab
+R00408,transport service is convenient in B Block,positive,Transport,ECE Lab
+R00409,transport service is convenient asap,positive,Transport,Campus
+R00410,buses are comfortable,positive,Transport,Central Lab
+R00411,buses are comfortable bro,positive,Transport,Campus
+R00412,transport service is convenient,positive,Transport,B Block
+R00413,transport service is convenient in ECE Lab,positive,Transport,A Block
+R00415,transport service is convenient in Library,positive,Transport,ECE Lab
+R00416,the shuttle service works well,positive,Transport,B Block
+R00418,the shuttle service works well in Central Lab,positive,Transport,Campus
+R00420,college bus is punctual in C Block,positive,Transport,C Block
+R00421,buses are comfortable pls fix in Central Lab,positive,Transport,Hostel B
+R00422,college bus is punctual bro in Central Lab,positive,Transport,Hostel B
+R00424,transport service is convenient in Canteen,positive,Transport,Canteen
+R00426,college bus is punctual,positive,Transport,Canteen
+R00427,buses are comfortable pls fix,positive,Transport,Library
+R00428,college bus is punctual asap,positive,Transport,Central Lab
+R00430,the shuttle service works well bro,positive,Transport,A Block
+R00435,transport service is convenient asap in ECE Lab,positive,Transport,Hostel A
+R00437,the shuttle service works well pls fix,positive,Transport,C Block
+R00438,buses are comfortable in C Block,positive,Transport,ECE Lab
+R00439,the shuttle service works well asap,positive,Transport,ECE Lab
+R00441,the shuttle service works well pls fix in Main Gate,positive,Transport,A Block
+R00445,shuttle service works well in A Block,positive,Transport,Canteen
+R00448,buses are comfortable in B Block,positive,Transport,Library
+R00450,transport service is convenient pls fix,positive,Transport,Library
+R00451,bus timing is okay in Main Gate,neutral,Transport,ECE Lab
+R00452,bus service is manageable,neutral,Transport,Central Lab
+R00453,transport is average,neutral,Transport,Main Gate
+R00454,transports average,neutral,Transport,Hostel B
+R00455,the shuttle usually arrives on time,neutral,Transport,Central Lab
+R00456,bus service is manageable bro,neutral,Transport,A Block
+R00457,shuttle usually arrives on time,neutral,Transport,Library
+R00461,bus timing is okay in ECE Lab,neutral,Transport,Main Gate
+R00464,bus timing is okay,neutral,Transport,Central Lab
+R00465,the shuttle usually arrives on time asap,neutral,Transport,Main Gate
+R00466,transport is average asap,neutral,Transport,Main Gate
+R00467,the shuttle usually arrives on time bro,neutral,Transport,Hostel A
+R00468,transport is average bro,neutral,Transport,Hostel A
+R00470,the shuttle usually arrives on time asap in Hostel B,neutral,Transport,Hostel B
+R00472,the shuttle usually arrives on time in Hostel B,neutral,Transport,B Block
+R00474,transport is average pls fix,neutral,Transport,Hostel B
+R00475,the shuttle usually arrives on time in Canteen,neutral,Transport,Hostel A
+R00477,transport is average pls fix in Library,neutral,Transport,Main Gate
+R00480,bus service is manageable asap,neutral,Transport,Hostel A
+R00481,shuttle usually arrives on time in A Block,neutral,Transport,B Block
+R00484,bus timings okay,neutral,Transport,C Block
+R00486,bus timing is okay in Campus,neutral,Transport,Central Lab
+R00488,the shuttle usually arrives on time pls fix,neutral,Transport,Main Gate
+R00492,bus services manageable,neutral,Transport,B Block
+R00493,bus service is manageable in C Block,neutral,Transport,ECE Lab
+R00494,the shuttle usually arrives on time pls fix in Library,neutral,Transport,Hostel A
+R00496,bus service is unreliable in Main Gate,negative,Transport,Hostel A
+R00497,bus is always overcrowded,negative,Transport,C Block
+R00498,the evening shuttle is packed,negative,Transport,Hostel B
+R00499,the bus breaks down too often,negative,Transport,Hostel B
+R00500,there are not enough buses pls fix in C Block,negative,Transport,ECE Lab
+R00501,college bus is frequently late asap,negative,Transport,Canteen
+R00502,there are not enough buses,negative,Transport,ECE Lab
+R00503,bus service is unreliable pls fix,negative,Transport,Campus
+R00504,bus service is unreliable,negative,Transport,Central Lab
+R00505,bus breaks down too often in Canteen,negative,Transport,B Block
+R00510,bus is always overcrowded asap in Library,negative,Transport,ECE Lab
+R00513,the bus breaks down too often pls fix,negative,Transport,A Block
+R00514,evening shuttle is packed,negative,Transport,Central Lab
+R00516,bus is always overcrowded bro,negative,Transport,C Block
+R00518,the evening shuttles packed,negative,Transport,Campus
+R00519,the bus breaks down very often in Main Gate,negative,Transport,B Block
+R00520,college bus is frequently late,negative,Transport,C Block
+R00522,there are not enough buses asap,negative,Transport,Central Lab
+R00524,college bus is frequently late asap in Hostel B,negative,Transport,Hostel A
+R00525,the bus breaks down too often in Campus,negative,Transport,Library
+R00526,bus service is unreliable in B Block,negative,Transport,B Block
+R00528,the bus breaks down too often in A Block,negative,Transport,Library
+R00529,the evening shuttle is packed pls fix,negative,Transport,A Block
+R00531,bus breaks down too often,negative,Transport,Campus
+R00539,college bus is frequently late pls fix in C Block,negative,Transport,ECE Lab
+R00541,classes are useful in Hostel A,positive,Academics,Main Gate
+R00542,the lecturer explains concepts clearly asap,positive,Academics,B Block
+R00543,classes are useful in Campus,positive,Academics,Canteen
+R00544,the lecturer explains concepts clearly in Canteen,positive,Academics,Campus
+R00545,classes are useful asap in Main Gate,positive,Academics,Hostel B
+R00546,the lecturer explains concepts clearly pls fix,positive,Academics,B Block
+R00547,the course material is helpful pls fix,positive,Academics,Hostel A
+R00549,the course material is helpful asap,positive,Academics,Main Gate
+R00550,faculty support is good bro,positive,Academics,ECE Lab
+R00551,the course material is helpful,positive,Academics,ECE Lab
+R00552,faculty support is good pls fix,positive,Academics,Library
+R00554,faculty support is good,positive,Academics,Canteen
+R00555,the course material is helpful bro in Main Gate,positive,Academics,Hostel A
+R00558,the course material is helpful asap in Main Gate,positive,Academics,C Block
+R00559,classes are useful,positive,Academics,Central Lab
+R00560,the lecturer explains concepts clearly in B Block,positive,Academics,Campus
+R00561,the lecturer explains concepts clearly,positive,Academics,Campus
+R00564,the course material is helpful asap in Central Lab,positive,Academics,Central Lab
+R00565,the course material is helpful in Hostel B,positive,Academics,Central Lab
+R00567,the course material is helpful in B Block,positive,Academics,Central Lab
+R00568,classes are useful pls fix in Central Lab,positive,Academics,Hostel B
+R00570,faculty supports good,positive,Academics,Hostel A
+R00571,classes are useful bro,positive,Academics,B Block
+R00576,classes are useful pls fix,positive,Academics,Canteen
+R00577,the course material is helpful bro in B Block,positive,Academics,Campus
+R00586,the class was okay bro,neutral,Academics,ECE Lab
+R00587,course content is normal pls fix,neutral,Academics,Library
+R00588,course content is normal,neutral,Academics,Campus
+R00590,teaching is average in C Block,neutral,Academics,Library
+R00591,teachings average in B Block,neutral,Academics,B Block
+R00593,the class was okay in Library,neutral,Academics,ECE Lab
+R00594,course content is normal in Main Gate,neutral,Academics,Central Lab
+R00595,class was okay,neutral,Academics,A Block
+R00596,the lecture was manageable,neutral,Academics,B Block
+R00597,teaching is average in Library,neutral,Academics,C Block
+R00598,teaching is average bro in ECE Lab,neutral,Academics,C Block
+R00599,the class was okay,neutral,Academics,Library
+R00600,the lecture was manageable asap,neutral,Academics,Main Gate
+R00601,the lecture was manageable pls fix,neutral,Academics,ECE Lab
+R00602,teaching is average asap in Hostel B,neutral,Academics,A Block
+R00604,the lecture was manageable asap in Campus,neutral,Academics,Canteen
+R00605,teaching is average bro in Hostel A,neutral,Academics,ECE Lab
+R00608,the lecture was manageable in Library,neutral,Academics,Main Gate
+R00609,the class was okay pls fix,neutral,Academics,Central Lab
+R00610,teaching is average in ECE Lab,neutral,Academics,Hostel A
+R00611,course content is normal bro,neutral,Academics,B Block
+R00612,course content is normal asap in Hostel B,neutral,Academics,Hostel A
+R00614,the class was okay asap,neutral,Academics,ECE Lab
+R00620,the class was okay in Hostel A,neutral,Academics,Central Lab
+R00621,teaching is average asap,neutral,Academics,ECE Lab
+R00622,teaching is average,neutral,Academics,ECE Lab
+R00624,the class was okay in Main Gate,neutral,Academics,ECE Lab
+R00627,the lecture was manageable in B Block,neutral,Academics,A Block
+R00630,course content is normal asap in Library,neutral,Academics,Campus
+R00631,faculty is not explaining the topic clearly,negative,Academics,Library
+R00632,the timetable has too many clashes,negative,Academics,Hostel A
+R00634,faculty is not explaining the topic clearly bro,negative,Academics,B Block
+R00635,course material is outdated,negative,Academics,Central Lab
+R00636,faculty is not explaining topic clearly in ECE Lab,negative,Academics,B Block
+R00637,classes are frequently cancelled asap,negative,Academics,Campus
+R00638,classes are frequently cancelled,negative,Academics,Canteen
+R00639,lecture pace is too fast,negative,Academics,ECE Lab
+R00642,the lecture pace is too fast pls fix in C Block,negative,Academics,Main Gate
+R00644,facultys not explaining the topic clearly,negative,Academics,ECE Lab
+R00646,classes are frequently cancelled in ECE Lab,negative,Academics,Canteen
+R00648,faculty is not explaining the topic clearly pls fix,negative,Academics,Central Lab
+R00649,course material is outdated asap,negative,Academics,ECE Lab
+R00650,the timetable has too many clashes asap,negative,Academics,B Block
+R00652,classes are frequently cancelled in Central Lab,negative,Academics,Hostel B
+R00653,faculty is not explaining the topic clearly asap,negative,Academics,ECE Lab
+R00654,course material is outdated in B Block,negative,Academics,Hostel B
+R00656,the timetable has very many clashes in Library,negative,Academics,B Block
+R00658,the timetable has too many clashes bro in B Block,negative,Academics,ECE Lab
+R00659,the lecture pace is too fast pls fix in Canteen,negative,Academics,Main Gate
+R00660,course materials outdated in C Block,negative,Academics,Hostel A
+R00662,classes are frequently cancelled in Hostel B,negative,Academics,Hostel B
+R00663,course material is outdated bro,negative,Academics,Central Lab
+R00664,the lecture pace is too fast,negative,Academics,Library
+R00665,the lecture pace is too fast bro,negative,Academics,C Block
+R00666,faculty is not explaining the topic clearly pls fix in Main Gate,negative,Academics,Hostel A
+R00667,the timetable has too many clashes asap in Campus,negative,Academics,Hostel B
+R00669,the lecture paces too fast,negative,Academics,Hostel B
+R00672,timetable has too many clashes,negative,Academics,Central Lab
+R00673,the timetable has too many clashes pls fix,negative,Academics,Hostel A
+R00674,the timetable has too many clashes bro in Hostel B,negative,Academics,Main Gate
+R00676,practical sessions are useful in Campus,positive,Laboratory,ECE Lab
+R00677,lab equipment is working well,positive,Laboratory,C Block
+R00678,lab instruments are available asap in Library,positive,Laboratory,Hostel A
+R00679,the lab is properly maintained bro in Hostel B,positive,Laboratory,B Block
+R00680,practical sessions are useful bro in Campus,positive,Laboratory,Campus
+R00681,the lab is properly maintained,positive,Laboratory,Hostel B
+R00682,the labs properly maintained,positive,Laboratory,B Block
+R00683,lab equipment is working well pls fix,positive,Laboratory,C Block
+R00686,the lab is properly maintained asap in Library,positive,Laboratory,B Block
+R00687,lab equipment is working well in Hostel B,positive,Laboratory,C Block
+R00688,lab instruments are available,positive,Laboratory,Campus
+R00690,the lab is properly maintained asap,positive,Laboratory,Hostel A
+R00693,lab equipments working well,positive,Laboratory,Library
+R00696,practical sessions are useful,positive,Laboratory,Campus
+R00697,practical sessions are useful pls fix,positive,Laboratory,Central Lab
+R00698,the labs properly maintained in A Block,positive,Laboratory,Hostel A
+R00699,lab instruments are available in ECE Lab,positive,Laboratory,Campus
+R00701,practical sessions are useful in Canteen,positive,Laboratory,Library
+R00704,practical sessions are useful pls fix in A Block,positive,Laboratory,Library
+R00707,the lab is properly maintained bro in B Block,positive,Laboratory,Central Lab
+R00709,lab equipment is working well bro,positive,Laboratory,Hostel A
+R00710,lab equipment is working well pls fix in Library,positive,Laboratory,B Block
+R00711,lab instruments are available in Campus,positive,Laboratory,C Block
+R00715,lab equipment is working well in Library,positive,Laboratory,Hostel B
+R00717,lab equipment is working well asap,positive,Laboratory,Main Gate
+R00719,practical sessions are useful in B Block,positive,Laboratory,Canteen
+R00721,lab facilities are okay in ECE Lab,neutral,Laboratory,Main Gate
+R00722,facilities are average in A Block,neutral,Laboratory,Central Lab
+R00723,facilities are average pls fix in Library,neutral,Laboratory,Main Gate
+R00724,the lab session was normal,neutral,Laboratory,B Block
+R00725,lab facilities are okay in Central Lab,neutral,Laboratory,A Block
+R00726,facilities are average,neutral,Laboratory,Hostel B
+R00727,lab session was normal in ECE Lab,neutral,Laboratory,A Block
+R00728,the lab session was normal pls fix in Hostel B,neutral,Laboratory,Canteen
+R00729,some equipment is available asap,neutral,Laboratory,ECE Lab
+R00730,some equipment is available,neutral,Laboratory,Hostel A
+R00732,some equipment is available in A Block,neutral,Laboratory,Main Gate
+R00733,lab facilities are okay,neutral,Laboratory,Hostel B
+R00734,lab facilities are okay pls fix,neutral,Laboratory,Hostel A
+R00735,facilities are average asap,neutral,Laboratory,C Block
+R00736,the lab session was normal in Hostel A,neutral,Laboratory,Central Lab
+R00738,lab facilities are okay in Library,neutral,Laboratory,B Block
+R00740,some equipment is available bro in Main Gate,neutral,Laboratory,Library
+R00741,lab session was normal,neutral,Laboratory,Hostel A
+R00742,lab facilities are okay pls fix in Canteen,neutral,Laboratory,B Block
+R00743,some equipment is available in ECE Lab,neutral,Laboratory,Main Gate
+R00745,facilities are average bro,neutral,Laboratory,B Block
+R00749,facilities are average in Hostel B,neutral,Laboratory,Hostel B
+R00752,lab facilities are okay in Hostel A,neutral,Laboratory,C Block
+R00753,some equipments available,neutral,Laboratory,Campus
+R00754,lab facilities are okay bro,neutral,Laboratory,B Block
+R00755,lab facilities are okay in Campus,neutral,Laboratory,ECE Lab
+R00760,some equipment is available in C Block,neutral,Laboratory,Hostel B
+R00761,the lab session was normal asap,neutral,Laboratory,A Block
+R00762,some equipment is available bro,neutral,Laboratory,Central Lab
+R00763,facilities are average in Library,neutral,Laboratory,C Block
+R00764,facilities are average pls fix,neutral,Laboratory,Central Lab
+R00766,the projector in the lab is broken asap,negative,Laboratory,ECE Lab
+R00767,the projector in the lab is broken in Hostel B,negative,Laboratory,C Block
+R00768,lab equipment is not working,negative,Laboratory,A Block
+R00769,the projector in the lab is broken,negative,Laboratory,ECE Lab
+R00770,practical equipment needs maintenance,negative,Laboratory,Hostel A
+R00771,there are not enough instruments in Hostel A,negative,Laboratory,Hostel B
+R00774,there are not enough instruments pls fix,negative,Laboratory,Main Gate
+R00777,lab computers are very slow in ECE Lab,negative,Laboratory,A Block
+R00778,lab equipment is not working in Hostel A,negative,Laboratory,A Block
+R00779,practical equipment needs maintenance asap in Canteen,negative,Laboratory,Hostel A
+R00780,there are not enough instruments,negative,Laboratory,Main Gate
+R00781,lab equipment is not working in C Block,negative,Laboratory,B Block
+R00783,lab computers are too slow in Main Gate,negative,Laboratory,C Block
+R00786,practical equipment needs maintenance in Canteen,negative,Laboratory,C Block
+R00787,lab computers are too slow bro,negative,Laboratory,Hostel B
+R00791,the projector in the lab is broken in Main Gate,negative,Laboratory,C Block
+R00795,lab computers are too slow asap,negative,Laboratory,C Block
+R00797,practical equipment needs maintenance in ECE Lab,negative,Laboratory,Canteen
+R00799,the projector in the lab is broken in B Block,negative,Laboratory,B Block
+R00803,there are not enough instruments in B Block,negative,Laboratory,Main Gate
+R00805,practical equipment needs maintenance bro,negative,Laboratory,Hostel B
+R00806,there are not enough instruments in Canteen,negative,Laboratory,Central Lab
+R00807,lab computers are too slow in A Block,negative,Laboratory,Library
+R00808,lab equipment is not working bro,negative,Laboratory,Campus
+R00809,practical equipment needs maintenance asap in A Block,negative,Laboratory,Hostel A
+R00810,there are not enough instruments bro,negative,Laboratory,ECE Lab
+R00811,library is quiet and clean bro,positive,Library,ECE Lab
+R00812,the reading room is comfortable bro in Central Lab,positive,Library,Library
+R00813,there are enough study spaces,positive,Library,Main Gate
+R00814,there are enough study spaces asap in ECE Lab,positive,Library,ECE Lab
+R00815,library resources are useful pls fix,positive,Library,Canteen
+R00816,library is quiet and clean,positive,Library,Campus
+R00818,the reading room is comfortable pls fix,positive,Library,Library
+R00819,the reading room is comfortable,positive,Library,ECE Lab
+R00820,there are enough study spaces asap in Library,positive,Library,A Block
+R00825,there are enough study spaces bro in B Block,positive,Library,B Block
+R00827,library resources are useful,positive,Library,A Block
+R00832,the reading room is comfortable in Library,positive,Library,C Block
+R00835,library resources are useful in Hostel B,positive,Library,Hostel B
+R00836,library resources are useful asap,positive,Library,Campus
+R00837,library is quiet and clean pls fix in ECE Lab,positive,Library,Main Gate
+R00843,there are enough study spaces pls fix,positive,Library,Hostel A
+R00844,library is quiet and clean pls fix in A Block,positive,Library,Main Gate
+R00845,there are enough study spaces bro,positive,Library,ECE Lab
+R00848,the reading room is comfortable in C Block,positive,Library,Hostel B
+R00849,library is quiet and clean bro in A Block,positive,Library,C Block
+R00853,there are enough study spaces in Canteen,positive,Library,Hostel B
+R00855,the reading room is comfortable bro in Hostel B,positive,Library,Campus
+R00856,books are available in Campus,neutral,Library,Main Gate
+R00857,library facilities are normal bro,neutral,Library,ECE Lab
+R00858,library is okay,neutral,Library,Campus
+R00859,library facilities are normal bro in Campus,neutral,Library,Hostel B
+R00860,study space is average,neutral,Library,Hostel A
+R00861,librarys okay,neutral,Library,Campus
+R00863,library facilities are normal,neutral,Library,A Block
+R00865,books are available,neutral,Library,C Block
+R00866,study space is average bro in C Block,neutral,Library,Hostel B
+R00868,library facilities are normal pls fix,neutral,Library,Hostel B
+R00870,library facilities are normal asap,neutral,Library,ECE Lab
+R00873,library is okay in Hostel A,neutral,Library,Main Gate
+R00874,books are available asap in C Block,neutral,Library,B Block
+R00876,library facilities are normal in Hostel B,neutral,Library,Hostel A
+R00878,study spaces average,neutral,Library,Library
+R00879,books are available asap,neutral,Library,A Block
+R00882,study space is average pls fix,neutral,Library,Main Gate
+R00883,library facilities are normal in Central Lab,neutral,Library,Canteen
+R00884,library facilities are normal in A Block,neutral,Library,Hostel B
+R00888,study spaces average in Hostel A,neutral,Library,C Block
+R00891,books are available bro,neutral,Library,Canteen
+R00894,books are available in Hostel B,neutral,Library,ECE Lab
+R00896,library is okay bro,neutral,Library,B Block
+R00898,library is okay bro in B Block,neutral,Library,ECE Lab
+R00901,it is too noisy in the library,negative,Library,Hostel A
+R00902,library closes too early in A Block,negative,Library,Campus
+R00903,library has too few seats,negative,Library,Campus
+R00904,library closes too early,negative,Library,Central Lab
+R00906,it is too noisy in the library asap,negative,Library,Hostel B
+R00907,many books are unavailable asap in C Block,negative,Library,A Block
+R00908,many books are unavailable,negative,Library,Main Gate
+R00910,it is too noisy in the library in ECE Lab,negative,Library,Canteen
+R00916,reading room is overcrowded asap in Library,negative,Library,Main Gate
+R00917,reading room is overcrowded,negative,Library,C Block
+R00918,library closes too early asap in Library,negative,Library,ECE Lab
+R00919,library has too few seats in Main Gate,negative,Library,A Block
+R00920,reading room is overcrowded pls fix,negative,Library,Campus
+R00925,reading room is overcrowded in C Block,negative,Library,Central Lab
+R00926,library closes too early asap,negative,Library,B Block
+R00927,library closes too early in Hostel B,negative,Library,A Block
+R00929,library closes too early pls fix in ECE Lab,negative,Library,Canteen
+R00933,reading room is overcrowded in B Block,negative,Library,Canteen
+R00934,reading room is overcrowded bro,negative,Library,Central Lab
+R00936,library has too few seats pls fix,negative,Library,Main Gate
+R00937,reading room is overcrowded asap,negative,Library,Main Gate
+R00938,library closes too early in Campus,negative,Library,Hostel A
+R00942,library has too few seats bro,negative,Library,Hostel A
+R00943,library has too few seats in Hostel A,negative,Library,Main Gate
+R00944,library has too few seats in Campus,negative,Library,Campus
+R00946,campus infrastructure is improving in ECE Lab,positive,Infrastructure,A Block
+R00947,campus facilities are well maintained,positive,Infrastructure,Canteen
+R00948,campus infrastructure is improving,positive,Infrastructure,C Block
+R00949,classrooms are comfortable in Campus,positive,Infrastructure,Canteen
+R00950,the building is in good condition,positive,Infrastructure,Library
+R00951,classrooms are comfortable bro,positive,Infrastructure,Main Gate
+R00952,the building is in good condition asap,positive,Infrastructure,C Block
+R00953,campus infrastructure is improving in Central Lab,positive,Infrastructure,Main Gate
+R00954,classrooms are comfortable pls fix in Hostel B,positive,Infrastructure,Campus
+R00956,classrooms are comfortable,positive,Infrastructure,Campus
+R00958,campus infrastructures improving,positive,Infrastructure,Central Lab
+R00959,the buildings in good condition,positive,Infrastructure,Central Lab
+R00961,campus facilities are well maintained pls fix in C Block,positive,Infrastructure,Hostel B
+R00963,classrooms are comfortable in ECE Lab,positive,Infrastructure,B Block
+R00967,campus facilities are well maintained bro in ECE Lab,positive,Infrastructure,Hostel A
+R00971,campus facilities are well maintained in Hostel B,positive,Infrastructure,Central Lab
+R00972,the building is in good condition in Hostel B,positive,Infrastructure,A Block
+R00975,campus facilities are well maintained bro,positive,Infrastructure,Canteen
+R00979,campus facilities are well maintained in Hostel A,positive,Infrastructure,Campus
+R00980,building is in good condition,positive,Infrastructure,Hostel A
+R00983,classrooms are comfortable pls fix,positive,Infrastructure,Campus
+R00985,campus infrastructure is improving bro,positive,Infrastructure,Hostel B
+R00987,campus infrastructure is improving asap in Campus,positive,Infrastructure,Hostel A
+R00988,the building is in good condition in B Block,positive,Infrastructure,C Block
+R00989,campus facilities are well maintained in Campus,positive,Infrastructure,Hostel A
+R00990,campus infrastructure is improving in Library,positive,Infrastructure,Campus
+R00991,infrastructure is okay in Main Gate,neutral,Infrastructure,A Block
+R00992,infrastructure is okay in Hostel B,neutral,Infrastructure,Central Lab
+R00993,infrastructure is okay pls fix,neutral,Infrastructure,Library
+R00994,facilities are normal asap,neutral,Infrastructure,Library
+R00995,campus buildings are manageable,neutral,Infrastructure,B Block
+R00996,infrastructure is okay,neutral,Infrastructure,Canteen
+R00998,infrastructure is okay bro,neutral,Infrastructure,Hostel B
+R01000,facilities are normal,neutral,Infrastructure,A Block
+R01002,facilities are normal in Campus,neutral,Infrastructure,C Block
+R01004,classroom facilities are average in Canteen,neutral,Infrastructure,Canteen
+R01006,campus buildings are manageable pls fix,neutral,Infrastructure,Main Gate
+R01007,classroom facilities are average,neutral,Infrastructure,Central Lab
+R01011,campus buildings are manageable in Canteen,neutral,Infrastructure,ECE Lab
+R01012,campus buildings are manageable in Campus,neutral,Infrastructure,Hostel A
+R01014,campus buildings are manageable asap,neutral,Infrastructure,Canteen
+R01016,campus buildings are manageable in Main Gate,neutral,Infrastructure,Hostel A
+R01017,classroom facilities are average in Main Gate,neutral,Infrastructure,C Block
+R01021,classroom facilities are average bro,neutral,Infrastructure,Campus
+R01023,infrastructures okay,neutral,Infrastructure,Hostel A
+R01024,infrastructure is okay in Central Lab,neutral,Infrastructure,ECE Lab
+R01029,facilities are normal in Canteen,neutral,Infrastructure,Campus
+R01030,classroom facilities are average asap,neutral,Infrastructure,A Block
+R01031,classroom facilities are average asap in Hostel B,neutral,Infrastructure,Main Gate
+R01036,classroom lights keep failing,negative,Infrastructure,Library
+R01037,there are damaged desks,negative,Infrastructure,B Block
+R01038,campus facilities are poorly maintained bro,negative,Infrastructure,Hostel A
+R01039,campus facilities are poorly maintained,negative,Infrastructure,Main Gate
+R01040,there are damaged desks asap,negative,Infrastructure,A Block
+R01042,classroom fan is not working,negative,Infrastructure,Hostel A
+R01043,the building needs maintenance in Canteen,negative,Infrastructure,B Block
+R01044,the building needs maintenance,negative,Infrastructure,B Block
+R01046,the building needs maintenance in A Block,negative,Infrastructure,C Block
+R01047,campus facilities are poorly maintained in Central Lab,negative,Infrastructure,A Block
+R01048,campus facilities are poorly maintained in Hostel B,negative,Infrastructure,C Block
+R01050,classroom fan is not working bro,negative,Infrastructure,Hostel A
+R01053,the building needs maintenance in Campus,negative,Infrastructure,Main Gate
+R01054,there are damaged desks in Library,negative,Infrastructure,C Block
+R01055,classroom fan is not working in Central Lab,negative,Infrastructure,Campus
+R01058,campus facilities are poorly maintained in Campus,negative,Infrastructure,C Block
+R01061,campus facilities are poorly maintained in ECE Lab,negative,Infrastructure,Library
+R01063,there are damaged desks pls fix,negative,Infrastructure,B Block
+R01068,there are damaged desks bro in Central Lab,negative,Infrastructure,Library
+R01072,there are damaged desks bro,negative,Infrastructure,Canteen
+R01074,classroom fan is not working pls fix,negative,Infrastructure,C Block
+R01078,there are damaged desks in Hostel A,negative,Infrastructure,Main Gate
+R01080,campus facilities are poorly maintained in Canteen,negative,Infrastructure,A Block
+R01081,washrooms are maintained well asap,positive,Cleanliness,Hostel A
+R01082,corridors are clean pls fix in Canteen,positive,Cleanliness,Central Lab
+R01083,washrooms are maintained well,positive,Cleanliness,Main Gate
+R01085,corridors are clean,positive,Cleanliness,Library
+R01086,cleaning staff are doing a good job pls fix,positive,Cleanliness,B Block
+R01087,campus is clean in Central Lab,positive,Cleanliness,Canteen
+R01089,washrooms are maintained well pls fix,positive,Cleanliness,Library
+R01090,campus is clean bro in Central Lab,positive,Cleanliness,B Block
+R01091,campus is clean in B Block,positive,Cleanliness,Central Lab
+R01093,corridors are clean asap,positive,Cleanliness,Canteen
+R01095,cleaning staff are doing a good job,positive,Cleanliness,Hostel B
+R01096,campuss clean,positive,Cleanliness,Hostel A
+R01098,campus is clean bro in B Block,positive,Cleanliness,Library
+R01103,washrooms are maintained well bro in Hostel A,positive,Cleanliness,Hostel A
+R01105,campus is clean asap,positive,Cleanliness,Central Lab
+R01107,cleaning staff are doing a good job bro,positive,Cleanliness,Central Lab
+R01108,corridors are clean in Canteen,positive,Cleanliness,C Block
+R01109,campus is clean,positive,Cleanliness,ECE Lab
+R01110,campus is clean in Campus,positive,Cleanliness,C Block
+R01112,corridors are clean in Hostel A,positive,Cleanliness,Library
+R01114,washrooms are maintained well in Hostel B,positive,Cleanliness,ECE Lab
+R01115,corridors are clean in Library,positive,Cleanliness,Hostel A
+R01117,corridors are clean asap in C Block,positive,Cleanliness,Canteen
+R01119,cleaning staff are doing a good job in C Block,positive,Cleanliness,ECE Lab
+R01121,corridors are clean asap in Central Lab,positive,Cleanliness,Canteen
+R01122,campuss clean in C Block,positive,Cleanliness,A Block
+R01123,washrooms are maintained well bro,positive,Cleanliness,Campus
+R01126,washrooms are okay,neutral,Cleanliness,Main Gate
+R01127,campus is reasonably clean in Hostel B,neutral,Cleanliness,Main Gate
+R01129,cleanlinesss acceptable,neutral,Cleanliness,ECE Lab
+R01130,campus is reasonably clean,neutral,Cleanliness,Main Gate
+R01131,cleanings average,neutral,Cleanliness,B Block
+R01132,cleanliness is acceptable in Main Gate,neutral,Cleanliness,Main Gate
+R01133,washrooms are okay bro,neutral,Cleanliness,Library
+R01134,washrooms are okay asap,neutral,Cleanliness,Main Gate
+R01135,cleanings average in A Block,neutral,Cleanliness,C Block
+R01136,campus is reasonably clean bro,neutral,Cleanliness,B Block
+R01138,cleanliness is acceptable asap,neutral,Cleanliness,A Block
+R01139,cleaning is average,neutral,Cleanliness,B Block
+R01140,cleanliness is acceptable bro,neutral,Cleanliness,B Block
+R01141,cleaning is average bro in Hostel B,neutral,Cleanliness,ECE Lab
+R01143,cleanliness is acceptable,neutral,Cleanliness,Main Gate
+R01144,cleaning is average asap,neutral,Cleanliness,Central Lab
+R01146,campus is reasonably clean asap,neutral,Cleanliness,Campus
+R01149,cleanliness is acceptable asap in Library,neutral,Cleanliness,Hostel B
+R01150,campus is reasonably clean bro in Central Lab,neutral,Cleanliness,C Block
+R01152,cleaning is average asap in Library,neutral,Cleanliness,Hostel B
+R01155,campuss reasonably clean,neutral,Cleanliness,Hostel A
+R01158,washrooms are okay in B Block,neutral,Cleanliness,C Block
+R01159,campus is reasonably clean bro in ECE Lab,neutral,Cleanliness,Canteen
+R01160,cleaning is average bro,neutral,Cleanliness,ECE Lab
+R01161,campus is reasonably clean in A Block,neutral,Cleanliness,Central Lab
+R01164,campus is reasonably clean in ECE Lab,neutral,Cleanliness,Hostel A
+R01165,washrooms are okay in ECE Lab,neutral,Cleanliness,Main Gate
+R01166,cleaning is average in C Block,neutral,Cleanliness,A Block
+R01169,cleanliness is acceptable pls fix,neutral,Cleanliness,ECE Lab
+R01170,campus is reasonably clean in B Block,neutral,Cleanliness,Central Lab
+R01171,corridors are not cleaned regularly asap,negative,Cleanliness,Hostel B
+R01172,garbage is piling up,negative,Cleanliness,A Block
+R01173,dustbins are overflowing in ECE Lab,negative,Cleanliness,Campus
+R01174,garbage is piling up pls fix,negative,Cleanliness,A Block
+R01175,corridors are not cleaned regularly in Library,negative,Cleanliness,Main Gate
+R01176,washrooms are dirty,negative,Cleanliness,Canteen
+R01178,washrooms are dirty asap,negative,Cleanliness,C Block
+R01179,garbage is piling up in ECE Lab,negative,Cleanliness,B Block
+R01180,dustbins are overflowing,negative,Cleanliness,Campus
+R01182,dustbins are overflowing in Hostel A,negative,Cleanliness,Main Gate
+R01184,corridors are not cleaned regularly,negative,Cleanliness,Main Gate
+R01185,corridors are not cleaned regularly bro,negative,Cleanliness,ECE Lab
+R01186,the campus needs better cleaning in ECE Lab,negative,Cleanliness,Hostel A
+R01188,the campus needs better cleaning bro,negative,Cleanliness,Canteen
+R01189,dustbins are overflowing in C Block,negative,Cleanliness,ECE Lab
+R01190,garbage is piling up bro,negative,Cleanliness,ECE Lab
+R01194,the campus needs better cleaning pls fix,negative,Cleanliness,ECE Lab
+R01196,campus needs better cleaning in Central Lab,negative,Cleanliness,Campus
+R01198,corridors are not cleaned regularly in ECE Lab,negative,Cleanliness,Hostel A
+R01200,the campus needs better cleaning,negative,Cleanliness,Canteen
+R01207,washrooms are dirty pls fix,negative,Cleanliness,B Block
+R01212,the campus needs better cleaning in C Block,negative,Cleanliness,Central Lab
+R01214,dustbins are overflowing asap,negative,Cleanliness,Main Gate
+R01216,staff responded clearly,positive,Administration,Canteen
+R01217,the process was quick,positive,Administration,Hostel B
+R01218,administration resolved my request asap,positive,Administration,Library
+R01219,office staff were helpful,positive,Administration,Canteen
+R01220,office staff were helpful in Hostel B,positive,Administration,A Block
+R01221,administration resolved my request pls fix in Main Gate,positive,Administration,A Block
+R01222,administration resolved my request,positive,Administration,Canteen
+R01223,the process was quick in Main Gate,positive,Administration,C Block
+R01224,the process was quick bro,positive,Administration,Canteen
+R01225,the process was quick pls fix in Hostel B,positive,Administration,B Block
+R01226,staff responded clearly pls fix,positive,Administration,Main Gate
+R01228,office staff were helpful bro in Canteen,positive,Administration,Library
+R01232,staff responded clearly in A Block,positive,Administration,Main Gate
+R01233,process was quick,positive,Administration,Hostel A
+R01235,staff responded clearly in Library,positive,Administration,Hostel B
+R01236,staff responded clearly in B Block,positive,Administration,ECE Lab
+R01239,the process was quick asap,positive,Administration,ECE Lab
+R01241,the process was quick pls fix in Library,positive,Administration,Main Gate
+R01243,administration resolved my request in Main Gate,positive,Administration,Canteen
+R01244,office staff were helpful bro in Main Gate,positive,Administration,Canteen
+R01246,process was quick in B Block,positive,Administration,B Block
+R01247,office staff were helpful pls fix,positive,Administration,C Block
+R01248,administration resolved my request in B Block,positive,Administration,Hostel B
+R01249,staff responded clearly asap in Hostel A,positive,Administration,Central Lab
+R01250,the process was quick pls fix,positive,Administration,Hostel B
+R01253,office staff were helpful bro in Hostel B,positive,Administration,Hostel A
+R01256,administration resolved my request in Campus,positive,Administration,Library
+R01259,office staff were helpful in ECE Lab,positive,Administration,Central Lab
+R01260,office staff were helpful in Central Lab,positive,Administration,Hostel B
+R01261,request processing is normal asap,neutral,Administration,C Block
+R01262,administrative process was okay,neutral,Administration,Main Gate
+R01263,request processing is normal pls fix,neutral,Administration,Central Lab
+R01264,request processing is normal,neutral,Administration,Library
+R01266,office response was average,neutral,Administration,Campus
+R01267,the office response was average,neutral,Administration,Central Lab
+R01268,the office response was average in C Block,neutral,Administration,Library
+R01271,the office response was average in Central Lab,neutral,Administration,C Block
+R01272,staff were neither helpful nor unhelpful,neutral,Administration,Canteen
+R01273,office response was average in Central Lab,neutral,Administration,B Block
+R01276,staff were neither helpful nor unhelpful bro,neutral,Administration,Campus
+R01278,the office response was average in Canteen,neutral,Administration,Canteen
+R01280,administrative process was okay in ECE Lab,neutral,Administration,C Block
+R01281,staff were neither helpful nor unhelpful in Library,neutral,Administration,ECE Lab
+R01282,staff were neither helpful nor unhelpful in Hostel A,neutral,Administration,A Block
+R01284,the office response was average pls fix,neutral,Administration,B Block
+R01285,the office response was average asap,neutral,Administration,ECE Lab
+R01288,request processings normal,neutral,Administration,Canteen
+R01292,the office response was average bro,neutral,Administration,Hostel B
+R01293,request processing is normal asap in Hostel B,neutral,Administration,Canteen
+R01296,the office response was average in Library,neutral,Administration,Main Gate
+R01297,staff were neither helpful nor unhelpful in Canteen,neutral,Administration,Hostel A
+R01298,staff were neither helpful nor unhelpful in Campus,neutral,Administration,C Block
+R01306,administrative process is too slow bro in ECE Lab,negative,Administration,ECE Lab
+R01307,the approval process takes forever,negative,Administration,ECE Lab
+R01308,my request is still pending pls fix,negative,Administration,ECE Lab
+R01309,theres too much paperwork,negative,Administration,Canteen
+R01310,the approval process takes forever in Central Lab,negative,Administration,Hostel B
+R01312,administrative process is too slow in Campus,negative,Administration,Main Gate
+R01313,administrative process is too slow,negative,Administration,Campus
+R01314,the approval process takes forever bro in B Block,negative,Administration,A Block
+R01315,administrative processs too slow,negative,Administration,C Block
+R01316,office staff are not responding in ECE Lab,negative,Administration,Canteen
+R01317,office staff are not responding in Hostel B,negative,Administration,Main Gate
+R01318,office staff are not responding,negative,Administration,Library
+R01319,the approval process takes forever in C Block,negative,Administration,B Block
+R01323,the approval process takes forever bro,negative,Administration,Main Gate
+R01326,the approval process takes forever asap,negative,Administration,C Block
+R01327,the approval process takes forever pls fix,negative,Administration,Hostel A
+R01329,my requests still pending,negative,Administration,Main Gate
+R01331,administrative process is too slow pls fix,negative,Administration,Hostel B
+R01332,administrative process is too slow bro in Central Lab,negative,Administration,Main Gate
+R01334,there is too much paperwork,negative,Administration,Hostel A
+R01337,my request is still pending asap,negative,Administration,Central Lab
+R01338,office staff are not responding asap,negative,Administration,Library
+R01339,administrative process is very slow in Campus,negative,Administration,Main Gate
+R01340,the approval process takes forever in Canteen,negative,Administration,Campus
+R01341,office staff are not responding in C Block,negative,Administration,Hostel B
+R01344,my request is still pending,negative,Administration,Hostel B
+R01345,office staff are not responding in B Block,negative,Administration,ECE Lab
+R01347,my request is still pending in B Block,negative,Administration,Main Gate
+R01350,my request is still pending pls fix in ECE Lab,negative,Administration,Central Lab
+R01351,lighting around campus is good in B Block,positive,Safety,Central Lab
+R01352,security staff are helpful pls fix,positive,Safety,ECE Lab
+R01353,security arrangements are reassuring in Hostel B,positive,Safety,A Block
+R01354,campus feels safe,positive,Safety,A Block
+R01356,campus feels safe bro,positive,Safety,Hostel A
+R01357,lighting around campus is good pls fix in Hostel B,positive,Safety,Central Lab
+R01358,lighting around campus is good asap,positive,Safety,Hostel B
+R01359,security staff are helpful in A Block,positive,Safety,Canteen
+R01360,campus feels safe pls fix,positive,Safety,Central Lab
+R01361,lighting around campus is good bro in Hostel B,positive,Safety,Canteen
+R01362,security staff are helpful in Canteen,positive,Safety,Main Gate
+R01363,security arrangements are reassuring in ECE Lab,positive,Safety,Campus
+R01365,security arrangements are reassuring in Canteen,positive,Safety,Canteen
+R01366,security arrangements are reassuring in Hostel A,positive,Safety,Campus
+R01367,campus feels safe asap,positive,Safety,B Block
+R01368,security arrangements are reassuring,positive,Safety,Campus
+R01369,security arrangements are reassuring asap in Hostel A,positive,Safety,C Block
+R01370,lighting around campus is good,positive,Safety,Campus
+R01372,campus feels safe asap in ECE Lab,positive,Safety,ECE Lab
+R01373,security staff are helpful bro,positive,Safety,Canteen
+R01374,security staff are helpful in B Block,positive,Safety,Main Gate
+R01376,security arrangements are reassuring pls fix,positive,Safety,Central Lab
+R01377,security staff are helpful asap,positive,Safety,Main Gate
+R01378,security staff are helpful,positive,Safety,Library
+R01380,campus feels safe asap in Canteen,positive,Safety,ECE Lab
+R01381,lighting around campus is good in ECE Lab,positive,Safety,C Block
+R01382,lighting around campuss good in B Block,positive,Safety,Campus
+R01384,campus feels safe in C Block,positive,Safety,Canteen
+R01386,lighting around campuss good,positive,Safety,ECE Lab
+R01388,lighting around campus is good bro,positive,Safety,Library
+R01396,lighting is acceptable,neutral,Safety,C Block
+R01397,security arrangements are normal in B Block,neutral,Safety,Campus
+R01398,security is okay,neutral,Safety,ECE Lab
+R01399,lighting is acceptable in Campus,neutral,Safety,Library
+R01400,lightings acceptable,neutral,Safety,ECE Lab
+R01402,security arrangements are normal pls fix in Canteen,neutral,Safety,A Block
+R01403,lighting is acceptable pls fix,neutral,Safety,Hostel B
+R01405,security is okay asap,neutral,Safety,B Block
+R01406,lighting is acceptable in Central Lab,neutral,Safety,Hostel B
+R01407,lighting is acceptable in Canteen,neutral,Safety,B Block
+R01408,campus safety is average asap,neutral,Safety,Campus
+R01411,lighting is acceptable asap,neutral,Safety,ECE Lab
+R01412,security arrangements are normal,neutral,Safety,Hostel B
+R01413,security arrangements are normal in Canteen,neutral,Safety,Hostel B
+R01415,campus safety is average,neutral,Safety,Hostel B
+R01416,security is okay bro,neutral,Safety,C Block
+R01417,security is okay bro in Canteen,neutral,Safety,Hostel B
+R01418,security arrangements are normal bro in B Block,neutral,Safety,Canteen
+R01420,campus safety is average bro,neutral,Safety,Hostel A
+R01425,campus safety is average pls fix,neutral,Safety,Main Gate
+R01428,security arrangements are normal asap,neutral,Safety,Central Lab
+R01429,campus safetys average,neutral,Safety,Library
+R01430,lighting is acceptable bro in Library,neutral,Safety,A Block
+R01436,campus safety is average in C Block,neutral,Safety,Main Gate
+R01439,lighting is acceptable in Hostel B,neutral,Safety,Hostel B
+R01440,campus safety is average in B Block,neutral,Safety,A Block
+R01441,emergency facilities need improvement pls fix,negative,Safety,Campus
+R01442,some areas are poorly lit in Canteen,negative,Safety,C Block
+R01443,the pathway feels unsafe at night,negative,Safety,C Block
+R01444,there are not enough security staff bro,negative,Safety,B Block
+R01445,the pathway feels unsafe at night bro,negative,Safety,Campus
+R01446,there are not enough security staff bro in B Block,negative,Safety,Hostel B
+R01447,some areas are poorly lit,negative,Safety,A Block
+R01449,security response was slow in ECE Lab,negative,Safety,B Block
+R01450,security response was slow,negative,Safety,Hostel A
+R01451,emergency facilities need improvement,negative,Safety,Hostel B
+R01458,emergency facilities need improvement pls fix in ECE Lab,negative,Safety,B Block
+R01462,some areas are poorly lit asap,negative,Safety,Hostel B
+R01464,security response was slow bro,negative,Safety,B Block
+R01465,there are not enough security staff asap in Campus,negative,Safety,ECE Lab
+R01466,security response was slow in A Block,negative,Safety,Canteen
+R01467,security response was slow asap,negative,Safety,Central Lab
+R01468,there are not enough security staff asap,negative,Safety,ECE Lab
+R01469,some areas are poorly lit in Main Gate,negative,Safety,A Block
+R01470,the pathway feels unsafe at night in Campus,negative,Safety,Campus
+R01471,emergency facilities need improvement asap,negative,Safety,Central Lab
+R01472,security response was slow pls fix,negative,Safety,A Block
+R01474,emergency facilities need improvement in Campus,negative,Safety,C Block
+R01479,there are not enough security staff in Campus,negative,Safety,Canteen
+R01480,emergency facilities need improvement in Hostel A,negative,Safety,A Block
+R01481,emergency facilities need improvement in B Block,negative,Safety,Hostel B
+R01482,security response was slow in Main Gate,negative,Safety,Central Lab
+R01483,security response was slow asap in Canteen,negative,Safety,A Block
+R01486,the program was enjoyable in C Block,positive,Events,B Block
+R01487,the event arrangements were good,positive,Events,ECE Lab
+R01488,the workshop was interesting pls fix in Hostel B,positive,Events,Central Lab
+R01490,the event was well organized,positive,Events,Canteen
+R01491,the event was well organized bro in A Block,positive,Events,Central Lab
+R01492,the workshop was interesting pls fix in Central Lab,positive,Events,B Block
+R01494,the workshop was interesting bro in B Block,positive,Events,C Block
+R01495,the program was enjoyable asap in Campus,positive,Events,A Block
+R01496,event was well organized in Library,positive,Events,Hostel B
+R01497,the event arrangements were good asap in A Block,positive,Events,Central Lab
+R01498,the workshop was interesting,positive,Events,ECE Lab
+R01500,the event arrangements were good in Campus,positive,Events,Main Gate
+R01501,the workshop was interesting in B Block,positive,Events,Hostel A
+R01502,the program was enjoyable pls fix,positive,Events,Hostel A
+R01503,the event was well organized asap,positive,Events,A Block
+R01504,the program was enjoyable in Canteen,positive,Events,ECE Lab
+R01506,workshop was interesting,positive,Events,Hostel A
+R01507,the event arrangements were good in Canteen,positive,Events,A Block
+R01508,the event arrangements were good in ECE Lab,positive,Events,ECE Lab
+R01509,the program was enjoyable,positive,Events,Hostel A
+R01513,the program was enjoyable asap in Library,positive,Events,Hostel A
+R01520,the event arrangements were good bro in B Block,positive,Events,A Block
+R01521,the program was enjoyable bro in ECE Lab,positive,Events,Canteen
+R01525,program was enjoyable,positive,Events,Hostel B
+R01526,the program was enjoyable bro,positive,Events,Canteen
+R01529,the event arrangements were good in Main Gate,positive,Events,ECE Lab
+R01530,event was well organized,positive,Events,Campus
+R01531,the event was okay,neutral,Events,Hostel A
+R01532,workshop was average in B Block,neutral,Events,Campus
+R01533,the program was normal pls fix,neutral,Events,Hostel A
+R01534,event arrangements were manageable,neutral,Events,Central Lab
+R01535,the program was normal bro in Main Gate,neutral,Events,Main Gate
+R01536,the program was normal asap,neutral,Events,B Block
+R01537,the program was normal,neutral,Events,Central Lab
+R01538,event arrangements were manageable asap,neutral,Events,Campus
+R01539,the event was okay pls fix,neutral,Events,ECE Lab
+R01541,event arrangements were manageable in Hostel B,neutral,Events,B Block
+R01542,the workshop was average asap in Hostel A,neutral,Events,Central Lab
+R01543,the event was okay bro,neutral,Events,Campus
+R01544,the workshop was average asap in ECE Lab,neutral,Events,Campus
+R01545,the event was okay bro in A Block,neutral,Events,Hostel A
+R01548,the program was normal asap in C Block,neutral,Events,Hostel B
+R01549,the workshop was average bro in Main Gate,neutral,Events,Hostel B
+R01551,the workshop was average,neutral,Events,Hostel B
+R01553,the workshop was average in A Block,neutral,Events,Main Gate
+R01554,the workshop was average asap in C Block,neutral,Events,Hostel A
+R01555,event was okay,neutral,Events,C Block
+R01560,event arrangements were manageable bro,neutral,Events,Hostel B
+R01561,the workshop was average asap in B Block,neutral,Events,ECE Lab
+R01564,program was normal in A Block,neutral,Events,Canteen
+R01565,the workshop was average in Hostel B,neutral,Events,Hostel A
+R01569,event arrangements were manageable in Library,neutral,Events,Main Gate
+R01570,program was normal in Main Gate,neutral,Events,Main Gate
+R01572,the workshop was average asap,neutral,Events,Library
+R01573,the program was normal bro in Library,neutral,Events,Library
+R01576,event information was unclear in Campus,negative,Events,Hostel B
+R01577,event information was unclear,negative,Events,Canteen
+R01578,the program started very late pls fix in Library,negative,Events,Hostel B
+R01579,the workshop was badly organized asap in Hostel B,negative,Events,Canteen
+R01580,there was not enough seating at the event asap,negative,Events,ECE Lab
+R01581,the program started very late,negative,Events,C Block
+R01582,there was not enough seating at the event bro,negative,Events,Campus
+R01585,the program started very late in Hostel B,negative,Events,ECE Lab
+R01586,event arrangements were poor,negative,Events,Canteen
+R01587,event information was unclear bro,negative,Events,ECE Lab
+R01589,event arrangements were poor bro in A Block,negative,Events,C Block
+R01591,there was not enough seating at the event in Main Gate,negative,Events,Library
+R01592,there was not enough seating at the event in Central Lab,negative,Events,Campus
+R01593,event arrangements were poor in Campus,negative,Events,C Block
+R01598,event information was unclear in C Block,negative,Events,B Block
+R01600,the workshop was badly organized,negative,Events,Central Lab
+R01605,the program started very late bro in B Block,negative,Events,Hostel A
+R01607,the program started very late pls fix in B Block,negative,Events,Library
+R01608,event arrangements were poor in ECE Lab,negative,Events,Library
+R01609,event arrangements were poor pls fix in Campus,negative,Events,Central Lab
+R01611,event arrangements were poor in A Block,negative,Events,B Block
+R01612,event arrangements were poor pls fix,negative,Events,Hostel A
+R01613,program started very late in C Block,negative,Events,Hostel B
+R01614,workshop was badly organized,negative,Events,Central Lab
+R01615,the workshop was badly organized pls fix,negative,Events,B Block
+R01617,there was not enough seating at the event,negative,Events,Central Lab
+R01620,event information was unclear in Main Gate,negative,Events,Library

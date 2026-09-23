@@ -1,0 +1,247 @@
+{
+  "summary": {
+    "cases": 6,
+    "category_matches": 6,
+    "sentiment_matches": 6,
+    "note": "Manual smoke-test expectations for representative examples; not a statistical benchmark."
+  },
+  "results": [
+    {
+      "name": "Wi-Fi complaint",
+      "text": "Bro C block wifi dies every night after 7",
+      "expected_category": "Wi-Fi",
+      "expected_sentiment": "negative",
+      "location": "C Block",
+      "actual_category": "Wi-Fi",
+      "actual_sentiment": "negative",
+      "sentiment_confidence": 0.714,
+      "category_confidence": 0.649,
+      "aspects": [
+        {
+          "aspect": "University - Campus & facilities",
+          "confidence": 0.382
+        }
+      ],
+      "similar_issue_count": 0,
+      "similar_issues": [],
+      "category_match": true,
+      "sentiment_match": true
+    },
+    {
+      "name": "Positive teaching",
+      "text": "The professor explains the concepts very clearly and makes the lectures interesting.",
+      "expected_category": "Academics",
+      "expected_sentiment": "positive",
+      "location": "Classroom",
+      "actual_category": "Academics",
+      "actual_sentiment": "positive",
+      "sentiment_confidence": 0.781,
+      "category_confidence": 0.579,
+      "aspects": [
+        {
+          "aspect": "Staff - Teaching",
+          "confidence": 0.971
+        },
+        {
+          "aspect": "Staff - Overall",
+          "confidence": 0.8
+        },
+        {
+          "aspect": "Course - Learning activity",
+          "confidence": 0.49
+        }
+      ],
+      "similar_issue_count": 0,
+      "similar_issues": [],
+      "category_match": true,
+      "sentiment_match": true
+    },
+    {
+      "name": "Lab equipment complaint",
+      "text": "The lab computers are extremely slow and several systems are not working.",
+      "expected_category": "Laboratory",
+      "expected_sentiment": "negative",
+      "location": "Lab",
+      "actual_category": "Laboratory",
+      "actual_sentiment": "negative",
+      "sentiment_confidence": 0.908,
+      "category_confidence": 0.559,
+      "aspects": [
+        {
+          "aspect": "Course - Assessment",
+          "confidence": 0.581
+        },
+        {
+          "aspect": "Course - Learning activity",
+          "confidence": 0.437
+        },
+        {
+          "aspect": "Course - Overall",
+          "confidence": 0.348
+        }
+      ],
+      "similar_issue_count": 4,
+      "similar_issues": [
+        {
+          "feedback": "The projector in the lab is not working.",
+          "category": "Laboratory",
+          "location": "Computer Lab",
+          "date": "2026-04-17",
+          "similarity": 0.442,
+          "source": "synthetic_demo"
+        },
+        {
+          "feedback": "The projector in the lab is not working.",
+          "category": "Laboratory",
+          "location": "Computer Lab",
+          "date": "2026-05-02",
+          "similarity": 0.442,
+          "source": "synthetic_demo"
+        },
+        {
+          "feedback": "Today, the projector in the lab is not working.",
+          "category": "Laboratory",
+          "location": "Embedded Lab",
+          "date": "2026-03-08",
+          "similarity": 0.417,
+          "source": "synthetic_demo"
+        }
+      ],
+      "category_match": true,
+      "sentiment_match": true
+    },
+    {
+      "name": "Library seating complaint",
+      "text": "The library has good resources but there are hardly any seats during evening hours.",
+      "expected_category": "Library",
+      "expected_sentiment": "negative",
+      "location": "Library",
+      "actual_category": "Library",
+      "actual_sentiment": "negative",
+      "sentiment_confidence": 0.686,
+      "category_confidence": 0.641,
+      "aspects": [
+        {
+          "aspect": "University - Information & services",
+          "confidence": 0.577
+        },
+        {
+          "aspect": "University - Overall",
+          "confidence": 0.357
+        }
+      ],
+      "similar_issue_count": 5,
+      "similar_issues": [
+        {
+          "feedback": "There are not enough seats in the library during exam time.",
+          "category": "Library",
+          "location": "Digital Library",
+          "date": "2026-06-29",
+          "similarity": 0.43,
+          "source": "synthetic_demo"
+        },
+        {
+          "feedback": "There are not enough seats in the library during exam time.",
+          "category": "Library",
+          "location": "Reading Hall",
+          "date": "2026-05-09",
+          "similarity": 0.43,
+          "source": "synthetic_demo"
+        },
+        {
+          "feedback": "There are not enough seats in the library during exam time.",
+          "category": "Library",
+          "location": "Reference Section",
+          "date": "2026-04-20",
+          "similarity": 0.43,
+          "source": "synthetic_demo"
+        }
+      ],
+      "category_match": true,
+      "sentiment_match": true
+    },
+    {
+      "name": "Examination complaint",
+      "text": "The examination schedule was announced too late and it was difficult to prepare.",
+      "expected_category": "Academics",
+      "expected_sentiment": "negative",
+      "location": "Campus",
+      "actual_category": "Academics",
+      "actual_sentiment": "negative",
+      "sentiment_confidence": 0.414,
+      "category_confidence": 0.428,
+      "aspects": [
+        {
+          "aspect": "Course - Difficulty",
+          "confidence": 0.556
+        },
+        {
+          "aspect": "Course - Content",
+          "confidence": 0.458
+        },
+        {
+          "aspect": "Course - Overall",
+          "confidence": 0.26
+        }
+      ],
+      "similar_issue_count": 0,
+      "similar_issues": [],
+      "category_match": true,
+      "sentiment_match": true
+    },
+    {
+      "name": "Course materials complaint",
+      "text": "The lecture notes are outdated and the study materials are difficult to understand.",
+      "expected_category": "Academics",
+      "expected_sentiment": "negative",
+      "location": "Classroom",
+      "actual_category": "Academics",
+      "actual_sentiment": "negative",
+      "sentiment_confidence": 0.509,
+      "category_confidence": 0.621,
+      "aspects": [
+        {
+          "aspect": "Course - Course materials",
+          "confidence": 0.962
+        },
+        {
+          "aspect": "Course - Assessment",
+          "confidence": 0.499
+        },
+        {
+          "aspect": "Course - Difficulty",
+          "confidence": 0.455
+        }
+      ],
+      "similar_issue_count": 5,
+      "similar_issues": [
+        {
+          "feedback": "The lectures move too fast and some concepts are difficult to follow.",
+          "category": "Academics",
+          "location": "CSE Department",
+          "date": "2026-06-30",
+          "similarity": 0.441,
+          "source": "synthetic_demo"
+        },
+        {
+          "feedback": "The lectures move too fast and some concepts are difficult to follow.",
+          "category": "Academics",
+          "location": "CSE Department",
+          "date": "2026-02-10",
+          "similarity": 0.441,
+          "source": "synthetic_demo"
+        },
+        {
+          "feedback": "The lectures move too fast and some concepts are difficult to follow.",
+          "category": "Academics",
+          "location": "Lecture Hall",
+          "date": "2026-06-08",
+          "similarity": 0.441,
+          "source": "synthetic_demo"
+        }
+      ],
+      "category_match": true,
+      "sentiment_match": true
+    }
+  ]
+}

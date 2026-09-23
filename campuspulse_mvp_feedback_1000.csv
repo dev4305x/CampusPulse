@@ -1,0 +1,1001 @@
+feedback_id,feedback,sentiment,category,location,date
+CP0522,"Honestly, the lab sessions are useful and the instruments are accessible.",positive,Laboratory,Communication Lab,2026-02-20
+CP0738,There is a recurring maintenance issue in the block.,negative,Infrastructure,Classroom C204,2026-02-09
+CP0741,The pathway near Back Gate is poorly lit at night. This needs attention.,negative,Safety,Back Gate,2026-05-18
+CP0661,"As a student, the venue was overcrowded during the event.",negative,Events,Seminar Hall,2026-03-19
+CP0412,The library facilities are adequate.,neutral,Library,Reading Hall,2026-05-16
+CP0679,"In my experience, the lab equipment was working properly today.",positive,Laboratory,Communication Lab,2026-02-04
+CP0627,"For our block, the lectures are clear and the faculty explain concepts well. Please look into it.",positive,Academics,ECE Department,2026-04-06
+CP0514,"For our block, the room fan is not working properly.",negative,Hostel,Hostel A,2026-02-07
+CP0860,The Wi-Fi in Hostel C is fast and reliable today. This needs attention.,positive,Wi-Fi,Hostel C,2026-06-14
+CP0137,My request has been pending for several days.,negative,Administration,Academic Office,2026-06-29
+CP0812,"Overall, the event schedule was clear and the sessions were useful.",positive,Events,Main Ground,2026-04-16
+CP0077,The administrative process takes too long. This needs attention.,negative,Administration,Admission Office,2026-06-03
+CP0637,The lectures are clear and the faculty explain concepts well. Please look into it.,positive,Academics,Lecture Hall,2026-07-02
+CP0974,The hostel rooms are clean and comfortable. Please look into it.,positive,Hostel,Hostel C,2026-03-14
+CP0939,Hostel maintenance has improved recently.,positive,Hostel,Boys Hostel,2026-06-14
+CP0900,The event started late and communication was unclear. It happens quite often.,negative,Events,Seminar Hall,2026-02-04
+CP0281,"Today, the event schedule was poorly coordinated. This needs attention.",negative,Events,Open Air Theatre,2026-02-18
+CP0884,the common areas are being maintained well.,positive,Hostel,Hostel B,2026-06-27
+CP0762,the network worked smoothly throughout the day in Hostel C.,positive,Wi-Fi,Hostel C,2026-03-03
+CP0320,"Today, the lectures move too fast and some concepts are difficult to follow.",negative,Academics,Classroom,2026-04-14
+CP0550,The library closing time is too early for students.,negative,Library,Reference Section,2026-02-09
+CP0175,Cleanliness is generally okay but varies by location. Hope this can be improved.,neutral,Cleanliness,Canteen,2026-05-05
+CP0372,"As a student, the food at the mess was tasty today.",positive,Food,Hostel B,2026-02-01
+CP0528,The laboratory is well equipped for the practical sessions.,positive,Laboratory,Embedded Lab,2026-06-09
+CP0211,The bus route worked smoothly today.,positive,Transport,Hostel Route,2026-02-18
+CP0236,The lab is usable but additional components would help.,neutral,Laboratory,Communication Lab,2026-05-28
+CP0102,the event was well organized and informative.,positive,Events,Main Ground,2026-02-08
+CP0987,The classroom furniture is damaged and uncomfortable. Please look into it.,negative,Infrastructure,C Block,2026-06-30
+CP0903,The projector in the lab is not working. It happens quite often.,negative,Laboratory,Computer Lab,2026-02-16
+CP0948,"Overall, the recent campus event was engaging and well managed. Hope this can be improved.",positive,Events,Main Ground,2026-05-06
+CP0347,The classroom infrastructure is clean & comfortable.,positive,Infrastructure,ECE Block,2026-03-16
+CP0140,"As a student, the office staff handled my request quickly.",positive,Administration,Department Office,2026-01-16
+CP0622,"Today, the laboratory is well equipped for the practical sessions.",positive,Laboratory,Communication Lab,2026-05-30
+CP0500,"In my experience, hostel services are average at the moment. Please look into it.",neutral,Hostel,Hostel C,2026-02-09
+CP0371,The lab is usable but additional components would help.,neutral,Laboratory,Electronics Lab,2026-04-19
+CP0199,The washroom near Hostel needs more frequent cleaning.,negative,Cleanliness,Hostel,2026-05-07
+CP0688,the washroom near ECE Block needs more frequent cleaning.,negative,Cleanliness,ECE Block,2026-02-03
+CP0585,The pathway near Parking Area is poorly lit at night.,negative,Safety,Parking Area,2026-03-18
+CP0902,"Today, the bus service is generally okay.",neutral,Transport,Hostel Route,2026-05-28
+CP0060,Food quality is generally acceptable but inconsistent.,neutral,Food,Hostel C,2026-06-20
+CP0329,"Overall, the hostel room has a maintenance issue that has not been fixed.",negative,Hostel,Boys Hostel,2026-01-10
+CP0097,"Today, the pathway near Hostel Road is poorly lit at night. Hope this can be improved.",negative,Safety,Hostel Road,2026-04-21
+CP0313,"Overall, hostel maintenance complaints take too long to get resolved.",negative,Hostel,Hostel A,2026-01-17
+CP0975,"The course is manageable, although some topics need more examples.",neutral,Academics,ECE Department,2026-04-17
+CP0300,"Honestly, the room is usable, although maintenance takes some time. This needs attention.",neutral,Hostel,Hostel B,2026-05-25
+CP0278,The library facilities are adequate.,neutral,Library,Digital Library,2026-01-20
+CP0925,The bus timings are acceptable but could be more consistent.,neutral,Transport,Evening Shuttle,2026-04-22
+CP0602,The washrooms were clean and well maintained.,positive,Cleanliness,ECE Block,2026-06-12
+CP0440,"Most instruments work, although a few need maintenance.",neutral,Laboratory,Embedded Lab,2026-02-27
+CP0838,The network worked smoothly throughout the day in C Block.,positive,Wi-Fi,C Block,2026-05-18
+CP0571,The course material is useful and easy to follow.,positive,Academics,ECE Department,2026-03-13
+CP0880,The lectures are underst&able but the pace varies. Please look into it.,neutral,Academics,Mechanical Block,2026-03-19
+CP0262,Network connectivity in Library becomes unusable after evening. Hope this can be improved.,negative,Wi-Fi,Library,2026-06-27
+CP0579,the lectures are understandable but the pace varies.,neutral,Academics,Classroom,2026-06-21
+CP0024,The teaching is okay but more practical sessions would help. Hope this can be improved.,neutral,Academics,Lecture Hall,2026-01-20
+CP0031,"As a student, the bus route needs better scheduling. It happens quite often.",negative,Transport,Gandhipuram Route,2026-02-07
+CP0618,The transport service was comfortable and punctual.,positive,Transport,Evening Shuttle,2026-06-08
+CP0011,The library becomes noisy during peak hours.,negative,Library,Reference Section,2026-06-28
+CP0222,The pathway near Sports Ground is poorly lit at night.,negative,Safety,Sports Ground,2026-03-05
+CP0821,"As a student, the washrooms are usable but cleaning frequency could improve.",neutral,Cleanliness,ECE Block,2026-02-26
+CP0297,"As a student, the classroom infrastructure is clean and comfortable.",positive,Infrastructure,ECE Block,2026-06-29
+CP0055,The lectures move too fast and some concepts are difficult to follow. Hope this can be improved.,negative,Academics,Classroom,2026-01-15
+CP0543,"Honestly, the bus timings are acceptable but could be more consistent.",neutral,Transport,Avinashi Route,2026-04-02
+CP0210,The bus service is generally okay. This needs attention.,neutral,Transport,Main Gate,2026-03-28
+CP0605,"Overall, there are not enough buses during peak hours.",negative,Transport,Hostel Route,2026-04-30
+CP0693,"Most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,Main Block,2026-05-30
+CP0663,"Honestly, the library is useful but some books are difficult to find. Hope this can be improved.",neutral,Library,Central Library,2026-05-09
+CP0867,The food was okay today.,neutral,Food,Hostel A,2026-06-22
+CP0071,"Most areas are clean, although some corners need more attention.",neutral,Cleanliness,ECE Block,2026-01-30
+CP0544,The washroom near Canteen needs more frequent cleaning.,negative,Cleanliness,Canteen,2026-03-29
+CP0108,The campus area was clean today.,positive,Cleanliness,Canteen,2026-01-09
+CP0494,"For our block, the course material is useful and easy to follow.",positive,Academics,Lecture Hall,2026-06-22
+CP0591,The washrooms were clean and well maintained. Please look into it.,positive,Cleanliness,C Block,2026-02-24
+CP0742,"In my experience, the evening bus is overcrowded.",negative,Transport,Evening Shuttle,2026-06-02
+CP0293,"Overall, the laboratory equipment needs regular maintenance. Please look into it.",negative,Laboratory,Computer Lab,2026-02-01
+CP0290,"In my experience, network connectivity in Hostel C becomes unusable after evening.",negative,Wi-Fi,Hostel C,2026-02-10
+CP0653,"Honestly, the mess food was disappointing today. Hope this can be improved.",negative,Food,Hostel A,2026-04-22
+CP0040,"Transport is available, although the evening route is sometimes delayed.",neutral,Transport,Main Gate,2026-05-14
+CP0590,"Overall, internet connectivity in Hostel B has improved a lot.",positive,Wi-Fi,Hostel B,2026-01-18
+CP0308,The network worked smoothly throughout the day in Library.,positive,Wi-Fi,Library,2026-04-10
+CP0680,"Today, there are not enough buses during peak hours.",negative,Transport,Hostel Route,2026-03-18
+CP0067,There are not enough buses during peak hours.,negative,Transport,Gandhipuram Route,2026-05-21
+CP0276,"Today, the teaching pace is comfortable and interactive.",positive,Academics,Lecture Hall,2026-04-13
+CP0068,"Honestly, the common areas are being maintained well.",positive,Hostel,Hostel A,2026-03-18
+CP0319,The laboratory is well equipped for the practical sessions.,positive,Laboratory,ECE Lab,2026-06-17
+CP0549,"In my experience, the Wi-Fi in Library works most of the time.",neutral,Wi-Fi,Library,2026-03-06
+CP0999,the washrooms are usable but cleaning frequency could improve.,neutral,Cleanliness,C Block,2026-05-21
+CP0715,The hostel rooms are clean and comfortable.,positive,Hostel,Girls Hostel,2026-03-12
+CP0754,the room fan is not working properly.,negative,Hostel,Hostel A,2026-04-15
+CP0328,The mess food was disappointing today. It happens quite often.,negative,Food,Night Mess,2026-04-18
+CP0383,The college bus is often late after 5 PM.,negative,Transport,Avinashi Route,2026-06-08
+CP0452,"Honestly, important topics are being covered too quickly.",negative,Academics,ECE Department,2026-02-17
+CP0523,the office staff handled my request quickly.,positive,Administration,Admission Office,2026-06-11
+CP0219,The lab sessions are useful and the instruments are accessible.,positive,Laboratory,ECE Lab,2026-04-21
+CP0788,The food at the mess was tasty today.,positive,Food,Hostel C,2026-06-28
+CP0437,Several lights and fans need repair. Please look into it.,negative,Infrastructure,ECE Block,2026-02-01
+CP0765,There is not enough variety in the hostel menu.,negative,Food,Night Mess,2026-01-13
+CP0089,There is not enough variety in the hostel menu.,negative,Food,Night Mess,2026-06-12
+CP0064,The college bus is often late after 5 PM.,negative,Transport,Avinashi Route,2026-03-02
+CP0827,The network worked smoothly throughout the day in Library.,positive,Wi-Fi,Library,2026-04-10
+CP0717,The classroom projector is not working properly.,negative,Infrastructure,C Block,2026-05-14
+CP0352,The laboratory equipment needs regular maintenance. It happens quite often.,negative,Laboratory,Computer Lab,2026-01-10
+CP0937,the administrative process takes too long.,negative,Administration,Department Office,2026-05-13
+CP0257,The library becomes noisy during peak hours.,negative,Library,Reference Section,2026-01-12
+CP0636,The lab sessions are useful and the instruments are accessible.,positive,Laboratory,Communication Lab,2026-02-23
+CP0645,"Honestly, lunch quality was good & the menu had enough variety.",positive,Food,Main Mess,2026-02-19
+CP0555,The administrative process is manageable but takes some time.,neutral,Administration,Academic Office,2026-05-17
+CP0960,The campus feels safe and security staff are visible.,positive,Safety,Sports Ground,2026-01-31
+CP0169,The administrative process takes too long.,negative,Administration,Admission Office,2026-02-27
+CP0918,Food quality is generally acceptable but inconsistent.,neutral,Food,Hostel A,2026-02-11
+CP0529,The library has a good collection of useful books.,positive,Library,Central Library,2026-04-10
+CP0824,"Today, there is not enough variety in the hostel menu.",negative,Food,Hostel C,2026-05-08
+CP0986,"In my experience, the recent campus event was engaging and well managed.",positive,Events,Seminar Hall,2026-05-01
+CP0817,"As a student, the corridor was not cleaned properly today.",negative,Cleanliness,C Block,2026-06-12
+CP0087,The library becomes noisy during peak hours. This needs attention.,negative,Library,Digital Library,2026-01-30
+CP0433,Dustbins are overflowing near Main Gate.,negative,Cleanliness,Main Gate,2026-05-02
+CP0185,"The room is usable, although maintenance takes some time.",neutral,Hostel,Girls Hostel,2026-05-21
+CP0979,The washrooms were clean and well maintained.,positive,Cleanliness,ECE Block,2026-02-03
+CP0535,The teaching pace is comfortable and interactive. Hope this can be improved.,positive,Academics,Lecture Hall,2026-03-18
+CP0295,The mess food was fresh and well prepared. Hope this can be improved.,positive,Food,Hostel C,2026-04-16
+CP0893,The transport service was comfortable and punctual.,positive,Transport,Gandhipuram Route,2026-04-24
+CP0426,"For our block, it is difficult to get a clear response from the office.",negative,Administration,Academic Office,2026-01-27
+CP0714,"Honestly, the new classroom facilities are a clear improvement.",positive,Infrastructure,Seminar Hall,2026-06-27
+CP0261,"For our block, the bus route worked smoothly today.",positive,Transport,Evening Shuttle,2026-02-26
+CP0238,"Honestly, the course is manageable, although some topics need more examples.",neutral,Academics,ECE Department,2026-02-08
+CP0560,The lectures move too fast and some concepts are difficult to follow.,negative,Academics,ECE Department,2026-02-18
+CP0584,The lectures are clear & the faculty explain concepts well.,positive,Academics,Classroom,2026-01-30
+CP0446,The event was useful although some sessions started late.,neutral,Events,Seminar Hall,2026-06-27
+CP0868,The network worked smoothly throughout the day in C Block. This needs attention.,positive,Wi-Fi,C Block,2026-05-18
+CP0801,"For our block, most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,C Block,2026-03-22
+CP0600,The Wi-Fi in Hostel B works most of the time.,neutral,Wi-Fi,Hostel B,2026-02-09
+CP0850,The course material is useful and easy to follow.,positive,Academics,ECE Department,2026-03-26
+CP0266,The event schedule was poorly coordinated.,negative,Events,Seminar Hall,2026-03-28
+CP0996,hostel services are average at the moment.,neutral,Hostel,Hostel A,2026-04-30
+CP0530,Several lights and fans need repair. Hope this can be improved.,negative,Infrastructure,Main Block,2026-04-28
+CP0056,Wi-Fi in ECE Block is very slow. It happens quite often.,negative,Wi-Fi,ECE Block,2026-07-03
+CP0121,Hostel services are average at the moment.,neutral,Hostel,Hostel C,2026-01-25
+CP0216,the washrooms were clean and well maintained. Please look into it.,positive,Cleanliness,Canteen,2026-05-07
+CP0026,"In my experience, there is not enough variety in the hostel menu. This needs attention.",negative,Food,Hostel B,2026-05-18
+CP0073,"As a student, the teaching pace is comfortable and interactive.",positive,Academics,Mechanical Block,2026-06-14
+CP0045,The network worked smoothly throughout the day in Hostel C. It happens quite often.,positive,Wi-Fi,Hostel C,2026-04-13
+CP0248,The lab equipment was working properly today.,positive,Laboratory,Computer Lab,2026-03-22
+CP0722,The building facilities are generally well maintained.,positive,Infrastructure,C Block,2026-04-26
+CP0282,"Today, the mess food was fresh and well prepared.",positive,Food,Hostel B,2026-02-16
+CP0894,"As a student, the college bus is often late after 5 PM. Hope this can be improved.",negative,Transport,Evening Shuttle,2026-02-24
+CP0915,The library is useful but some books are difficult to find.,neutral,Library,Central Library,2026-06-14
+CP0811,"Honestly, the food at the mess was tasty today.",positive,Food,Hostel A,2026-02-16
+CP0245,The mess food was fresh and well prepared. This needs attention.,positive,Food,Hostel B,2026-03-30
+CP0823,"Honestly, the room fan is not working properly.",negative,Hostel,Hostel B,2026-05-08
+CP0322,There was not enough information about the event timings.,negative,Events,Auditorium,2026-04-14
+CP0644,Security presence is limited near Back Gate after evening.,negative,Safety,Back Gate,2026-05-01
+CP0159,the campus feels reasonably safe.,neutral,Safety,Back Gate,2026-03-09
+CP0978,The food was too oily and not fresh.,negative,Food,Main Mess,2026-01-13
+CP0430,The mess food was disappointing today.,negative,Food,Main Mess,2026-01-28
+CP0942,The library is quiet and comfortable for studying.,positive,Library,Central Library,2026-05-25
+CP0463,Some required books are unavailable in the library. It happens quite often.,negative,Library,Reference Section,2026-02-27
+CP0310,The emergency contact information is easy to find.,positive,Safety,Sports Ground,2026-04-11
+CP0698,"Overall, hostel facilities are okay but some areas need attention.",neutral,Hostel,Boys Hostel,2026-05-11
+CP0061,Important topics are being covered too quickly.,negative,Academics,Lecture Hall,2026-01-27
+CP0885,"Overall, there are not enough buses during peak hours.",negative,Transport,Main Gate,2026-03-24
+CP0596,The transport service was comfortable and punctual. It happens quite often.,positive,Transport,Evening Shuttle,2026-03-09
+CP0768,"Most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,Seminar Hall,2026-03-30
+CP0650,The common area is often left dirty after lunch.,negative,Cleanliness,Main Gate,2026-04-11
+CP0651,"In my experience, my request has been pending for several days. Hope this can be improved.",negative,Administration,Admission Office,2026-06-14
+CP0866,"Today, the emergency contact information is not easy to find.",negative,Safety,Parking Area,2026-02-15
+CP0669,The lectures are clear and the faculty explain concepts well.,positive,Academics,Lecture Hall,2026-03-07
+CP0299,"In my experience, the lab equipment was working properly today.",positive,Laboratory,Computer Lab,2026-04-24
+CP0690,The college bus is often late after 5 PM.,negative,Transport,Hostel Route,2026-01-06
+CP0315,It is difficult to get a clear response from the office.,negative,Administration,Accounts Office,2026-01-23
+CP0311,more practical examples are needed in this subject.,negative,Academics,Mechanical Block,2026-05-30
+CP0362,"For our block, the classroom projector is not working properly. Please look into it.",negative,Infrastructure,ECE Block,2026-04-27
+CP0480,"The process is clear, although waiting time varies. It happens quite often.",neutral,Administration,Department Office,2026-03-18
+CP0111,Wi-Fi is not working properly near Hostel C.,negative,Wi-Fi,Hostel C,2026-06-09
+CP0990,"Overall, the room fan is not working properly.",negative,Hostel,Girls Hostel,2026-04-20
+CP0487,"Overall, the classroom projector is not working properly.",negative,Infrastructure,Classroom C204,2026-01-17
+CP0364,"For our block, the hostel food quality has gone down recently.",negative,Food,Main Mess,2026-06-01
+CP0255,"For our block, the administrative process was clear and easy.",positive,Administration,Department Office,2026-02-16
+CP0260,The mess food was disappointing today. Hope this can be improved.,negative,Food,Hostel B,2026-02-04
+CP0803,The food was okay today. This needs attention.,neutral,Food,Hostel A,2026-03-01
+CP0678,The pathway near Parking Area is poorly lit at night. Please look into it.,negative,Safety,Parking Area,2026-01-27
+CP0495,The laboratory equipment needs regular maintenance.,negative,Laboratory,ECE Lab,2026-01-30
+CP0671,"As a student, the library has a good collection of useful books.",positive,Library,Reference Section,2026-04-27
+CP0378,"Overall, hostel services are average at the moment.",neutral,Hostel,Hostel C,2026-06-26
+CP0527,"In my experience, the lab is usable but additional components would help. Hope this can be improved.",neutral,Laboratory,Computer Lab,2026-03-30
+CP0846,"As a student, several lights and fans need repair.",negative,Infrastructure,ECE Block,2026-01-12
+CP0138,"Overall, the common areas are being cleaned regularly.",positive,Cleanliness,ECE Block,2026-02-23
+CP0356,dustbins are overflowing near C Block.,negative,Cleanliness,C Block,2026-02-25
+CP0366,"Honestly, the pathway near Parking Area is poorly lit at night.",negative,Safety,Parking Area,2026-05-10
+CP0943,"Overall, the mess menu is average and could have more variety. Hope this can be improved.",neutral,Food,Main Mess,2026-05-02
+CP0750,"Honestly, the network worked smoothly throughout the day in Hostel C. It happens quite often.",positive,Wi-Fi,Hostel C,2026-04-04
+CP0949,"Today, the mess food was fresh and well prepared. Please look into it.",positive,Food,Hostel A,2026-04-12
+CP0830,The building facilities are generally well maintained. Please look into it.,positive,Infrastructure,Main Block,2026-03-11
+CP0657,"In my experience, there was not enough information about the event timings.",negative,Events,Auditorium,2026-06-20
+CP0200,"In my experience, the room is usable, although maintenance takes some time.",neutral,Hostel,Girls Hostel,2026-03-09
+CP0214,"The network in Hostel C is available, although performance changes at peak hours.",neutral,Wi-Fi,Hostel C,2026-04-30
+CP0409,The food at the mess was tasty today.,positive,Food,Hostel B,2026-01-16
+CP0333,"Today, the hostel rooms are clean and comfortable. Hope this can be improved.",positive,Hostel,Hostel B,2026-05-14
+CP0209,"In my experience, the bus route worked smoothly today.",positive,Transport,Main Gate,2026-04-27
+CP0614,Hostel facilities are okay but some areas need attention.,neutral,Hostel,Girls Hostel,2026-05-02
+CP0079,the program was average and could use better coordination.,neutral,Events,Main Ground,2026-05-16
+CP0030,more practical examples are needed in this subject.,negative,Academics,ECE Department,2026-04-02
+CP0536,The administrative process was clear and easy.,positive,Administration,Academic Office,2026-06-26
+CP0696,The teaching is okay but more practical sessions would help.,neutral,Academics,Classroom,2026-04-09
+CP0558,"As a student, the teaching pace is comfortable and interactive.",positive,Academics,Lecture Hall,2026-06-22
+CP0837,hostel maintenance has improved recently.,positive,Hostel,Hostel A,2026-01-30
+CP0597,The bus service is generally okay.,neutral,Transport,Evening Shuttle,2026-01-16
+CP0166,The room fan is not working properly.,negative,Hostel,Hostel B,2026-02-15
+CP0919,There are not enough working components for every student.,negative,Laboratory,Embedded Lab,2026-03-03
+CP0496,"Honestly, the lab is usable but additional components would help.",neutral,Laboratory,Communication Lab,2026-03-09
+CP0825,Wi-Fi in Hostel C is very slow.,negative,Wi-Fi,Hostel C,2026-03-11
+CP0066,"Honestly, the classroom infrastructure is clean and comfortable.",positive,Infrastructure,Main Block,2026-02-23
+CP0142,The bus timings are acceptable but could be more consistent. It happens quite often.,neutral,Transport,Evening Shuttle,2026-02-25
+CP0926,the washroom near Canteen needs more frequent cleaning.,negative,Cleanliness,Canteen,2026-02-02
+CP0828,The library facilities are adequate.,neutral,Library,Central Library,2026-04-26
+CP0656,"Overall, transport is available, although the evening route is sometimes delayed. This needs attention.",neutral,Transport,Main Gate,2026-01-28
+CP0332,"For our block, the corridor was not cleaned properly today.",negative,Cleanliness,C Block,2026-01-12
+CP0665,"For our block, the food was okay today.",neutral,Food,Hostel B,2026-05-19
+CP0250,The washrooms were clean and well maintained.,positive,Cleanliness,Canteen,2026-06-17
+CP0908,"Overall, the pathway near Parking Area is poorly lit at night.",negative,Safety,Parking Area,2026-05-25
+CP0709,There are not enough seats in the library during exam time.,negative,Library,Reading Hall,2026-05-09
+CP0306,Several instruments are unavailable during practical sessions. It happens quite often.,negative,Laboratory,Communication Lab,2026-01-19
+CP0735,the building facilities are generally well maintained.,positive,Infrastructure,ECE Block,2026-01-15
+CP0976,The bus route worked smoothly today.,positive,Transport,Hostel Route,2026-06-04
+CP0050,Lunch quality was good and the menu had enough variety.,positive,Food,Hostel B,2026-01-20
+CP0897,The bus service is generally okay.,neutral,Transport,Avinashi Route,2026-04-04
+CP0003,"As a student, hostel maintenance complaints take too long to get resolved.",negative,Hostel,Hostel C,2026-03-13
+CP0545,"Today, the campus area was clean today.",positive,Cleanliness,ECE Block,2026-03-29
+CP0351,The mess food was disappointing today.,negative,Food,Hostel C,2026-02-08
+CP0905,Lunch quality was good & the menu had enough variety.,positive,Food,Night Mess,2026-05-31
+CP0537,"Honestly, the Wi-Fi in C Block is fast and reliable today.",positive,Wi-Fi,C Block,2026-04-29
+CP0345,The classroom projector is not working properly.,negative,Infrastructure,Seminar Hall,2026-05-13
+CP0995,"Overall, the library becomes noisy during peak hours.",negative,Library,Digital Library,2026-01-31
+CP0482,"Today, the corridor was not cleaned properly today.",negative,Cleanliness,Main Gate,2026-03-05
+CP0576,The projector in the lab is not working.,negative,Laboratory,Computer Lab,2026-05-02
+CP0034,"As a student, the lab sessions are useful and the instruments are accessible.",positive,Laboratory,Embedded Lab,2026-03-06
+CP0032,Security presence is limited near Parking Area after evening.,negative,Safety,Parking Area,2026-02-12
+CP0232,The bus route needs better scheduling.,negative,Transport,Gandhipuram Route,2026-03-04
+CP0964,the library becomes noisy during peak hours. Hope this can be improved.,negative,Library,Central Library,2026-03-27
+CP0193,"For our block, wi-Fi is not working properly near Hostel C.",negative,Wi-Fi,Hostel C,2026-05-30
+CP0334,"Today, there are not enough seats in the library during exam time.",negative,Library,Central Library,2026-04-04
+CP0004,Wi-Fi in Library is very slow.,negative,Wi-Fi,Library,2026-04-07
+CP0205,The classroom infrastructure is clean and comfortable.,positive,Infrastructure,Seminar Hall,2026-04-12
+CP0515,The college bus arrived on time today.,positive,Transport,Gandhipuram Route,2026-03-06
+CP0800,"Today, the transport service was comfortable and punctual.",positive,Transport,Hostel Route,2026-05-10
+CP0307,"In my experience, the bus route needs better scheduling. Please look into it.",negative,Transport,Main Gate,2026-03-28
+CP0110,The classroom facilities are acceptable.,neutral,Infrastructure,Classroom C204,2026-01-12
+CP0431,"As a student, the common areas are being cleaned regularly. This needs attention.",positive,Cleanliness,Main Gate,2026-01-06
+CP0078,There are not enough seats in the library during exam time.,negative,Library,Reference Section,2026-04-20
+CP0085,Important topics are being covered too quickly.,negative,Academics,Lecture Hall,2026-04-11
+CP0287,"In my experience, the corridor was not cleaned properly today.",negative,Cleanliness,C Block,2026-03-18
+CP0083,The recent campus event was engaging and well managed.,positive,Events,Seminar Hall,2026-06-07
+CP0992,"In my experience, the bus route worked smoothly today.",positive,Transport,Gandhipuram Route,2026-07-01
+CP0790,Important topics are being covered too quickly.,negative,Academics,Classroom,2026-02-12
+CP0895,"As a student, several lights and fans need repair.",negative,Infrastructure,C Block,2026-01-14
+CP0399,The common areas are being maintained well. Please look into it.,positive,Hostel,Hostel B,2026-05-25
+CP0324,"As a student, the corridor was not cleaned properly today.",negative,Cleanliness,Main Gate,2026-02-23
+CP0520,The food at the mess was tasty today. This needs attention.,positive,Food,Hostel B,2026-01-19
+CP0917,The classroom furniture is damaged and uncomfortable. This needs attention.,negative,Infrastructure,Main Block,2026-01-16
+CP0923,"Today, the library is useful but some books are difficult to find.",neutral,Library,Reference Section,2026-02-20
+CP0006,"Honestly, the lectures are understandable but the pace varies.",neutral,Academics,Mechanical Block,2026-06-16
+CP0732,The food at the mess was tasty today.,positive,Food,Main Mess,2026-05-17
+CP0466,Wi-Fi is not working properly near Library.,negative,Wi-Fi,Library,2026-04-01
+CP0098,Hostel maintenance has improved recently.,positive,Hostel,Girls Hostel,2026-05-08
+CP0267,The lectures are underst&able but the pace varies.,neutral,Academics,Lecture Hall,2026-01-30
+CP0358,The emergency contact information is easy to find.,positive,Safety,Hostel Road,2026-03-11
+CP0869,Several instruments are unavailable during practical sessions.,negative,Laboratory,Communication Lab,2026-03-01
+CP0799,Some required books are unavailable in the library.,negative,Library,Reference Section,2026-03-16
+CP0381,The food was too oily and not fresh.,negative,Food,Night Mess,2026-03-19
+CP0632,"Overall, hostel maintenance complaints take too long to get resolved.",negative,Hostel,Girls Hostel,2026-03-04
+CP0382,"As a student, the venue was overcrowded during the event.",negative,Events,Main Ground,2026-03-10
+CP0491,"Overall, the office staff handled my request quickly.",positive,Administration,Academic Office,2026-02-11
+CP0119,"For our block, the campus area was clean today.",positive,Cleanliness,Hostel,2026-02-10
+CP0901,The internet keeps disconnecting in ECE Block.,negative,Wi-Fi,ECE Block,2026-05-06
+CP0251,Security arrangements are adequate during the day. This needs attention.,neutral,Safety,Hostel Road,2026-03-17
+CP0524,The library facilities are adequate.,neutral,Library,Reading Hall,2026-01-22
+CP0010,"The reading space is fine, although seating is limited at peak times.",neutral,Library,Digital Library,2026-06-28
+CP0197,"Honestly, security arrangements around the block are good. It happens quite often.",positive,Safety,Parking Area,2026-03-23
+CP0604,"Overall, the corridor was not cleaned properly today.",negative,Cleanliness,Main Gate,2026-07-03
+CP0082,"As a student, the course is manageable, although some topics need more examples.",neutral,Academics,Lecture Hall,2026-05-12
+CP0784,It is difficult to get a clear response from the office.,negative,Administration,Accounts Office,2026-04-11
+CP0588,The college bus arrived on time today.,positive,Transport,Evening Shuttle,2026-06-14
+CP0798,Lunch quality was good and the menu had enough variety.,positive,Food,Main Mess,2026-03-25
+CP0240,The staff were helpful when resolving my request. Hope this can be improved.,positive,Administration,Admission Office,2026-07-01
+CP0291,The event was well organized and informative.,positive,Events,Auditorium,2026-01-26
+CP0212,"Overall, security presence is limited near Sports Ground after evening.",negative,Safety,Sports Ground,2026-04-21
+CP0718,The food at the mess was tasty today. Hope this can be improved.,positive,Food,Hostel A,2026-01-30
+CP0360,The laboratory is adequate but some equipment is shared.,neutral,Laboratory,ECE Lab,2026-04-06
+CP0450,"As a student, the venue was overcrowded during the event. Please look into it.",negative,Events,Main Ground,2026-01-25
+CP0228,The pathway near Sports Ground is poorly lit at night.,negative,Safety,Sports Ground,2026-05-30
+CP0951,"Today, more practical examples are needed in this subject. It happens quite often.",negative,Academics,ECE Department,2026-03-12
+CP0947,"Today, the mess food was fresh and well prepared.",positive,Food,Main Mess,2026-02-20
+CP0797,The college bus arrived on time today.,positive,Transport,Evening Shuttle,2026-02-14
+CP0502,"Overall, the common areas are being maintained well.",positive,Hostel,Hostel B,2026-06-17
+CP0465,"Today, the projector in the lab is not working.",negative,Laboratory,Embedded Lab,2026-03-08
+CP0363,The hostel room has a maintenance issue that has not been fixed.,negative,Hostel,Hostel C,2026-05-09
+CP0469,The campus area was clean today.,positive,Cleanliness,ECE Block,2026-06-07
+CP0936,The office staff handled my request quickly.,positive,Administration,Admission Office,2026-01-16
+CP0429,The bus route worked smoothly today. Please look into it.,positive,Transport,Evening Shuttle,2026-02-14
+CP0008,"Honestly, the bus route needs better scheduling.",negative,Transport,Gandhipuram Route,2026-05-12
+CP0156,"For our block, hostel facilities are okay but some areas need attention. It happens quite often.",neutral,Hostel,Hostel C,2026-04-04
+CP0542,The washrooms were clean and well maintained. Hope this can be improved.,positive,Cleanliness,C Block,2026-06-12
+CP0441,The library closing time is too early for students. This needs attention.,negative,Library,Reading Hall,2026-04-02
+CP0483,Important topics are being covered too quickly.,negative,Academics,ECE Department,2026-06-30
+CP0423,The library facilities are adequate. This needs attention.,neutral,Library,Digital Library,2026-06-28
+CP0779,There are not enough working components for every student. Please look into it.,negative,Laboratory,Communication Lab,2026-05-21
+CP0950,Wi-Fi is not working properly near Hostel B. Please look into it.,negative,Wi-Fi,Hostel B,2026-03-15
+CP0335,The lab sessions are useful and the instruments are accessible.,positive,Laboratory,Electronics Lab,2026-02-28
+CP0577,The lectures move too fast and some concepts are difficult to follow.,negative,Academics,CSE Department,2026-06-30
+CP0935,The course material is useful and easy to follow.,positive,Academics,ECE Department,2026-02-28
+CP0568,"Honestly, security arrangements are adequate during the day. This needs attention.",neutral,Safety,Parking Area,2026-06-07
+CP0595,Hostel maintenance complaints take too long to get resolved.,negative,Hostel,Hostel B,2026-05-26
+CP0531,"Overall, the common areas are being cleaned regularly.",positive,Cleanliness,ECE Block,2026-02-10
+CP0582,The hostel food quality has gone down recently.,negative,Food,Hostel A,2026-06-27
+CP0708,The staff were helpful when resolving my request.,positive,Administration,Admission Office,2026-04-25
+CP0449,"Overall, lunch quality was good and the menu had enough variety.",positive,Food,Hostel B,2026-04-07
+CP0454,The program was average and could use better coordination.,neutral,Events,Main Ground,2026-04-03
+CP0229,The building facilities are generally well maintained.,positive,Infrastructure,C Block,2026-03-26
+CP0353,The office response was acceptable.,neutral,Administration,Academic Office,2026-06-13
+CP0729,"For our block, wi-Fi is not working properly near C Block. Hope this can be improved.",negative,Wi-Fi,C Block,2026-05-29
+CP0213,The library is quiet and comfortable for studying.,positive,Library,Reference Section,2026-05-03
+CP0080,"Honestly, wi-Fi is not working properly near Library.",negative,Wi-Fi,Library,2026-01-18
+CP0149,The event was well organized and informative. It happens quite often.,positive,Events,Main Ground,2026-04-07
+CP0303,The wifi in ECE Block is fast and reliable today.,positive,Wi-Fi,ECE Block,2026-03-05
+CP0629,The washrooms are usable but cleaning frequency could improve. Hope this can be improved.,neutral,Cleanliness,Hostel,2026-02-09
+CP0778,"For our block, the college bus arrived on time today.",positive,Transport,Gandhipuram Route,2026-04-09
+CP0507,"The reading space is fine, although seating is limited at peak times.",neutral,Library,Central Library,2026-06-06
+CP0343,"Honestly, there is a safety concern near Parking Area that needs attention.",negative,Safety,Parking Area,2026-06-28
+CP0486,The teaching is okay but more practical sessions would help.,neutral,Academics,Mechanical Block,2026-04-15
+CP0712,"Overall, the bus route needs better scheduling.",negative,Transport,Gandhipuram Route,2026-06-21
+CP0134,"Today, the event was well organized and informative.",positive,Events,Open Air Theatre,2026-03-18
+CP0704,The room fan is not working properly.,negative,Hostel,Boys Hostel,2026-06-11
+CP0312,"In my experience, the network worked smoothly throughout the day in Hostel B. It happens quite often.",positive,Wi-Fi,Hostel B,2026-03-27
+CP0723,"The network in C Block is available, although performance changes at peak hours. This needs attention.",neutral,Wi-Fi,C Block,2026-05-18
+CP0630,"Honestly, the washrooms were clean and well maintained. Please look into it.",positive,Cleanliness,ECE Block,2026-05-28
+CP0001,"For our block, the campus feels safe and security staff are visible. This needs attention.",positive,Safety,Back Gate,2026-03-05
+CP0317,Several lights and fans need repair.,negative,Infrastructure,Seminar Hall,2026-07-02
+CP0707,"Honestly, hostel facilities are okay but some areas need attention.",neutral,Hostel,Hostel A,2026-04-30
+CP0548,The course workload is difficult to manage with other subjects.,negative,Academics,Classroom,2026-03-21
+CP0873,The food at the mess was tasty today.,positive,Food,Night Mess,2026-03-15
+CP0533,There is a safety concern near Hostel Road that needs attention. This needs attention.,negative,Safety,Hostel Road,2026-03-25
+CP0478,"Honestly, the classroom projector is not working properly.",negative,Infrastructure,Seminar Hall,2026-06-07
+CP0405,Wi-Fi is not working properly near Library.,negative,Wi-Fi,Library,2026-05-05
+CP0173,Hostel maintenance has improved recently.,positive,Hostel,Hostel C,2026-06-01
+CP0126,the office response was acceptable.,neutral,Administration,Department Office,2026-06-30
+CP0395,Network connectivity in C Block becomes unusable after evening. Hope this can be improved.,negative,Wi-Fi,C Block,2026-04-12
+CP0421,"Overall, the projector in the lab is not working.",negative,Laboratory,Communication Lab,2026-05-24
+CP0553,The staff were helpful when resolving my request.,positive,Administration,Department Office,2026-05-12
+CP0904,"In my experience, the administrative process was clear and easy. Please look into it.",positive,Administration,Accounts Office,2026-05-16
+CP0091,the event was well organized and informative. Hope this can be improved.,positive,Events,Auditorium,2026-06-28
+CP0940,The food was too oily and not fresh.,negative,Food,Hostel B,2026-05-17
+CP0182,Security arrangements around the block are good.,positive,Safety,C Block,2026-06-03
+CP0275,The emergency contact information is easy to find.,positive,Safety,Sports Ground,2026-06-22
+CP0896,"Honestly, important topics are being covered too quickly.",negative,Academics,CSE Department,2026-03-05
+CP0070,The emergency contact information is easy to find. Please look into it.,positive,Safety,Parking Area,2026-03-03
+CP0292,The staff were helpful when resolving my request. This needs attention.,positive,Administration,Accounts Office,2026-03-12
+CP0132,"As a student, the new classroom facilities are a clear improvement.",positive,Infrastructure,Main Block,2026-05-26
+CP0301,"Honestly, the new classroom facilities are a clear improvement.",positive,Infrastructure,Main Block,2026-05-24
+CP0425,"For our block, some required books are unavailable in the library.",negative,Library,Central Library,2026-05-25
+CP0327,"In my experience, the common area is often left dirty after lunch.",negative,Cleanliness,C Block,2026-05-29
+CP0145,the library is quiet and comfortable for studying.,positive,Library,Reading Hall,2026-02-11
+CP0424,"In my experience, the library becomes noisy during peak hours.",negative,Library,Reference Section,2026-07-04
+CP0581,the Wi-Fi in ECE Block is fast and reliable today.,positive,Wi-Fi,ECE Block,2026-06-05
+CP0136,"For our block, the library has a good collection of useful books. Hope this can be improved.",positive,Library,Digital Library,2026-02-07
+CP0451,"Today, the college bus arrived on time today.",positive,Transport,Main Gate,2026-01-31
+CP0165,The room fan is not working properly.,negative,Hostel,Hostel A,2026-06-04
+CP0029,The lab sessions are useful & the instruments are accessible.,positive,Laboratory,Computer Lab,2026-05-26
+CP0774,"As a student, the office staff handled my request quickly.",positive,Administration,Admission Office,2026-07-01
+CP0194,The administrative process was clear and easy.,positive,Administration,Admission Office,2026-05-14
+CP0389,the building facilities are generally well maintained.,positive,Infrastructure,Classroom C204,2026-04-13
+CP0853,"For our block, the classroom furniture is damaged and uncomfortable.",negative,Infrastructure,ECE Block,2026-05-13
+CP0170,The office response was acceptable.,neutral,Administration,Academic Office,2026-06-29
+CP0706,"As a student, transport is available, although the evening route is sometimes delayed.",neutral,Transport,Hostel Route,2026-05-03
+CP0141,The library facilities are adequate.,neutral,Library,Digital Library,2026-05-05
+CP0174,The recent campus event was engaging and well managed.,positive,Events,Open Air Theatre,2026-04-15
+CP0007,Hostel facilities are okay but some areas need attention. This needs attention.,neutral,Hostel,Hostel B,2026-01-19
+CP0746,The library becomes noisy during peak hours.,negative,Library,Reading Hall,2026-05-11
+CP0479,The classroom furniture is damaged and uncomfortable.,negative,Infrastructure,Main Block,2026-03-07
+CP0074,"Honestly, the process requires too many repeated visits.",negative,Administration,Accounts Office,2026-02-16
+CP0911,"Honestly, the campus area was clean today.",positive,Cleanliness,ECE Block,2026-03-05
+CP0814,The pathway near Hostel Road is poorly lit at night.,negative,Safety,Hostel Road,2026-05-22
+CP0239,The course material is useful and easy to follow.,positive,Academics,Classroom,2026-06-20
+CP0146,The common areas are being maintained well.,positive,Hostel,Boys Hostel,2026-01-09
+CP0793,"Today, the classroom furniture is damaged and uncomfortable.",negative,Infrastructure,Main Block,2026-03-29
+CP0235,"Honestly, the classroom facilities are acceptable.",neutral,Infrastructure,Main Block,2026-01-27
+CP0221,"As a student, the venue was overcrowded during the event.",negative,Events,Main Ground,2026-05-23
+CP0924,The library facilities are adequate.,neutral,Library,Reference Section,2026-06-21
+CP0501,"As a student, more practical examples are needed in this subject. This needs attention.",negative,Academics,Lecture Hall,2026-02-04
+CP0133,"Today, the event started late and communication was unclear.",negative,Events,Main Ground,2026-04-02
+CP0991,Security arrangements are adequate during the day.,neutral,Safety,Hostel Road,2026-05-08
+CP0775,The bus service is generally okay.,neutral,Transport,Hostel Route,2026-04-17
+CP0186,The lab is usable but additional components would help.,neutral,Laboratory,Electronics Lab,2026-03-22
+CP0042,"The process is clear, although waiting time varies.",neutral,Administration,Department Office,2026-03-28
+CP0697,The washrooms were clean and well maintained.,positive,Cleanliness,ECE Block,2026-06-11
+CP0109,the common areas are being maintained well.,positive,Hostel,Hostel B,2026-02-01
+CP0589,"Honestly, the campus feels safe and security staff are visible.",positive,Safety,Hostel Road,2026-06-25
+CP0057,The lectures move too fast and some concepts are difficult to follow. Hope this can be improved.,negative,Academics,CSE Department,2026-04-11
+CP0406,"As a student, security presence is limited near Back Gate after evening.",negative,Safety,Back Gate,2026-01-28
+CP0443,My request has been pending for several days.,negative,Administration,Academic Office,2026-02-12
+CP0758,"As a student, the wifi in Library is fast and reliable today.",positive,Wi-Fi,Library,2026-05-26
+CP0998,The mess food was fresh and well prepared. Please look into it.,positive,Food,Main Mess,2026-05-11
+CP0025,The event schedule was clear and the sessions were useful.,positive,Events,Auditorium,2026-02-21
+CP0468,"Today, several instruments are unavailable during practical sessions.",negative,Laboratory,Computer Lab,2026-04-27
+CP0540,Hostel maintenance complaints take too long to get resolved.,negative,Hostel,Girls Hostel,2026-03-29
+CP0532,the food was too oily & not fresh.,negative,Food,Night Mess,2026-01-16
+CP0619,"Honestly, the process is clear, although waiting time varies.",neutral,Administration,Academic Office,2026-04-03
+CP0695,"Honestly, the hostel rooms are clean and comfortable. It happens quite often.",positive,Hostel,Boys Hostel,2026-02-04
+CP0927,"Honestly, the internet keeps disconnecting in Hostel B.",negative,Wi-Fi,Hostel B,2026-02-27
+CP0339,there is a safety concern near Back Gate that needs attention.,negative,Safety,Back Gate,2026-03-16
+CP0052,"Today, the library facilities are adequate.",neutral,Library,Digital Library,2026-02-16
+CP0508,"Today, the washrooms are usable but cleaning frequency could improve.",neutral,Cleanliness,C Block,2026-01-15
+CP0517,"Honestly, the network worked smoothly throughout the day in C Block.",positive,Wi-Fi,C Block,2026-01-27
+CP0921,Several instruments are unavailable during practical sessions.,negative,Laboratory,Computer Lab,2026-03-15
+CP0782,The event schedule was clear and the sessions were useful. It happens quite often.,positive,Events,Main Ground,2026-05-12
+CP0265,"The reading space is fine, although seating is limited at peak times.",neutral,Library,Reading Hall,2026-01-28
+CP0818,"Honestly, lunch quality was good and the menu had enough variety.",positive,Food,Hostel C,2026-04-28
+CP0711,There is a recurring maintenance issue in the block. Hope this can be improved.,negative,Infrastructure,Main Block,2026-05-14
+CP0683,the event was okay but the schedule could be improved. Please look into it.,neutral,Events,Seminar Hall,2026-06-25
+CP0833,The lectures move too fast and some concepts are difficult to follow.,negative,Academics,ECE Department,2026-04-16
+CP0519,"Overall, the classroom projector is not working properly.",negative,Infrastructure,Main Block,2026-05-25
+CP0448,The lectures are understandable but the pace varies.,neutral,Academics,CSE Department,2026-01-23
+CP0019,More practical examples are needed in this subject.,negative,Academics,CSE Department,2026-04-19
+CP0716,The laboratory equipment needs regular maintenance.,negative,Laboratory,ECE Lab,2026-01-17
+CP0484,"As a student, there was not enough information about the event timings.",negative,Events,Auditorium,2026-04-26
+CP0569,The campus feels safe and security staff are visible. This needs attention.,positive,Safety,Hostel Road,2026-02-21
+CP0434,Security is generally fine but some areas need better lighting. It happens quite often.,neutral,Safety,Sports Ground,2026-03-04
+CP0368,"Today, the office response was acceptable.",neutral,Administration,Department Office,2026-01-05
+CP0084,"As a student, the washroom near Canteen needs more frequent cleaning.",negative,Cleanliness,Canteen,2026-01-05
+CP0062,Important topics are being covered too quickly.,negative,Academics,CSE Department,2026-05-09
+CP0639,The food was okay today.,neutral,Food,Night Mess,2026-05-11
+CP0273,"Honestly, wi-Fi is not working properly near ECE Block.",negative,Wi-Fi,ECE Block,2026-03-01
+CP0286,"Today, the corridor was not cleaned properly today.",negative,Cleanliness,ECE Block,2026-02-04
+CP0361,"Overall, the classroom projector is not working properly. It happens quite often.",negative,Infrastructure,Main Block,2026-06-30
+CP0355,the recent campus event was engaging and well managed.,positive,Events,Auditorium,2026-01-31
+CP0457,"Today, the staff were helpful when resolving my request.",positive,Administration,Academic Office,2026-06-19
+CP0279,The library facilities are adequate. This needs attention.,neutral,Library,Reference Section,2026-01-25
+CP0013,The washroom near Main Gate needs more frequent cleaning. This needs attention.,negative,Cleanliness,Main Gate,2026-05-23
+CP0183,"For our block, the new classroom facilities are a clear improvement. This needs attention.",positive,Infrastructure,Classroom C204,2026-03-26
+CP0369,The mess food was disappointing today.,negative,Food,Night Mess,2026-01-18
+CP0882,The washroom near ECE Block needs more frequent cleaning.,negative,Cleanliness,ECE Block,2026-04-03
+CP0616,Hostel maintenance complaints take too long to get resolved.,negative,Hostel,Boys Hostel,2026-03-24
+CP0224,Security arrangements are adequate during the day. This needs attention.,neutral,Safety,Hostel Road,2026-05-13
+CP0573,the hostel food quality has gone down recently.,negative,Food,Hostel C,2026-02-12
+CP0971,"As a student, there are not enough working components for every student.",negative,Laboratory,Embedded Lab,2026-04-22
+CP0654,"Overall, the teaching pace is comfortable and interactive.",positive,Academics,Classroom,2026-01-30
+CP0546,"Honestly, the classroom projector is not working properly.",negative,Infrastructure,C Block,2026-02-11
+CP0583,The library facilities are adequate.,neutral,Library,Digital Library,2026-02-04
+CP0634,wifi in Library is very slow.,negative,Wi-Fi,Library,2026-02-05
+CP0177,"In my experience, the washrooms were clean and well maintained.",positive,Cleanliness,Main Gate,2026-06-10
+CP0666,The lectures are understandable but the pace varies.,neutral,Academics,ECE Department,2026-03-06
+CP0674,Several lights and fans need repair.,negative,Infrastructure,C Block,2026-03-26
+CP0586,"For our block, some required books are unavailable in the library. It happens quite often.",negative,Library,Reference Section,2026-01-14
+CP0874,"Today, hostel maintenance complaints take too long to get resolved.",negative,Hostel,Hostel B,2026-02-05
+CP0394,"Today, the library facilities are adequate.",neutral,Library,Reference Section,2026-06-03
+CP0164,"For our block, my request has been pending for several days.",negative,Administration,Academic Office,2026-01-23
+CP0249,Wi-Fi in C Block is very slow.,negative,Wi-Fi,C Block,2026-03-08
+CP0635,The office staff handled my request quickly. Please look into it.,positive,Administration,Accounts Office,2026-04-04
+CP0886,The campus feels reasonably safe.,neutral,Safety,Hostel Road,2026-04-05
+CP0670,The teaching is okay but more practical sessions would help.,neutral,Academics,Mechanical Block,2026-04-28
+CP0376,"The course is manageable, although some topics need more examples. It happens quite often.",neutral,Academics,Mechanical Block,2026-07-03
+CP0413,"In my experience, the campus feels safe and security staff are visible.",positive,Safety,Parking Area,2026-02-03
+CP0075,"Today, the course workload is difficult to manage with other subjects.",negative,Academics,Lecture Hall,2026-05-11
+CP0114,the bus timings are acceptable but could be more consistent.,neutral,Transport,Avinashi Route,2026-06-29
+CP0599,Food quality is generally acceptable but inconsistent.,neutral,Food,Hostel A,2026-01-28
+CP0962,"As a student, the bus route needs better scheduling.",negative,Transport,Evening Shuttle,2026-04-20
+CP0391,The course workload is difficult to manage with other subjects.,negative,Academics,CSE Department,2026-01-06
+CP0105,The lab equipment was working properly today.,positive,Laboratory,Electronics Lab,2026-06-17
+CP0115,"For our block, the classroom infrastructure is clean and comfortable.",positive,Infrastructure,C Block,2026-05-28
+CP0418,The common areas are being maintained well.,positive,Hostel,Hostel B,2026-05-06
+CP0526,The common areas are being maintained well.,positive,Hostel,Hostel C,2026-05-22
+CP0458,"For our block, the library closing time is too early for students. This needs attention.",negative,Library,Digital Library,2026-05-21
+CP0410,Wi-Fi in Hostel B is very slow.,negative,Wi-Fi,Hostel B,2026-05-24
+CP0093,"As a student, the emergency contact information is easy to find.",positive,Safety,Back Gate,2026-04-03
+CP0931,"Honestly, there are not enough seats in the library during exam time.",negative,Library,Reference Section,2026-04-16
+CP0090,The food at the mess was tasty today.,positive,Food,Hostel C,2026-02-16
+CP0337,"In my experience, the hostel room has a maintenance issue that has not been fixed.",negative,Hostel,Girls Hostel,2026-04-23
+CP0989,"Overall, the lectures move too fast and some concepts are difficult to follow. Hope this can be improved.",negative,Academics,ECE Department,2026-07-02
+CP0922,The classroom projector is not working properly.,negative,Infrastructure,Main Block,2026-02-11
+CP0934,The program was average and could use better coordination.,neutral,Events,Seminar Hall,2026-02-23
+CP0606,The infrastructure is usable but some rooms need minor repairs.,neutral,Infrastructure,C Block,2026-06-26
+CP0594,security is generally fine but some areas need better lighting.,neutral,Safety,Back Gate,2026-04-22
+CP0612,"Honestly, hostel maintenance complaints take too long to get resolved.",negative,Hostel,Hostel B,2026-03-06
+CP0095,"As a student, the process is clear, although waiting time varies.",neutral,Administration,Admission Office,2026-01-17
+CP0012,"Overall, the event schedule was clear and the sessions were useful.",positive,Events,Seminar Hall,2026-03-13
+CP0397,The hostel rooms are clean and comfortable.,positive,Hostel,Hostel C,2026-05-22
+CP0534,"Overall, the emergency contact information is not easy to find.",negative,Safety,Back Gate,2026-02-14
+CP0044,The pathway near Back Gate is poorly lit at night.,negative,Safety,Back Gate,2026-01-11
+CP0043,"Most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,ECE Block,2026-05-16
+CP0330,"Today, the laboratory equipment needs regular maintenance.",negative,Laboratory,Electronics Lab,2026-03-22
+CP0168,The teaching pace is comfortable and interactive.,positive,Academics,Mechanical Block,2026-06-22
+CP0498,Important topics are being covered too quickly.,negative,Academics,Mechanical Block,2026-04-02
+CP0877,The common area is often left dirty after lunch. This needs attention.,negative,Cleanliness,ECE Block,2026-05-30
+CP0598,"Today, wi-Fi in Library is very slow.",negative,Wi-Fi,Library,2026-03-07
+CP0757,"In my experience, more practical examples are needed in this subject.",negative,Academics,Mechanical Block,2026-04-07
+CP0101,"In my experience, the laboratory is well equipped for the practical sessions.",positive,Laboratory,Embedded Lab,2026-05-03
+CP0427,The food at the mess was tasty today.,positive,Food,Hostel C,2026-03-19
+CP0179,The campus area was clean today.,positive,Cleanliness,C Block,2026-02-09
+CP0445,"For our block, the lectures are clear and the faculty explain concepts well. Please look into it.",positive,Academics,Lecture Hall,2026-04-30
+CP0417,"For our block, hostel maintenance complaints take too long to get resolved.",negative,Hostel,Hostel B,2026-04-13
+CP0871,"For our block, the reading space is fine, although seating is limited at peak times. Please look into it.",neutral,Library,Reading Hall,2026-06-19
+CP0883,The evening bus is overcrowded.,negative,Transport,Evening Shuttle,2026-03-03
+CP0681,"Honestly, the event started late and communication was unclear. Hope this can be improved.",negative,Events,Main Ground,2026-06-03
+CP0178,"Overall, lunch quality was good and the menu had enough variety.",positive,Food,Hostel A,2026-04-17
+CP0396,"Honestly, the library becomes noisy during peak hours. It happens quite often.",negative,Library,Central Library,2026-06-16
+CP0912,The event started late and communication was unclear. Please look into it.,negative,Events,Seminar Hall,2026-05-30
+CP0794,"Overall, the office staff handled my request quickly.",positive,Administration,Academic Office,2026-04-15
+CP0961,The classroom projector is not working properly.,negative,Infrastructure,Classroom C204,2026-02-28
+CP0685,The internet keeps disconnecting in Hostel B.,negative,Wi-Fi,Hostel B,2026-05-20
+CP0384,"For our block, there are not enough buses during peak hours. Please look into it.",negative,Transport,Hostel Route,2026-03-17
+CP0957,"Transport is available, although the evening route is sometimes delayed. Hope this can be improved.",neutral,Transport,Hostel Route,2026-07-03
+CP0752,"In my experience, the event was useful although some sessions started late.",neutral,Events,Seminar Hall,2026-03-12
+CP0258,The college bus arrived on time today. It happens quite often.,positive,Transport,Gandhipuram Route,2026-05-15
+CP0539,The office staff handled my request quickly.,positive,Administration,Department Office,2026-03-03
+CP0336,There are not enough buses during peak hours.,negative,Transport,Hostel Route,2026-05-06
+CP0016,The classroom furniture is damaged and uncomfortable.,negative,Infrastructure,ECE Block,2026-06-30
+CP0325,"As a student, the common areas are being maintained well.",positive,Hostel,Hostel A,2026-01-22
+CP0759,"Honestly, the college bus is often late after 5 PM.",negative,Transport,Evening Shuttle,2026-05-18
+CP0223,The food was too oily and not fresh.,negative,Food,Hostel A,2026-05-08
+CP0180,"In my experience, several instruments are unavailable during practical sessions.",negative,Laboratory,Electronics Lab,2026-05-21
+CP0984,"Today, the mess food was fresh and well prepared.",positive,Food,Hostel B,2026-01-06
+CP0023,The library facilities are adequate.,neutral,Library,Digital Library,2026-05-01
+CP0357,"Today, several instruments are unavailable during practical sessions.",negative,Laboratory,Electronics Lab,2026-01-08
+CP0667,"Overall, the library is quiet and comfortable for studying.",positive,Library,Central Library,2026-04-10
+CP0862,"For our block, security presence is limited near C Block after evening.",negative,Safety,C Block,2026-06-25
+CP0341,There are not enough working components for every student. It happens quite often.,negative,Laboratory,ECE Lab,2026-05-31
+CP0432,The lectures are clear and the faculty explain concepts well.,positive,Academics,Lecture Hall,2026-03-11
+CP0552,"As a student, security is generally fine but some areas need better lighting.",neutral,Safety,Parking Area,2026-04-23
+CP0834,the recent campus event was engaging and well managed.,positive,Events,Open Air Theatre,2026-04-25
+CP0204,the reading area is clean and well maintained. Hope this can be improved.,positive,Library,Central Library,2026-01-22
+CP0631,The process requires too many repeated visits. Please look into it.,negative,Administration,Academic Office,2026-04-07
+CP0094,"As a student, the staff were helpful when resolving my request.",positive,Administration,Department Office,2026-04-12
+CP0559,the lectures move too fast and some concepts are difficult to follow.,negative,Academics,Lecture Hall,2026-03-17
+CP0069,The classroom facilities are acceptable. It happens quite often.,neutral,Infrastructure,Main Block,2026-06-15
+CP0623,Hostel maintenance has improved recently. Hope this can be improved.,positive,Hostel,Boys Hostel,2026-05-03
+CP0285,"As a student, the pathway near Parking Area is poorly lit at night.",negative,Safety,Parking Area,2026-01-14
+CP0845,Internet connectivity in C Block has improved a lot.,positive,Wi-Fi,C Block,2026-02-03
+CP0435,The lab is usable but additional components would help.,neutral,Laboratory,Electronics Lab,2026-04-02
+CP0154,"Overall, network connectivity in Hostel B becomes unusable after evening.",negative,Wi-Fi,Hostel B,2026-04-01
+CP0076,The new classroom facilities are a clear improvement.,positive,Infrastructure,C Block,2026-06-01
+CP0731,The event schedule was clear and the sessions were useful.,positive,Events,Seminar Hall,2026-04-20
+CP0447,"For our block, the administrative process was clear and easy.",positive,Administration,Accounts Office,2026-06-11
+CP0189,"In my experience, several lights and fans need repair. This needs attention.",negative,Infrastructure,Seminar Hall,2026-06-04
+CP0272,"Overall, the hostel food quality has gone down recently. Please look into it.",negative,Food,Hostel A,2026-05-29
+CP0237,"Overall, the bus route needs better scheduling.",negative,Transport,Hostel Route,2026-04-22
+CP0488,"Most areas are clean, although some corners need more attention.",neutral,Cleanliness,C Block,2026-05-09
+CP0118,The food was too oily and not fresh.,negative,Food,Night Mess,2026-06-18
+CP0944,Important topics are being covered too quickly.,negative,Academics,Mechanical Block,2026-03-19
+CP0513,"Honestly, the process requires too many repeated visits.",negative,Administration,Department Office,2026-02-11
+CP0826,"In my experience, the library facilities are adequate.",neutral,Library,Reference Section,2026-02-22
+CP0592,The event started late and communication was unclear.,negative,Events,Seminar Hall,2026-03-02
+CP0127,"Today, the lab equipment was working properly today.",positive,Laboratory,ECE Lab,2026-03-31
+CP0117,The staff were helpful when resolving my request. It happens quite often.,positive,Administration,Academic Office,2026-04-09
+CP0474,The teaching pace is comfortable and interactive. Please look into it.,positive,Academics,CSE Department,2026-05-04
+CP0694,"As a student, the common areas are being maintained well.",positive,Hostel,Hostel A,2026-03-11
+CP0058,There are not enough seats in the library during exam time.,negative,Library,Digital Library,2026-06-29
+CP0864,The classroom furniture is damaged and uncomfortable.,negative,Infrastructure,Seminar Hall,2026-04-18
+CP0913,"Honestly, the classroom furniture is damaged and uncomfortable.",negative,Infrastructure,ECE Block,2026-02-10
+CP0370,The bus route needs better scheduling.,negative,Transport,Gandhipuram Route,2026-01-05
+CP0269,The campus feels safe & security staff are visible. Hope this can be improved.,positive,Safety,Back Gate,2026-06-14
+CP0047,"Honestly, the room fan is not working properly.",negative,Hostel,Girls Hostel,2026-05-20
+CP0350,The campus feels safe and security staff are visible.,positive,Safety,Parking Area,2026-02-16
+CP0196,It is difficult to get a clear response from the office.,negative,Administration,Accounts Office,2026-04-17
+CP1000,The mess food was fresh and well prepared.,positive,Food,Night Mess,2026-05-11
+CP0835,"Today, the common areas are being maintained well.",positive,Hostel,Hostel B,2026-01-20
+CP0737,"As a student, the library has a good collection of useful books.",positive,Library,Reading Hall,2026-04-21
+CP0264,"For our block, the bus route needs better scheduling. It happens quite often.",negative,Transport,Avinashi Route,2026-01-28
+CP0444,There is a recurring maintenance issue in the block.,negative,Infrastructure,ECE Block,2026-05-09
+CP0676,The library becomes noisy during peak hours.,negative,Library,Reading Hall,2026-03-18
+CP0305,"Overall, the library is useful but some books are difficult to find.",neutral,Library,Digital Library,2026-07-03
+CP0342,"Transport is available, although the evening route is sometimes delayed.",neutral,Transport,Hostel Route,2026-02-17
+CP0967,The mess food was disappointing today. Hope this can be improved.,negative,Food,Main Mess,2026-06-14
+CP0150,"Today, the hostel food quality has gone down recently. It happens quite often.",negative,Food,Night Mess,2026-01-22
+CP0125,"For our block, the washroom near Hostel needs more frequent cleaning.",negative,Cleanliness,Hostel,2026-04-24
+CP0787,hostel services are average at the moment. This needs attention.,neutral,Hostel,Hostel C,2026-03-04
+CP0051,The evening bus is overcrowded.,negative,Transport,Avinashi Route,2026-04-14
+CP0354,Wi-Fi in C Block is very slow.,negative,Wi-Fi,C Block,2026-05-06
+CP0928,The college bus arrived on time today.,positive,Transport,Hostel Route,2026-04-10
+CP0143,The office staff handled my request quickly.,positive,Administration,Admission Office,2026-02-05
+CP0471,the internet keeps disconnecting in Hostel B.,negative,Wi-Fi,Hostel B,2026-05-12
+CP0400,The classroom furniture is damaged and uncomfortable. Please look into it.,negative,Infrastructure,C Block,2026-02-06
+CP0626,"The process is clear, although waiting time varies.",neutral,Administration,Admission Office,2026-01-09
+CP0321,"the room is usable, although maintenance takes some time. It happens quite often.",neutral,Hostel,Boys Hostel,2026-02-12
+CP0020,"Today, the transport service was comfortable and punctual.",positive,Transport,Avinashi Route,2026-04-18
+CP0810,"As a student, the event schedule was clear and the sessions were useful.",positive,Events,Auditorium,2026-02-25
+CP0791,"In my experience, the library has a good collection of useful books.",positive,Library,Digital Library,2026-01-26
+CP0809,"For our block, security arrangements are adequate during the day.",neutral,Safety,C Block,2026-04-14
+CP0408,Hostel services are average at the moment. It happens quite often.,neutral,Hostel,Girls Hostel,2026-03-05
+CP0538,The administrative process is manageable but takes some time.,neutral,Administration,Admission Office,2026-05-04
+CP0621,"In my experience, the venue was overcrowded during the event.",negative,Events,Main Ground,2026-05-19
+CP0039,"For our block, the campus area was clean today.",positive,Cleanliness,Main Gate,2026-06-25
+CP0176,"Overall, the course is manageable, although some topics need more examples.",neutral,Academics,ECE Department,2026-05-30
+CP0246,"For our block, the library has a good collection of useful books.",positive,Library,Central Library,2026-04-15
+CP0829,Important topics are being covered too quickly.,negative,Academics,Mechanical Block,2026-03-08
+CP0668,The venue was overcrowded during the event. Hope this can be improved.,negative,Events,Seminar Hall,2026-04-09
+CP0755,"As a student, the common areas are being cleaned regularly.",positive,Cleanliness,C Block,2026-04-11
+CP0859,The Wi-Fi in Library works most of the time.,neutral,Wi-Fi,Library,2026-02-17
+CP0155,"The room is usable, although maintenance takes some time.",neutral,Hostel,Boys Hostel,2026-06-08
+CP0288,"Honestly, the course is manageable, although some topics need more examples. Hope this can be improved.",neutral,Academics,Lecture Hall,2026-05-11
+CP0603,The laboratory equipment needs regular maintenance. Hope this can be improved.,negative,Laboratory,ECE Lab,2026-06-19
+CP0570,The teaching pace is comfortable and interactive.,positive,Academics,ECE Department,2026-03-28
+CP0744,The laboratory is adequate but some equipment is shared.,neutral,Laboratory,ECE Lab,2026-02-13
+CP0018,The evening bus is overcrowded.,negative,Transport,Main Gate,2026-03-06
+CP0128,The common areas are being maintained well.,positive,Hostel,Hostel A,2026-02-11
+CP0323,The washrooms are usable but cleaning frequency could improve.,neutral,Cleanliness,Main Gate,2026-01-13
+CP0256,The new classroom facilities are a clear improvement.,positive,Infrastructure,ECE Block,2026-02-23
+CP0658,"The course is manageable, although some topics need more examples.",neutral,Academics,Mechanical Block,2026-06-25
+CP0965,"Today, the laboratory is well equipped for the practical sessions. It happens quite often.",positive,Laboratory,Communication Lab,2026-02-06
+CP0191,Wi-Fi is not working properly near ECE Block.,negative,Wi-Fi,ECE Block,2026-03-19
+CP0116,"For our block, most areas are clean, although some corners need more attention.",neutral,Cleanliness,C Block,2026-03-19
+CP0617,"Overall, internet speed in ECE Block is acceptable but varies during the day. Please look into it.",neutral,Wi-Fi,ECE Block,2026-03-17
+CP0607,The event started late and communication was unclear.,negative,Events,Auditorium,2026-02-01
+CP0181,There is a recurring maintenance issue in the block.,negative,Infrastructure,Main Block,2026-06-30
+CP0302,Wi-Fi is not working properly near Hostel B.,negative,Wi-Fi,Hostel B,2026-02-20
+CP0760,The event schedule was poorly coordinated.,negative,Events,Open Air Theatre,2026-05-01
+CP0713,The event was okay but the schedule could be improved.,neutral,Events,Main Ground,2026-06-09
+CP0724,"The course is manageable, although some topics need more examples.",neutral,Academics,Lecture Hall,2026-06-10
+CP0686,"Honestly, the library has a good collection of useful books.",positive,Library,Central Library,2026-04-25
+CP0980,the water supply in the hostel is irregular. Hope this can be improved.,negative,Hostel,Boys Hostel,2026-03-27
+CP0518,The Wi-Fi in ECE Block is fast and reliable today.,positive,Wi-Fi,ECE Block,2026-02-19
+CP0985,The classroom infrastructure is clean and comfortable.,positive,Infrastructure,Seminar Hall,2026-04-21
+CP0046,"Most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,ECE Block,2026-03-02
+CP0910,The lectures move too fast and some concepts are difficult to follow.,negative,Academics,Lecture Hall,2026-06-08
+CP0158,the room fan is not working properly. Hope this can be improved.,negative,Hostel,Hostel B,2026-02-13
+CP0852,"Today, hostel services are average at the moment. It happens quite often.",neutral,Hostel,Girls Hostel,2026-03-02
+CP0172,"Overall, the venue was overcrowded during the event.",negative,Events,Seminar Hall,2026-03-09
+CP0017,"In my experience, there are not enough buses during peak hours.",negative,Transport,Avinashi Route,2026-05-26
+CP0512,The teaching is okay but more practical sessions would help. It happens quite often.,neutral,Academics,CSE Department,2026-05-15
+CP0049,The bus route needs better scheduling.,negative,Transport,Gandhipuram Route,2026-05-23
+CP0972,some required books are unavailable in the library.,negative,Library,Reference Section,2026-02-04
+CP0941,The venue was overcrowded during the event.,negative,Events,Seminar Hall,2026-06-28
+CP0516,the bus route needs better scheduling.,negative,Transport,Avinashi Route,2026-02-27
+CP0953,Hostel maintenance complaints take too long to get resolved.,negative,Hostel,Boys Hostel,2026-02-24
+CP0481,"Honestly, the administrative process was clear and easy. Hope this can be improved.",positive,Administration,Accounts Office,2026-05-15
+CP0284,"Today, the emergency contact information is easy to find.",positive,Safety,C Block,2026-05-31
+CP0719,"Honestly, the water supply in the hostel is irregular.",negative,Hostel,Hostel C,2026-05-06
+CP0878,The event schedule was clear and the sessions were useful.,positive,Events,Seminar Hall,2026-04-05
+CP0226,The course workload is difficult to manage with other subjects.,negative,Academics,ECE Department,2026-01-25
+CP0027,"Today, the laboratory equipment needs regular maintenance. Hope this can be improved.",negative,Laboratory,Embedded Lab,2026-01-07
+CP0955,"For our block, the classroom furniture is damaged and uncomfortable.",negative,Infrastructure,Seminar Hall,2026-02-06
+CP0438,The hostel food quality has gone down recently.,negative,Food,Main Mess,2026-06-01
+CP0952,"As a student, the room fan is not working properly. Please look into it.",negative,Hostel,Hostel A,2026-06-30
+CP0365,The program was average and could use better coordination.,neutral,Events,Seminar Hall,2026-06-23
+CP0230,The internet keeps disconnecting in Library.,negative,Wi-Fi,Library,2026-03-07
+CP0038,"Overall, the laboratory equipment needs regular maintenance. This needs attention.",negative,Laboratory,ECE Lab,2026-06-09
+CP0966,The campus feels reasonably safe.,neutral,Safety,Parking Area,2026-05-14
+CP0375,Food quality is generally acceptable but inconsistent.,neutral,Food,Night Mess,2026-03-09
+CP0470,"As a student, the campus area was clean today. Hope this can be improved.",positive,Cleanliness,Main Gate,2026-02-21
+CP0968,"For our block, the staff were helpful when resolving my request.",positive,Administration,Academic Office,2026-02-21
+CP0851,"In my experience, the library closing time is too early for students. It happens quite often.",negative,Library,Central Library,2026-06-27
+CP0705,"Honestly, the laboratory equipment needs regular maintenance.",negative,Laboratory,Computer Lab,2026-01-11
+CP0842,There is a recurring maintenance issue in the block. Hope this can be improved.,negative,Infrastructure,Seminar Hall,2026-03-29
+CP0195,"Today, the new classroom facilities are a clear improvement.",positive,Infrastructure,C Block,2026-03-21
+CP0855,The water supply in the hostel is irregular. Please look into it.,negative,Hostel,Hostel B,2026-06-22
+CP0865,The event was well organized and informative.,positive,Events,Main Ground,2026-02-27
+CP0504,"As a student, the administrative process was clear and easy.",positive,Administration,Academic Office,2026-04-10
+CP0970,"In my experience, the campus feels safe and security staff are visible. Please look into it.",positive,Safety,Sports Ground,2026-05-11
+CP0831,the evening bus is overcrowded.,negative,Transport,Hostel Route,2026-01-25
+CP0580,Security is generally fine but some areas need better lighting.,neutral,Safety,Sports Ground,2026-06-12
+CP0969,"As a student, there are not enough buses during peak hours. It happens quite often.",negative,Transport,Hostel Route,2026-02-10
+CP0163,"Today, the campus area was clean today. This needs attention.",positive,Cleanliness,Canteen,2026-02-07
+CP0909,the course workload is difficult to manage with other subjects.,negative,Academics,Classroom,2026-02-19
+CP0153,There are not enough working components for every student.,negative,Laboratory,Communication Lab,2026-04-06
+CP0802,"In my experience, the library becomes noisy during peak hours.",negative,Library,Digital Library,2026-05-30
+CP0994,"Most areas are clean, although some corners need more attention.",neutral,Cleanliness,Hostel,2026-04-08
+CP0756,"The process is clear, although waiting time varies. Hope this can be improved.",neutral,Administration,Accounts Office,2026-01-10
+CP0112,The common areas are being maintained well.,positive,Hostel,Hostel C,2026-05-01
+CP0227,"Today, the pathway near Hostel Road is poorly lit at night.",negative,Safety,Hostel Road,2026-04-26
+CP0689,The building facilities are generally well maintained.,positive,Infrastructure,Main Block,2026-01-28
+CP0104,"Honestly, wi-Fi is not working properly near ECE Block.",negative,Wi-Fi,ECE Block,2026-06-19
+CP0422,The reading area is clean and well maintained. This needs attention.,positive,Library,Central Library,2026-03-26
+CP0420,The campus feels reasonably safe.,neutral,Safety,C Block,2026-04-12
+CP0751,"For our block, security arrangements around the block are good.",positive,Safety,Sports Ground,2026-02-09
+CP0587,The staff were helpful when resolving my request.,positive,Administration,Department Office,2026-03-06
+CP0781,Hostel services are average at the moment.,neutral,Hostel,Hostel A,2026-02-27
+CP0673,The event was okay but the schedule could be improved.,neutral,Events,Auditorium,2026-03-29
+CP0120,It is difficult to get a clear response from the office.,negative,Administration,Academic Office,2026-04-02
+CP0054,"Overall, hostel maintenance has improved recently.",positive,Hostel,Boys Hostel,2026-04-22
+CP0152,Several lights and fans need repair. It happens quite often.,negative,Infrastructure,Seminar Hall,2026-01-15
+CP0404,The emergency contact information is not easy to find.,negative,Safety,Back Gate,2026-06-15
+CP0946,The lectures move too fast and some concepts are difficult to follow. This needs attention.,negative,Academics,ECE Department,2026-04-17
+CP0208,"For our block, the college bus arrived on time today.",positive,Transport,Gandhipuram Route,2026-01-09
+CP0659,The common areas are being cleaned regularly.,positive,Cleanliness,C Block,2026-05-04
+CP0844,"Honestly, security presence is limited near Hostel Road after evening.",negative,Safety,Hostel Road,2026-05-14
+CP0763,"Overall, the event was okay but the schedule could be improved.",neutral,Events,Auditorium,2026-01-11
+CP0009,"Honestly, some required books are unavailable in the library.",negative,Library,Reference Section,2026-06-03
+CP0808,"As a student, the food was okay today. Hope this can be improved.",neutral,Food,Main Mess,2026-01-13
+CP0037,"As a student, the transport service was comfortable and punctual. Hope this can be improved.",positive,Transport,Hostel Route,2026-05-22
+CP0453,Internet connectivity in Hostel B has improved a lot.,positive,Wi-Fi,Hostel B,2026-02-08
+CP0652,"Most instruments work, although a few need maintenance.",neutral,Laboratory,Computer Lab,2026-06-05
+CP0254,"Honestly, the event started late and communication was unclear.",negative,Events,Auditorium,2026-04-22
+CP0304,Hostel maintenance has improved recently.,positive,Hostel,Hostel B,2026-06-01
+CP0747,"Overall, the washroom near ECE Block needs more frequent cleaning.",negative,Cleanliness,ECE Block,2026-03-05
+CP0572,Hostel facilities are okay but some areas need attention. It happens quite often.,neutral,Hostel,Boys Hostel,2026-06-18
+CP0624,"For our block, the college bus arrived on time today.",positive,Transport,Main Gate,2026-04-21
+CP0733,The library becomes noisy during peak hours.,negative,Library,Reference Section,2026-02-15
+CP0892,the corridor was not cleaned properly today.,negative,Cleanliness,ECE Block,2026-06-29
+CP0263,The food at the mess was tasty today.,positive,Food,Main Mess,2026-03-28
+CP0611,The lectures are clear and the faculty explain concepts well.,positive,Academics,Mechanical Block,2026-05-01
+CP0298,There is a safety concern near Hostel Road that needs attention.,negative,Safety,Hostel Road,2026-01-28
+CP0415,The hostel rooms are clean and comfortable. Please look into it.,positive,Hostel,Girls Hostel,2026-06-07
+CP0151,The lab sessions are useful and the instruments are accessible.,positive,Laboratory,ECE Lab,2026-06-29
+CP0789,The lectures are clear & the faculty explain concepts well.,positive,Academics,Lecture Hall,2026-03-22
+CP0641,"For our block, there are not enough buses during peak hours.",negative,Transport,Avinashi Route,2026-02-04
+CP0890,"For our block, the food at the mess was tasty today.",positive,Food,Hostel A,2026-06-24
+CP0551,"As a student, the bus timings are acceptable but could be more consistent.",neutral,Transport,Gandhipuram Route,2026-05-09
+CP0887,lunch quality was good and the menu had enough variety.,positive,Food,Hostel B,2026-04-20
+CP0489,"Overall, some required books are unavailable in the library.",negative,Library,Digital Library,2026-06-25
+CP0148,"As a student, internet connectivity in Library has improved a lot.",positive,Wi-Fi,Library,2026-03-07
+CP0147,The teaching pace is comfortable and interactive.,positive,Academics,CSE Department,2026-02-05
+CP0721,"Today, the library becomes noisy during peak hours.",negative,Library,Digital Library,2026-01-12
+CP0932,The library closing time is too early for students.,negative,Library,Reference Section,2026-01-28
+CP0740,"The reading space is fine, although seating is limited at peak times.",neutral,Library,Central Library,2026-05-31
+CP0660,Important topics are being covered too quickly.,negative,Academics,Lecture Hall,2026-02-12
+CP0349,"Overall, most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,C Block,2026-01-09
+CP0464,"For our block, the infrastructure is usable but some rooms need minor repairs. This needs attention.",neutral,Infrastructure,Main Block,2026-02-24
+CP0326,"Overall, food quality is generally acceptable but inconsistent.",neutral,Food,Main Mess,2026-06-04
+CP0187,The course workload is difficult to manage with other subjects.,negative,Academics,Classroom,2026-05-31
+CP0124,the course workload is difficult to manage with other subjects. It happens quite often.,negative,Academics,CSE Department,2026-05-13
+CP0854,The event schedule was clear and the sessions were useful.,positive,Events,Main Ground,2026-03-31
+CP0609,"The room is usable, although maintenance takes some time. Please look into it.",neutral,Hostel,Boys Hostel,2026-03-31
+CP0144,"In my experience, the course material is useful and easy to follow. It happens quite often.",positive,Academics,CSE Department,2026-01-11
+CP0959,"Most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,ECE Block,2026-04-26
+CP0198,My request has been pending for several days.,negative,Administration,Academic Office,2026-06-29
+CP0610,The library becomes noisy during peak hours.,negative,Library,Reading Hall,2026-02-07
+CP0280,"For our block, dustbins are overflowing near Canteen.",negative,Cleanliness,Canteen,2026-04-26
+CP0294,"Overall, the room is usable, although maintenance takes some time.",neutral,Hostel,Hostel C,2026-02-04
+CP0401,There is a safety concern near Hostel Road that needs attention.,negative,Safety,Hostel Road,2026-03-24
+CP0123,Important topics are being covered too quickly.,negative,Academics,Lecture Hall,2026-02-26
+CP0184,The library has a good collection of useful books.,positive,Library,Digital Library,2026-07-04
+CP0203,Several lights and fans need repair.,negative,Infrastructure,Seminar Hall,2026-01-10
+CP0439,"As a student, the course is manageable, although some topics need more examples.",neutral,Academics,Lecture Hall,2026-05-13
+CP0247,several lights and fans need repair.,negative,Infrastructure,Classroom C204,2026-02-10
+CP0416,"In my experience, the administrative process takes too long.",negative,Administration,Admission Office,2026-06-07
+CP0933,"In my experience, the washrooms are usable but cleaning frequency could improve. It happens quite often.",neutral,Cleanliness,Canteen,2026-01-24
+CP0766,"As a student, the library is quiet and comfortable for studying.",positive,Library,Central Library,2026-06-27
+CP0907,The campus area was clean today. Please look into it.,positive,Cleanliness,Canteen,2026-01-18
+CP0836,The recent campus event was engaging and well managed.,positive,Events,Open Air Theatre,2026-06-16
+CP0888,The food was too oily and not fresh. It happens quite often.,negative,Food,Hostel A,2026-02-20
+CP0130,There is a recurring maintenance issue in the block.,negative,Infrastructure,Classroom C204,2026-06-14
+CP0638,The office staff handled my request quickly.,positive,Administration,Academic Office,2026-03-26
+CP0403,The course workload is difficult to manage with other subjects.,negative,Academics,CSE Department,2026-02-18
+CP0785,The administrative process was clear and easy.,positive,Administration,Admission Office,2026-01-15
+CP0771,"Overall, more practical examples are needed in this subject.",negative,Academics,Lecture Hall,2026-06-22
+CP0736,The washrooms were clean and well maintained.,positive,Cleanliness,Hostel,2026-06-04
+CP0914,Food quality is generally acceptable but inconsistent. This needs attention.,neutral,Food,Main Mess,2026-01-30
+CP0220,"As a student, the lectures are clear and the faculty explain concepts well. This needs attention.",positive,Academics,Mechanical Block,2026-05-10
+CP0642,Hostel facilities are okay but some areas need attention.,neutral,Hostel,Girls Hostel,2026-02-25
+CP0916,The office staff handled my request quickly.,positive,Administration,Academic Office,2026-05-29
+CP0753,The program was average & could use better coordination.,neutral,Events,Open Air Theatre,2026-07-01
+CP0807,The venue was overcrowded during the event.,negative,Events,Open Air Theatre,2026-03-21
+CP0920,"Overall, the mess food was disappointing today.",negative,Food,Hostel C,2026-05-20
+CP0625,"Overall, hostel facilities are okay but some areas need attention.",neutral,Hostel,Hostel B,2026-05-08
+CP0875,Hostel services are average at the moment.,neutral,Hostel,Hostel C,2026-05-26
+CP0761,"Today, network connectivity in C Block becomes unusable after evening. This needs attention.",negative,Wi-Fi,C Block,2026-03-03
+CP0387,"In my experience, the campus area was clean today.",positive,Cleanliness,Main Gate,2026-03-30
+CP0973,"For our block, the projector in the lab is not working.",negative,Laboratory,Computer Lab,2026-05-16
+CP0510,The process requires too many repeated visits.,negative,Administration,Accounts Office,2026-07-02
+CP0268,"As a student, the pathway near C Block is poorly lit at night. It happens quite often.",negative,Safety,C Block,2026-02-07
+CP0820,"In my experience, internet connectivity in Hostel B has improved a lot. Please look into it.",positive,Wi-Fi,Hostel B,2026-04-12
+CP0442,"As a student, the lab equipment was working properly today.",positive,Laboratory,Computer Lab,2026-02-07
+CP0497,The washrooms were clean and well maintained. Hope this can be improved.,positive,Cleanliness,ECE Block,2026-05-13
+CP0113,The washroom near C Block needs more frequent cleaning.,negative,Cleanliness,C Block,2026-04-30
+CP0692,The emergency contact information is easy to find. Hope this can be improved.,positive,Safety,Back Gate,2026-06-22
+CP0233,"In my experience, most instruments work, although a few need maintenance.",neutral,Laboratory,Computer Lab,2026-01-23
+CP0870,"For our block, hostel maintenance complaints take too long to get resolved.",negative,Hostel,Hostel B,2026-02-15
+CP0608,"Honestly, hostel maintenance has improved recently.",positive,Hostel,Hostel B,2026-05-23
+CP0672,the campus feels safe and security staff are visible.,positive,Safety,C Block,2026-03-31
+CP0374,The common area is often left dirty after lunch.,negative,Cleanliness,Main Gate,2026-02-06
+CP0982,"In my experience, transport is available, although the evening route is sometimes delayed.",neutral,Transport,Main Gate,2026-06-19
+CP0843,"In my experience, the campus feels reasonably safe.",neutral,Safety,Sports Ground,2026-05-06
+CP0234,The mess food was fresh & well prepared. It happens quite often.,positive,Food,Main Mess,2026-03-24
+CP0786,The infrastructure is usable but some rooms need minor repairs.,neutral,Infrastructure,Main Block,2026-01-11
+CP0677,"Today, the college bus arrived on time today.",positive,Transport,Gandhipuram Route,2026-05-27
+CP0318,Dustbins are overflowing near Main Gate.,negative,Cleanliness,Main Gate,2026-01-18
+CP0649,"Overall, important topics are being covered too quickly.",negative,Academics,CSE Department,2026-06-22
+CP0411,The administrative process was clear and easy.,positive,Administration,Department Office,2026-05-17
+CP0899,the library has a good collection of useful books.,positive,Library,Reference Section,2026-04-07
+CP0710,"Overall, the evening bus is overcrowded.",negative,Transport,Evening Shuttle,2026-02-03
+CP0359,Security arrangements around the block are good. Please look into it.,positive,Safety,Back Gate,2026-06-27
+CP0259,The mess food was disappointing today.,negative,Food,Hostel C,2026-04-23
+CP0745,The lectures move too fast and some concepts are difficult to follow.,negative,Academics,CSE Department,2026-02-10
+CP0628,The network worked smoothly throughout the day in Library.,positive,Wi-Fi,Library,2026-02-16
+CP0633,"As a student, the lectures are clear & the faculty explain concepts well.",positive,Academics,CSE Department,2026-02-01
+CP0283,The lab sessions are useful and the instruments are accessible.,positive,Laboratory,Electronics Lab,2026-06-01
+CP0377,"In my experience, the corridor was not cleaned properly today.",negative,Cleanliness,Main Gate,2026-06-20
+CP0385,The common areas are being cleaned regularly. It happens quite often.,positive,Cleanliness,Canteen,2026-03-28
+CP0225,The event schedule was poorly coordinated.,negative,Events,Open Air Theatre,2026-04-05
+CP0954,"As a student, the food was too oily and not fresh.",negative,Food,Night Mess,2026-02-12
+CP0815,"For our block, the staff were helpful when resolving my request.",positive,Administration,Academic Office,2026-03-31
+CP0473,"In my experience, the Wi-Fi in Hostel C is fast and reliable today.",positive,Wi-Fi,Hostel C,2026-06-05
+CP0348,The college bus is often late after 5 PM.,negative,Transport,Hostel Route,2026-04-24
+CP0506,"Today, the college bus is often late after 5 PM.",negative,Transport,Hostel Route,2026-03-09
+CP0640,Food quality is generally acceptable but inconsistent.,neutral,Food,Main Mess,2026-04-24
+CP0988,"As a student, the event was okay but the schedule could be improved.",neutral,Events,Open Air Theatre,2026-01-18
+CP0929,Wi-Fi in Library is very slow.,negative,Wi-Fi,Library,2026-03-08
+CP0906,The bus route needs better scheduling.,negative,Transport,Main Gate,2026-03-14
+CP0620,"For our block, the lab sessions are useful and the instruments are accessible.",positive,Laboratory,Computer Lab,2026-02-15
+CP0856,"For our block, the room fan is not working properly.",negative,Hostel,Girls Hostel,2026-03-18
+CP0804,The classroom facilities are acceptable.,neutral,Infrastructure,Classroom C204,2026-02-16
+CP0646,"In my experience, some required books are unavailable in the library.",negative,Library,Reading Hall,2026-05-04
+CP0847,The room fan is not working properly. Hope this can be improved.,negative,Hostel,Hostel C,2026-06-24
+CP0557,The lectures move too fast and some concepts are difficult to follow.,negative,Academics,Mechanical Block,2026-03-21
+CP0958,"Overall, there is a recurring maintenance issue in the block.",negative,Infrastructure,Seminar Hall,2026-02-19
+CP0578,the lab is usable but additional components would help. This needs attention.,neutral,Laboratory,Computer Lab,2026-06-18
+CP0796,"For our block, the food at the mess was tasty today.",positive,Food,Night Mess,2026-03-18
+CP0086,Several lights and fans need repair. It happens quite often.,negative,Infrastructure,ECE Block,2026-04-12
+CP0243,"Overall, there is not enough variety in the hostel menu. Please look into it.",negative,Food,Main Mess,2026-06-07
+CP0699,"Today, the washroom near Main Gate needs more frequent cleaning. It happens quite often.",negative,Cleanliness,Main Gate,2026-03-22
+CP0160,Lunch quality was good and the menu had enough variety.,positive,Food,Hostel B,2026-06-10
+CP0525,The course material is useful and easy to follow. Hope this can be improved.,positive,Academics,Lecture Hall,2026-01-12
+CP0036,The course material is useful and easy to follow.,positive,Academics,ECE Department,2026-03-24
+CP0541,"Today, the infrastructure is usable but some rooms need minor repairs.",neutral,Infrastructure,C Block,2026-02-06
+CP0171,"Today, the reading area is clean and well maintained.",positive,Library,Central Library,2026-03-27
+CP0655,The venue was overcrowded during the event.,negative,Events,Seminar Hall,2026-04-26
+CP0891,The teaching pace is comfortable and interactive.,positive,Academics,Classroom,2026-04-17
+CP0858,"Today, several lights and fans need repair. Please look into it.",negative,Infrastructure,Classroom C204,2026-06-20
+CP0848,The hostel room has a maintenance issue that has not been fixed.,negative,Hostel,Boys Hostel,2026-01-21
+CP0945,"As a student, the library facilities are adequate.",neutral,Library,Digital Library,2026-04-30
+CP0734,Hostel services are average at the moment.,neutral,Hostel,Boys Hostel,2026-05-01
+CP0096,It is difficult to get a clear response from the office.,negative,Administration,Admission Office,2026-06-22
+CP0564,"In my experience, the library becomes noisy during peak hours.",negative,Library,Reference Section,2026-05-20
+CP0241,"Overall, security is generally fine but some areas need better lighting.",neutral,Safety,Sports Ground,2026-06-05
+CP0743,"In my experience, the building facilities are generally well maintained.",positive,Infrastructure,Classroom C204,2026-05-20
+CP0575,"Today, most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,C Block,2026-04-06
+CP0691,The common area is often left dirty after lunch. It happens quite often.,negative,Cleanliness,Canteen,2026-06-28
+CP0461,"As a student, internet speed in Hostel B is acceptable but varies during the day.",neutral,Wi-Fi,Hostel B,2026-01-25
+CP0554,The recent campus event was engaging and well managed.,positive,Events,Seminar Hall,2026-02-02
+CP0889,The common area is often left dirty after lunch.,negative,Cleanliness,C Block,2026-02-24
+CP0207,The library is useful but some books are difficult to find.,neutral,Library,Digital Library,2026-04-12
+CP0393,the Wi-Fi in Hostel B works most of the time. Hope this can be improved.,neutral,Wi-Fi,Hostel B,2026-03-12
+CP0795,The library is quiet and comfortable for studying.,positive,Library,Reference Section,2026-03-23
+CP0398,The corridor was not cleaned properly today.,negative,Cleanliness,Hostel,2026-05-16
+CP0767,"In my experience, internet speed in Hostel B is acceptable but varies during the day.",neutral,Wi-Fi,Hostel B,2026-01-07
+CP0849,Security arrangements are adequate during the day.,neutral,Safety,C Block,2026-02-03
+CP0218,The course material is useful and easy to follow.,positive,Academics,Lecture Hall,2026-02-26
+CP0005,The office staff handled my request quickly.,positive,Administration,Academic Office,2026-04-12
+CP0769,The office staff handled my request quickly. Please look into it.,positive,Administration,Academic Office,2026-04-05
+CP0643,"Today, the administrative process takes too long.",negative,Administration,Department Office,2026-03-15
+CP0930,The food at the mess was tasty today.,positive,Food,Main Mess,2026-05-05
+CP0613,"Overall, the mess food was fresh and well prepared.",positive,Food,Hostel C,2026-04-03
+CP0739,"For our block, the common area is often left dirty after lunch.",negative,Cleanliness,ECE Block,2026-03-05
+CP0547,"In my experience, security arrangements around the block are good.",positive,Safety,Sports Ground,2026-06-27
+CP0726,"Overall, there are not enough seats in the library during exam time.",negative,Library,Reading Hall,2026-05-23
+CP0684,"In my experience, the administrative process takes too long.",negative,Administration,Academic Office,2026-05-28
+CP0099,The lectures move too fast and some concepts are difficult to follow. Please look into it.,negative,Academics,Mechanical Block,2026-05-27
+CP0805,"For our block, the course material is useful and easy to follow.",positive,Academics,ECE Department,2026-02-23
+CP0728,"In my experience, the teaching pace is comfortable and interactive.",positive,Academics,Mechanical Block,2026-02-05
+CP0574,"For our block, security presence is limited near Hostel Road after evening.",negative,Safety,Hostel Road,2026-05-10
+CP0407,"As a student, the reading space is fine, although seating is limited at peak times.",neutral,Library,Central Library,2026-02-14
+CP0503,the event was well organized and informative.,positive,Events,Open Air Theatre,2026-03-05
+CP0048,The common area is often left dirty after lunch.,negative,Cleanliness,ECE Block,2026-03-12
+CP0033,The common areas are being cleaned regularly.,positive,Cleanliness,Hostel,2026-01-15
+CP0780,The library becomes noisy during peak hours.,negative,Library,Reading Hall,2026-03-21
+CP0840,The projector in the lab is not working.,negative,Laboratory,Computer Lab,2026-04-17
+CP0201,Security presence is limited near Hostel Road after evening.,negative,Safety,Hostel Road,2026-05-14
+CP0135,"The reading space is fine, although seating is limited at peak times.",neutral,Library,Reading Hall,2026-06-27
+CP0028,"Honestly, the classroom projector is not working properly.",negative,Infrastructure,Classroom C204,2026-03-08
+CP0881,The common area is often left dirty after lunch.,negative,Cleanliness,C Block,2026-06-27
+CP0231,"For our block, my request has been pending for several days.",negative,Administration,Department Office,2026-04-26
+CP0490,"In my experience, the library is useful but some books are difficult to find.",neutral,Library,Reading Hall,2026-04-28
+CP0773,Food quality is generally acceptable but inconsistent.,neutral,Food,Main Mess,2026-03-31
+CP0379,The venue was overcrowded during the event.,negative,Events,Seminar Hall,2026-03-14
+CP0289,"Today, the college bus is often late after 5 PM. This needs attention.",negative,Transport,Evening Shuttle,2026-03-31
+CP0419,The administrative process takes too long. This needs attention.,negative,Administration,Academic Office,2026-06-27
+CP0675,The office staff handled my request quickly.,positive,Administration,Accounts Office,2026-06-29
+CP0392,the emergency contact information is easy to find. It happens quite often.,positive,Safety,Parking Area,2026-02-13
+CP0593,The food was okay today. This needs attention.,neutral,Food,Main Mess,2026-02-23
+CP0499,The library becomes noisy during peak hours.,negative,Library,Central Library,2026-05-31
+CP0139,"As a student, the evening bus is overcrowded. This needs attention.",negative,Transport,Hostel Route,2026-04-01
+CP0063,"In my experience, the bus timings are acceptable but could be more consistent.",neutral,Transport,Gandhipuram Route,2026-01-26
+CP0472,"Overall, the washrooms were clean and well maintained. This needs attention.",positive,Cleanliness,Hostel,2026-02-19
+CP0648,The library becomes noisy during peak hours.,negative,Library,Central Library,2026-06-22
+CP0129,"Honestly, the college bus arrived on time today.",positive,Transport,Gandhipuram Route,2026-05-11
+CP0977,The teaching pace is comfortable and interactive.,positive,Academics,CSE Department,2026-06-13
+CP0521,The hostel food quality has gone down recently.,negative,Food,Night Mess,2026-06-09
+CP0839,The course workload is difficult to manage with other subjects.,negative,Academics,Classroom,2026-03-07
+CP0963,The pathway near C Block is poorly lit at night.,negative,Safety,C Block,2026-03-24
+CP0065,The library closing time is too early for students.,negative,Library,Reading Hall,2026-07-03
+CP0813,"Honestly, the library is quiet and comfortable for studying. Hope this can be improved.",positive,Library,Digital Library,2026-03-17
+CP0015,The evening bus is overcrowded.,negative,Transport,Main Gate,2026-06-22
+CP0157,The building facilities are generally well maintained.,positive,Infrastructure,Main Block,2026-06-27
+CP0041,Important topics are being covered too quickly.,negative,Academics,Mechanical Block,2026-02-18
+CP0493,The washrooms are usable but cleaning frequency could improve. This needs attention.,neutral,Cleanliness,Canteen,2026-01-20
+CP0380,The water supply in the hostel is irregular.,negative,Hostel,Hostel C,2026-04-30
+CP0188,The campus feels reasonably safe.,neutral,Safety,C Block,2026-04-03
+CP0764,"Today, my request has been pending for several days. Hope this can be improved.",negative,Administration,Admission Office,2026-03-06
+CP0217,The bus route needs better scheduling.,negative,Transport,Hostel Route,2026-04-06
+CP0792,"Today, there are not enough working components for every student.",negative,Laboratory,Computer Lab,2026-01-07
+CP0053,The classroom projector is not working properly.,negative,Infrastructure,Classroom C204,2026-05-03
+CP0879,The infrastructure is usable but some rooms need minor repairs.,neutral,Infrastructure,Main Block,2026-01-27
+CP0338,"Overall, the library closing time is too early for students.",negative,Library,Reference Section,2026-05-15
+CP0749,The campus feels reasonably safe. Please look into it.,neutral,Safety,Parking Area,2026-04-30
+CP0720,"For our block, the lab equipment was working properly today.",positive,Laboratory,Embedded Lab,2026-05-20
+CP0725,The water supply in the hostel is irregular.,negative,Hostel,Boys Hostel,2026-06-20
+CP0296,The washrooms were clean and well maintained. It happens quite often.,positive,Cleanliness,Hostel,2026-01-29
+CP0702,"In my experience, the reading area is clean and well maintained.",positive,Library,Reference Section,2026-04-02
+CP0252,The event schedule was poorly coordinated.,negative,Events,Auditorium,2026-06-25
+CP0727,"Overall, the teaching pace is comfortable and interactive.",positive,Academics,Lecture Hall,2026-06-05
+CP0462,The hostel rooms are clean and comfortable. Hope this can be improved.,positive,Hostel,Boys Hostel,2026-03-09
+CP0456,The teaching is okay but more practical sessions would help.,neutral,Academics,ECE Department,2026-03-20
+CP0997,"Honestly, the lab equipment was working properly today. This needs attention.",positive,Laboratory,Communication Lab,2026-04-09
+CP0816,the room fan is not working properly.,negative,Hostel,Hostel C,2026-03-05
+CP0863,The common areas are being cleaned regularly.,positive,Cleanliness,Main Gate,2026-04-13
+CP0270,Important topics are being covered too quickly.,negative,Academics,CSE Department,2026-05-17
+CP0202,"In my experience, the college bus is often late after 5 PM.",negative,Transport,Hostel Route,2026-05-15
+CP0162,The laboratory equipment needs regular maintenance.,negative,Laboratory,ECE Lab,2026-04-07
+CP0556,"For our block, the food was okay today.",neutral,Food,Night Mess,2026-06-02
+CP0730,"For our block, there was not enough information about the event timings.",negative,Events,Open Air Theatre,2026-05-18
+CP0402,There was not enough information about the event timings. Hope this can be improved.,negative,Events,Seminar Hall,2026-04-26
+CP0703,The common areas are being maintained well.,positive,Hostel,Hostel A,2026-01-08
+CP0477,The corridor was not cleaned properly today.,negative,Cleanliness,Main Gate,2026-06-26
+CP0822,The common areas are being maintained well.,positive,Hostel,Girls Hostel,2026-03-25
+CP0772,The emergency contact information is easy to find.,positive,Safety,Parking Area,2026-02-25
+CP0106,"Honestly, my request has been pending for several days.",negative,Administration,Academic Office,2026-06-04
+CP0566,Lunch quality was good and the menu had enough variety.,positive,Food,Night Mess,2026-05-18
+CP0390,The lectures are understandable but the pace varies.,neutral,Academics,Mechanical Block,2026-01-16
+CP0002,The corridor was not cleaned properly today.,negative,Cleanliness,Main Gate,2026-01-06
+CP0938,"Honestly, the bus route worked smoothly today.",positive,Transport,Avinashi Route,2026-05-13
+CP0983,The library closing time is too early for students.,negative,Library,Reference Section,2026-04-22
+CP0562,"Today, there is a recurring maintenance issue in the block.",negative,Infrastructure,Seminar Hall,2026-01-18
+CP0081,"For our block, the transport service was comfortable and punctual.",positive,Transport,Hostel Route,2026-02-14
+CP0206,"For our block, there is a recurring maintenance issue in the block.",negative,Infrastructure,Seminar Hall,2026-05-22
+CP0035,"For our block, the room fan is not working properly.",negative,Hostel,Hostel B,2026-03-09
+CP0776,"Overall, hostel maintenance complaints take too long to get resolved.",negative,Hostel,Hostel A,2026-04-07
+CP0509,"Today, cleanliness is generally okay but varies by location.",neutral,Cleanliness,C Block,2026-03-21
+CP0428,The event started late and communication was unclear.,negative,Events,Auditorium,2026-03-19
+CP0455,"Today, the infrastructure is usable but some rooms need minor repairs. Hope this can be improved.",neutral,Infrastructure,C Block,2026-04-03
+CP0367,The lab equipment was working properly today.,positive,Laboratory,Electronics Lab,2026-04-28
+CP0092,The common areas are being maintained well.,positive,Hostel,Hostel A,2026-05-03
+CP0340,"As a student, more practical examples are needed in this subject.",negative,Academics,Mechanical Block,2026-06-23
+CP0898,the event was okay but the schedule could be improved. Hope this can be improved.,neutral,Events,Seminar Hall,2026-01-30
+CP0565,There is a safety concern near Hostel Road that needs attention.,negative,Safety,Hostel Road,2026-03-14
+CP0346,"As a student, the mess food was disappointing today.",negative,Food,Main Mess,2026-05-30
+CP0777,"Honestly, the internet keeps disconnecting in ECE Block.",negative,Wi-Fi,ECE Block,2026-02-19
+CP0242,The campus area was clean today.,positive,Cleanliness,Main Gate,2026-07-01
+CP0014,Dustbins are overflowing near Main Gate. Hope this can be improved.,negative,Cleanliness,Main Gate,2026-01-19
+CP0316,The lab equipment was working properly today.,positive,Laboratory,Computer Lab,2026-06-11
+CP0601,The program was average and could use better coordination.,neutral,Events,Seminar Hall,2026-03-31
+CP0388,The lab sessions are useful and the instruments are accessible.,positive,Laboratory,Communication Lab,2026-04-03
+CP0274,The hostel food quality has gone down recently.,negative,Food,Hostel B,2026-03-16
+CP0167,The laboratory equipment needs regular maintenance.,negative,Laboratory,Embedded Lab,2026-05-26
+CP0841,The event schedule was poorly coordinated.,negative,Events,Open Air Theatre,2026-04-09
+CP0993,"For our block, the food at the mess was tasty today. It happens quite often.",positive,Food,Main Mess,2026-06-05
+CP0647,The transport service was comfortable & punctual.,positive,Transport,Avinashi Route,2026-01-13
+CP0819,"As a student, there was not enough information about the event timings.",negative,Events,Open Air Theatre,2026-03-19
+CP0485,Some required books are unavailable in the library.,negative,Library,Central Library,2026-01-18
+CP0981,The event was well organized and informative.,positive,Events,Seminar Hall,2026-06-08
+CP0505,"Honestly, the room fan is not working properly. It happens quite often.",negative,Hostel,Boys Hostel,2026-04-20
+CP0832,The corridor was not cleaned properly today. Hope this can be improved.,negative,Cleanliness,ECE Block,2026-06-04
+CP0244,There is a recurring maintenance issue in the block.,negative,Infrastructure,Classroom C204,2026-06-17
+CP0567,The laboratory equipment needs regular maintenance.,negative,Laboratory,Embedded Lab,2026-01-31
+CP0876,"As a student, more practical examples are needed in this subject.",negative,Academics,ECE Department,2026-05-21
+CP0563,"Today, the campus feels safe and security staff are visible.",positive,Safety,Hostel Road,2026-03-05
+CP0687,The course workload is difficult to manage with other subjects.,negative,Academics,Mechanical Block,2026-02-12
+CP0190,The college bus arrived on time today. It happens quite often.,positive,Transport,Evening Shuttle,2026-02-09
+CP0783,"For our block, the washrooms are usable but cleaning frequency could improve.",neutral,Cleanliness,Hostel,2026-06-17
+CP0700,"transport is available, although the evening route is sometimes delayed.",neutral,Transport,Gandhipuram Route,2026-05-03
+CP0476,"Honestly, the washrooms were clean and well maintained.",positive,Cleanliness,C Block,2026-02-23
+CP0682,The pathway near Hostel Road is poorly lit at night.,negative,Safety,Hostel Road,2026-04-13
+CP0511,The washrooms were clean and well maintained. This needs attention.,positive,Cleanliness,ECE Block,2026-01-28
+CP0059,My request has been pending for several days.,negative,Administration,Academic Office,2026-05-10
+CP0475,The emergency contact information is easy to find.,positive,Safety,Sports Ground,2026-03-14
+CP0561,"In my experience, important topics are being covered too quickly.",negative,Academics,CSE Department,2026-02-13
+CP0857,"Overall, important topics are being covered too quickly.",negative,Academics,CSE Department,2026-03-23
+CP0748,"As a student, the network worked smoothly throughout the day in Library.",positive,Wi-Fi,Library,2026-01-26
+CP0253,"Today, most facilities are fine, although maintenance is needed in a few areas.",neutral,Infrastructure,Main Block,2026-06-26
+CP0022,"In my experience, the classroom projector is not working properly.",negative,Infrastructure,Classroom C204,2026-02-16
+CP0314,The library is useful but some books are difficult to find.,neutral,Library,Reference Section,2026-05-07
+CP0460,the lab sessions are useful and the instruments are accessible. Please look into it.,positive,Laboratory,ECE Lab,2026-02-12
+CP0161,"As a student, more practical examples are needed in this subject. Please look into it.",negative,Academics,Classroom,2026-06-28
+CP0277,The food at the mess was tasty today.,positive,Food,Night Mess,2026-05-30
+CP0956,"For our block, security is generally fine but some areas need better lighting.",neutral,Safety,Sports Ground,2026-04-11
+CP0192,The lab equipment was working properly today.,positive,Laboratory,ECE Lab,2026-02-19
+CP0386,The administrative process was clear and easy.,positive,Administration,Admission Office,2026-02-21
+CP0806,The library is quiet and comfortable for studying. It happens quite often.,positive,Library,Reading Hall,2026-03-08
+CP0414,Several lights and fans need repair.,negative,Infrastructure,Seminar Hall,2026-06-05
+CP0492,The course material is useful and easy to follow. Please look into it.,positive,Academics,ECE Department,2026-03-12
+CP0344,"As a student, the laboratory equipment needs regular maintenance.",negative,Laboratory,Embedded Lab,2026-03-21
+CP0770,"As a student, the library is useful but some books are difficult to find. Please look into it.",neutral,Library,Reference Section,2026-04-06
+CP0309,"Overall, the event schedule was poorly coordinated. Please look into it.",negative,Events,Main Ground,2026-05-09
+CP0662,the campus feels safe and security staff are visible.,positive,Safety,Sports Ground,2026-05-28
+CP0131,"Overall, the laboratory is well equipped for the practical sessions.",positive,Laboratory,ECE Lab,2026-05-03
+CP0664,Internet connectivity in C Block has improved a lot.,positive,Wi-Fi,C Block,2026-06-22
+CP0872,"Honestly, the college bus is often late after 5 PM.",negative,Transport,Evening Shuttle,2026-03-09
+CP0100,the lab equipment was working properly today.,positive,Laboratory,Computer Lab,2026-06-17
+CP0373,The library has a good collection of useful books.,positive,Library,Central Library,2026-01-17
+CP0088,"For our block, the corridor was not cleaned properly today.",negative,Cleanliness,C Block,2026-06-20
+CP0459,the lectures are understandable but the pace varies.,neutral,Academics,ECE Department,2026-02-22
+CP0331,The event was useful although some sessions started late.,neutral,Events,Seminar Hall,2026-05-09
+CP0215,"For our block, the lab equipment was working properly today.",positive,Laboratory,Embedded Lab,2026-06-25
+CP0467,"In my experience, the emergency contact information is easy to find.",positive,Safety,Back Gate,2026-06-19
+CP0122,"The course is manageable, although some topics need more examples.",neutral,Academics,Classroom,2026-02-02
+CP0615,"For our block, the lab sessions are useful and the instruments are accessible. Hope this can be improved.",positive,Laboratory,Communication Lab,2026-06-24
+CP0021,"In my experience, the event was okay but the schedule could be improved.",neutral,Events,Auditorium,2026-01-24
+CP0701,there is a safety concern near Back Gate that needs attention.,negative,Safety,Back Gate,2026-02-20
+CP0072,"Honestly, the evening bus is overcrowded.",negative,Transport,Gandhipuram Route,2026-05-05
+CP0107,There are not enough buses during peak hours.,negative,Transport,Hostel Route,2026-02-07
+CP0271,security arrangements are adequate during the day.,neutral,Safety,Hostel Road,2026-04-13
+CP0861,"Today, the event was okay but the schedule could be improved.",neutral,Events,Auditorium,2026-07-01
+CP0436,"Honestly, the mess menu is average and could have more variety.",neutral,Food,Hostel B,2026-02-22
+CP0103,"The reading space is fine, although seating is limited at peak times. It happens quite often.",neutral,Library,Reference Section,2026-03-17

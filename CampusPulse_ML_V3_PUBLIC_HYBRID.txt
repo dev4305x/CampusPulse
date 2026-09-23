@@ -1,0 +1,35 @@
+CampusPulse ML V3 — Public + Synthetic Hybrid
+===============================================
+
+Training data:
+- 976 CampusPulse synthetic development records
+- 579 training records from the uploaded public Student Feedback dataset
+- 145 PUBLIC records held out completely for final evaluation
+
+Public dataset:
+- 724 rows
+- columns: text, category, sentiment_score, sentiment
+- source file: student_feedback_sentiment.csv
+
+Category mapping:
+teaching -> Academics
+course_content -> Academics
+examination -> Academics
+library_facilities -> Library
+labwork -> Laboratory
+extracurricular -> Events
+
+Held-out public results:
+Sentiment accuracy: 82.76%
+Sentiment weighted F1: 82.03%
+Category accuracy: 68.28%
+Category weighted F1: 64.50%
+
+Interpretation:
+These are measurements on the held-out portion of this particular public dataset,
+after category mapping. They are not guarantees of real-world campus performance.
+Category performance is substantially weaker than sentiment and should be improved
+with more diverse labeled data, especially for the campus categories not represented
+in the public dataset.
+
+The live CampusPulse pipeline now uses the V3 models.

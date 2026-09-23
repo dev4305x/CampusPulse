@@ -1,0 +1,15 @@
+{
+  "evaluation_dataset": "Held-out 20% of uploaded public Student Feedback Dataset",
+  "test_size": 145,
+  "v4": {
+    "accuracy": 0.8827586206896552,
+    "weighted_f1": 0.8832507821450424
+  },
+  "v5_edurabsa_augmented_candidate": {
+    "accuracy": 0.6551724137931034,
+    "weighted_f1": 0.6710702151170596
+  },
+  "selected_for_live_pipeline": "category_model_v4.pkl",
+  "reason": "The EduRABSA-augmented single-label category candidate performed below V4 on the same held-out public test. EduRABSA is retained as an auxiliary fine-grained aspect model rather than forcing a regression in CampusPulse category performance.",
+  "training_composition": "976 synthetic + 579 public training + 3150 EduRABSA training rows"
+}

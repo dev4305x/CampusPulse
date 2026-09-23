@@ -1,0 +1,42 @@
+# CampusPulse ML V5 — EduRABSA Aspect Integration
+
+## What was added
+- 4,000-row EduRABSA ACD training dataset.
+- Fine-grained multi-label aspect model trained on EduRABSA ACD.
+- The model detects 22 EduRABSA aspect categories.
+- CampusPulse's existing V4 sentiment and main category models remain the live models.
+
+## Why the main category model was not replaced
+A candidate category model trained with:
+- 976 synthetic CampusPulse records
+- 579 public Student Feedback training records
+- 3,150 EduRABSA training records
+
+was evaluated on the same held-out 145-record public Student Feedback test set and performed below the existing V4 category model. Therefore V4 remains the live category model instead of claiming an improvement that the evaluation does not support.
+
+## EduRABSA aspect model
+Training: 3,200 rows; held-out evaluation: 800 rows.
+Hybrid word + character TF-IDF with One-vs-Rest Logistic Regression.
+Metrics:
+- micro F1: 0.6596
+- macro F1: 0.5418
+- exact-match accuracy: 0.1050
+- top-1 gold-aspect hit rate: 0.8288
+
+These metrics are on the EduRABSA held-out split and are not CampusPulse real-world performance claims.
+
+## Important data distinction
+- EduRABSA: public dataset, used for auxiliary aspect-category learning.
+- Student Feedback Dataset: public dataset.
+- CampusPulse synthetic datasets: synthetic/illustrative.
+- Live student feedback in the SQLite database: user-entered data.
+
+## Current pipeline
+The dashboard now displays:
+1. sentiment
+2. CampusPulse category
+3. fine-grained EduRABSA aspects
+4. similar negative complaints
+5. confidence values
+
+The fine-grained aspect model is auxiliary and does not override the main CampusPulse category.

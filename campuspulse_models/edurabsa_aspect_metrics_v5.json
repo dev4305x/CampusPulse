@@ -1,0 +1,193 @@
+{
+  "dataset_rows": 4000,
+  "train_rows": 3200,
+  "test_rows": 800,
+  "labels": [
+    "Course - Assessment",
+    "Course - Content",
+    "Course - Course materials",
+    "Course - Difficulty",
+    "Course - Learning activity",
+    "Course - Overall",
+    "Course - Technology & tools",
+    "Course - Workload",
+    "Staff - Attitude",
+    "Staff - Helpfulness",
+    "Staff - Knowledge & skills",
+    "Staff - Overall",
+    "Staff - Personal traits",
+    "Staff - Teaching",
+    "University - Campus & facilities",
+    "University - Cost",
+    "University - Culture & diversity",
+    "University - Information & services",
+    "University - Opportunities",
+    "University - Overall",
+    "University - Programme",
+    "University - Social engagement & activities"
+  ],
+  "threshold": 0.35,
+  "micro_f1": 0.6596107886650734,
+  "macro_f1": 0.5417602008603276,
+  "exact_match_accuracy": 0.105,
+  "top1_label_hit_rate": 0.82875,
+  "classification_report": {
+    "Course - Assessment": {
+      "precision": 0.5813953488372093,
+      "recall": 0.9259259259259259,
+      "f1-score": 0.7142857142857143,
+      "support": 189.0
+    },
+    "Course - Content": {
+      "precision": 0.49517684887459806,
+      "recall": 0.8700564971751412,
+      "f1-score": 0.6311475409836066,
+      "support": 177.0
+    },
+    "Course - Course materials": {
+      "precision": 0.35526315789473684,
+      "recall": 0.7397260273972602,
+      "f1-score": 0.48,
+      "support": 73.0
+    },
+    "Course - Difficulty": {
+      "precision": 0.512396694214876,
+      "recall": 0.8732394366197183,
+      "f1-score": 0.6458333333333334,
+      "support": 213.0
+    },
+    "Course - Learning activity": {
+      "precision": 0.3852140077821012,
+      "recall": 0.7674418604651163,
+      "f1-score": 0.5129533678756477,
+      "support": 129.0
+    },
+    "Course - Overall": {
+      "precision": 0.609704641350211,
+      "recall": 0.9233226837060703,
+      "f1-score": 0.7344345616264295,
+      "support": 313.0
+    },
+    "Course - Technology & tools": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 9.0
+    },
+    "Course - Workload": {
+      "precision": 0.1875,
+      "recall": 0.5581395348837209,
+      "f1-score": 0.2807017543859649,
+      "support": 43.0
+    },
+    "Staff - Attitude": {
+      "precision": 0.5147058823529411,
+      "recall": 0.875,
+      "f1-score": 0.6481481481481481,
+      "support": 160.0
+    },
+    "Staff - Helpfulness": {
+      "precision": 0.5277777777777778,
+      "recall": 0.8941176470588236,
+      "f1-score": 0.6637554585152838,
+      "support": 85.0
+    },
+    "Staff - Knowledge & skills": {
+      "precision": 0.47692307692307695,
+      "recall": 0.7380952380952381,
+      "f1-score": 0.5794392523364486,
+      "support": 42.0
+    },
+    "Staff - Overall": {
+      "precision": 0.6618075801749271,
+      "recall": 0.8764478764478765,
+      "f1-score": 0.7541528239202658,
+      "support": 259.0
+    },
+    "Staff - Personal traits": {
+      "precision": 0.3854166666666667,
+      "recall": 0.8222222222222222,
+      "f1-score": 0.524822695035461,
+      "support": 90.0
+    },
+    "Staff - Teaching": {
+      "precision": 0.7075,
+      "recall": 0.9012738853503185,
+      "f1-score": 0.7927170868347339,
+      "support": 314.0
+    },
+    "University - Campus & facilities": {
+      "precision": 0.7307692307692307,
+      "recall": 0.95,
+      "f1-score": 0.8260869565217391,
+      "support": 40.0
+    },
+    "University - Cost": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "University - Culture & diversity": {
+      "precision": 0.35,
+      "recall": 1.0,
+      "f1-score": 0.5185185185185185,
+      "support": 7.0
+    },
+    "University - Information & services": {
+      "precision": 0.2857142857142857,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.40816326530612246,
+      "support": 14.0
+    },
+    "University - Opportunities": {
+      "precision": 0.3333333333333333,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.4444444444444444,
+      "support": 3.0
+    },
+    "University - Overall": {
+      "precision": 0.6666666666666666,
+      "recall": 0.9767441860465116,
+      "f1-score": 0.7924528301886793,
+      "support": 43.0
+    },
+    "University - Programme": {
+      "precision": 0.2727272727272727,
+      "recall": 0.3333333333333333,
+      "f1-score": 0.3,
+      "support": 9.0
+    },
+    "University - Social engagement & activities": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 18.0
+    },
+    "micro avg": {
+      "precision": 0.5328185328185329,
+      "recall": 0.8655913978494624,
+      "f1-score": 0.6596107886650734,
+      "support": 2232.0
+    },
+    "macro avg": {
+      "precision": 0.4336360214572687,
+      "recall": 0.7457290334399844,
+      "f1-score": 0.5417602008603276,
+      "support": 2232.0
+    },
+    "weighted avg": {
+      "precision": 0.5526410642729688,
+      "recall": 0.8655913978494624,
+      "f1-score": 0.6701895817940133,
+      "support": 2232.0
+    },
+    "samples avg": {
+      "precision": 0.5532965818903319,
+      "recall": 0.8536517857142857,
+      "f1-score": 0.6469367266720208,
+      "support": 2232.0
+    }
+  },
+  "note": "EduRABSA ACD is an aspect-category dataset, not a sentiment dataset. This model is an auxiliary fine-grained aspect detector; it is not used to replace the CampusPulse category model because the EduRABSA domain/category distribution reduced held-out public CampusPulse-category performance."
+}
