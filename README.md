@@ -1,142 +1,107 @@
-# \# CampusPulse
+# CampusPulse
 
-# 
+### AI-Powered Student Feedback Intelligence
 
-# \### AI-Powered Student Feedback Intelligence
+> From student voices to actionable campus insights.
 
-# 
+CampusPulse is a working AI-powered student feedback analysis prototype.
 
-# > From student voices to actionable campus insights.
+## 🚀 Quick Start
 
-# 
+### 1. Clone the Repository
 
-# CampusPulse is an AI-assisted feedback intelligence platform designed to help educational institutions understand large volumes of unstructured student feedback.
+```bash
+git clone https://github.com/dev4305x/CampusPulse.git
+cd CampusPulse
+```
 
-# 
+### 2. Create Virtual Environment
 
-# Instead of manually reading every response, CampusPulse converts student comments into structured insights such as sentiment, category, fine-grained aspects, recurring complaints, and trends.
+```bash
+python -m venv venv
+```
 
-# 
+Activate it:
 
-# \---
+**Windows PowerShell**
+```powershell
+.\venv\Scripts\Activate.ps1
+```
 
-# 
+If required:
 
-# \## 🚀 Key Features
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\venv\Scripts\Activate.ps1
+```
 
-# 
+### 3. Install Dependencies
 
-# \- \*\*Sentiment Analysis\*\*
+```bash
+pip install -r campuspulse_requirements.txt
+```
 
-# &#x20; - Positive
+### 4. Launch the Application
 
-# &#x20; - Neutral
+```bash
+streamlit run campuspulse_app.py
+```
 
-# &#x20; - Negative
+The CampusPulse dashboard will open in your browser.
 
-# 
+---
 
-# \- \*\*Feedback Categorization\*\*
+## 🧪 Testing the Prototype
 
-# &#x20; - Academics
+### Student Feedback
 
-# &#x20; - Wi-Fi
+1. Open **Student Feedback**.
+2. Enter a natural-language complaint or suggestion.
+3. Optionally enter a location.
+4. Click **Analyze & Submit**.
+5. Check the generated:
+   - Sentiment
+   - Category
+   - Confidence
+   - Fine-grained aspect
+   - Related complaints
 
-# &#x20; - Food
+### Try These Examples
 
-# &#x20; - Hostel
+```text
+C Block Wi-Fi keeps disconnecting every night after 7 PM.
+```
 
-# &#x20; - Transport
+```text
+I'm really tired of having exams scheduled so frequently.
+```
 
-# &#x20; - Library
+```text
+The library is fine but there are no seats during evening hours.
+```
 
-# &#x20; - Laboratory
+```text
+The laboratory PCs are extremely slow.
+```
 
-# &#x20; - Infrastructure
+### Admin Dashboard
 
-# &#x20; - Cleanliness
+Open **Admin Intelligence** to view:
 
-# &#x20; - Administration
+- Feedback statistics
+- Sentiment distribution
+- Category distribution
+- Recurring issues
+- Feedback trends
+- Fine-grained aspects
+- Live submissions
 
-# &#x20; - Safety
+---
 
-# &#x20; - Events
-
-# 
-
-# \- \*\*Fine-Grained Aspect Detection\*\*
-
-# &#x20; - Uses educational feedback aspect data to identify more specific concerns such as assessment, course materials, teaching, attitude, technology/tools, and university-level issues.
-
-# 
-
-# \- \*\*Related Complaint Detection\*\*
-
-# &#x20; - Finds semantically similar feedback to identify recurring problems.
-
-# 
-
-# \- \*\*Trend Intelligence\*\*
-
-# &#x20; - Tracks changes in negative feedback over time.
-
-# 
-
-# \- \*\*Confidence-Aware Analysis\*\*
-
-# &#x20; - Low-confidence predictions can be flagged for human review.
-
-# 
-
-# \- \*\*Student Feedback Interface\*\*
-
-# &#x20; - Students can submit feedback using natural language.
-
-# 
-
-# \- \*\*Admin Intelligence Dashboard\*\*
-
-# &#x20; - Provides aggregated feedback insights, recurring issues, sentiment distribution, category distribution, and trends.
-
-# 
-
-# \---
-
-# 
-
-# \## 🧠 How It Works
-
-# 
-
-# ```text
-
-# Student Feedback
-
-# &#x20;      ↓
-
-# Text Preprocessing
-
-# &#x20;      ↓
-
-# Sentiment Analysis
-
-# &#x20;      ↓
-
-# Broad Category Classification
-
-# &#x20;      ↓
-
-# Fine-Grained Aspect Detection
-
-# &#x20;      ↓
-
-# Related Complaint Detection
-
-# &#x20;      ↓
-
-# Trend Analysis
-
-# &#x20;      ↓
-
-# Admin Intelligence Dashboard
-
+## ✅ Verified Environment
+
+- Python 3.12
+- Streamlit
+- Scikit-learn
+- Pandas
+- SQLite
