@@ -34,9 +34,25 @@ Thumbs.db
 *.arrow
 
 # Local model artifacts
-campuspulse_models/*.pkl
+# Experimental / obsolete ML models
+campuspulse_models/category_model_v3_public_hybrid.pkl
+campuspulse_models/category_tf*logreg.pkl
+campuspulse_models/sentiment_model_v3_public_hybrid.pkl
+campuspulse_models/sentiment_tfidf_logreg.pkl
 
 # Temporary/generated files
 *.tmp
 *.bak
 "
+
+# Virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Local datasets / artifacts
+data-*.arrow
+*.db
+*.sqlite
+*.sqlite3
