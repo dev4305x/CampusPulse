@@ -40,6 +40,13 @@ campuspulse_models/category_tf*logreg.pkl
 campuspulse_models/sentiment_model_v3_public_hybrid.pkl
 campuspulse_models/sentiment_tfidf_logreg.pkl
 
+# Local runtime database
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw Hugging Face Arrow artifact
+*.arrow
 # Temporary/generated files
 *.tmp
 *.bak
