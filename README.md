@@ -98,6 +98,22 @@ Open **Admin Intelligence** to view:
 
 ---
 
+## Real campus feedback training
+
+The curated Google Form export is stored at `data/campuspulse_real_feedback_curated.csv`. It contains the 27 responses, with timestamps and other form fields kept as metadata. The training script uses only the `feedback` text as a model feature.
+
+Two Positive-labeled narratives that describe serious problems are marked `pending_human_relabel` and are excluded from candidate training. One exact text duplicate (`Bad`) already exists in the public labeled dataset; it is excluded from the new-response evaluation to prevent optimistic results.
+
+Run the reproducible candidate training and evaluation with:
+
+```bash
+python train_campuspulse_real_feedback.py
+```
+
+This writes candidate sentiment and category models under `campuspulse_models/` and metrics to `data/campuspulse_real_feedback_evaluation.json`. The candidate files do not replace the live V4 models. The accompanying Markdown report explains the evaluation and promotion decision. The 24-row out-of-fold evaluation is descriptive only; it is too small and too sparse in positive sentiment and rare categories to establish campus-wide performance.
+
+---
+
 ## ✅ Verified Environment
 
 - Python 3.12

@@ -11,7 +11,7 @@ DB_PATH = os.path.join(BASE, "campuspulse.db")
 
 st.set_page_config(
     page_title="CampusPulse",
-    page_icon="🎓",
+    page_icon=":material/school:",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -19,164 +19,69 @@ st.set_page_config(
 # ---------- Styling ----------
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-
-html, body, [class*="css"] {
-    font-family: 'Inter', sans-serif;
-}
-
 .block-container {
-    max-width: 1420px;
-    padding-top: 1.2rem;
+    max-width: 1160px;
+    padding-top: 1.5rem;
     padding-bottom: 3rem;
 }
 
-/* Hide Streamlit chrome */
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-[data-testid="stDecoration"] {display:none;}
-
-/* Header */
 .hero {
-    padding: 24px 28px;
-    border: 1px solid rgba(255,255,255,.09);
-    border-radius: 20px;
-    background: linear-gradient(135deg, rgba(255,75,81,.16), rgba(20,22,31,.75) 55%, rgba(75,80,110,.18));
-    margin-bottom: 18px;
+    padding: 26px 30px;
+    border: 1px solid #293a45;
+    border-radius: 22px;
+    background: linear-gradient(115deg, #142a2d 0%, #111a24 58%, #191b2a 100%);
+    margin-bottom: 22px;
 }
 .hero-title {
-    font-size: 2.25rem;
+    font-size: 2.35rem;
     font-weight: 800;
-    letter-spacing: -1px;
+    letter-spacing: -1.2px;
     margin: 0;
+    color: #edf3f6;
 }
-.hero-title span { color: #ff4b51; }
+.hero-title span { color: #77d6c5; }
 .hero-sub {
-    color: #a9adbb;
+    color: #b0bec7;
     margin-top: 7px;
     font-size: .98rem;
 }
 .pill {
     display:inline-block;
-    padding: 5px 10px;
+    padding: 6px 11px;
     border-radius: 999px;
     font-size: .75rem;
     font-weight: 700;
     margin-top: 14px;
-    background: rgba(55, 210, 135, .12);
-    border: 1px solid rgba(55, 210, 135, .25);
-    color: #55e39b;
+    background: #172a29;
+    border: 1px solid #315b55;
+    color: #a0e4d7;
 }
-
-/* Cards */
-.card {
-    background: #171922;
-    border: 1px solid rgba(255,255,255,.08);
-    border-radius: 16px;
-    padding: 18px 19px;
-    min-height: 100px;
-}
-.card-label {
-    color: #8f94a5;
-    font-size: .78rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: .06em;
-}
-.card-value {
-    font-size: 1.55rem;
-    font-weight: 800;
-    margin-top: 6px;
-}
-.card-sub {
-    color: #8f94a5;
-    font-size: .78rem;
-    margin-top: 5px;
-}
-
-/* Section headings */
-.section {
-    margin-top: 26px;
-    margin-bottom: 10px;
-}
-.section-title {
-    font-size: 1.1rem;
-    font-weight: 750;
-}
-.section-sub {
-    color: #858a9a;
-    font-size: .82rem;
-    margin-top: 3px;
-}
-
-/* Result badges */
-.badge {
-    display:inline-block;
-    padding: 7px 11px;
-    border-radius: 999px;
-    font-size: .78rem;
-    font-weight: 700;
-    border: 1px solid rgba(255,255,255,.1);
-}
-.badge-red { background: rgba(255,75,81,.12); color:#ff7277; }
-.badge-green { background: rgba(55,210,135,.12); color:#55e39b; }
-.badge-yellow { background: rgba(255,193,7,.12); color:#ffd45c; }
-.badge-blue { background: rgba(90,140,255,.12); color:#8bb0ff; }
-
-/* Empty / insight blocks */
-.insight {
-    padding: 15px 17px;
-    border-radius: 14px;
-    background: #171922;
-    border: 1px solid rgba(255,255,255,.08);
-}
-.insight strong { color:#f1f2f6; }
-.muted { color:#858a9a; }
-
-/* Inputs */
 div[data-testid="stTextArea"] textarea,
 div[data-testid="stTextInput"] input {
-    border-radius: 12px;
+    border-radius: 11px;
 }
 div[data-testid="stTextArea"] textarea {
     min-height: 145px;
 }
-
-/* Buttons */
 .stButton > button {
-    border-radius: 11px;
+    border-radius: 10px;
     font-weight: 700;
-    min-height: 44px;
+    min-height: 45px;
 }
-
-/* Tables */
 [data-testid="stDataFrame"] {
     border-radius: 12px;
     overflow: hidden;
 }
-
-/* Tabs */
-button[data-baseweb="tab"] {
-    font-weight: 650;
-}
-
-
-/* Product polish */
-.kpi-accent { border-top: 3px solid #ff4b51; }
-.issue-high { border-left: 4px solid #ff4b51; }
-.issue-medium { border-left: 4px solid #ffd45c; }
-.issue-watch { border-left: 4px solid #55e39b; }
+button[data-baseweb="tab"] { font-weight: 650; }
 .demo-box {
     padding: 14px 16px;
     border-radius: 14px;
-    background: rgba(90,140,255,.07);
-    border: 1px solid rgba(90,140,255,.18);
+    background: #15212b;
+    border: 1px solid #2a4354;
 }
-.small-note { color:#747989; font-size:.75rem; }
-
-/* Mobile */
 @media (max-width: 800px) {
     .hero-title {font-size: 1.7rem;}
+    .hero {padding: 20px;}
 }
 </style>
 """, unsafe_allow_html=True)
@@ -184,26 +89,6 @@ button[data-baseweb="tab"] {
 
 
 # ---------- Product UX helpers ----------
-def priority_level(row):
-    s = str(row.get("sentiment", "")).lower()
-    conf = float(row.get("sentiment_confidence", 0) or 0)
-    count = int(row.get("feedback_count", 1) or 1)
-    if s == "negative" and count >= 10:
-        return "High"
-    if s == "negative" and (count >= 5 or conf >= .75):
-        return "Medium"
-    return "Watch"
-
-def trend_label(current, previous):
-    if previous <= 0:
-        return ("↑ New", "badge-red") if current > 0 else ("→ Stable", "badge-yellow")
-    change = (current - previous) / previous
-    if change >= .25:
-        return (f"↑ {change:.0%}", "badge-red")
-    if change <= -.25:
-        return (f"↓ {abs(change):.0%}", "badge-green")
-    return (f"→ {change:+.0%}", "badge-yellow")
-
 def demo_feedback():
     return [
         "The Wi-Fi in C block keeps disconnecting after 7 PM.",
@@ -252,56 +137,32 @@ def issue_clusters(df):
         .reset_index(name="feedback_count")
         .sort_values("feedback_count", ascending=False)
     )
-    g["issue_name"] = g["category"] + " · " + g["location"]
-    g["priority"] = g.apply(
-        lambda r: "High" if r["feedback_count"] >= 10 else ("Medium" if r["feedback_count"] >= 5 else "Watch"),
-        axis=1,
-    )
-    g["trend"] = "→ Stable"
-    return g[["issue_name", "category", "location", "feedback_count", "priority", "trend"]].head(10)
+    g["group"] = g["category"] + " · " + g["location"]
+    return g[["group", "category", "location", "feedback_count"]].head(10)
 
-def confidence_class(conf):
-    if conf >= .75:
-        return "badge-green", "High confidence"
-    if conf >= .60:
-        return "badge-yellow", "Moderate confidence"
-    return "badge-red", "Low confidence · review recommended"
-
-def sentiment_badge(sentiment):
-    s = str(sentiment).lower()
-    if s == "negative":
-        return "badge-red"
-    if s == "positive":
-        return "badge-green"
-    return "badge-yellow"
-
-def metric_card(label, value, sub=""):
-    return f"""
-    <div class="card">
-        <div class="card-label">{html.escape(str(label))}</div>
-        <div class="card-value">{html.escape(str(value))}</div>
-        <div class="card-sub">{html.escape(str(sub))}</div>
-    </div>
-    """
+def score_band(score):
+    if score >= .75:
+        return "upper score band"
+    if score >= .60:
+        return "mid score band"
+    return "lower score band · review recommended"
 
 def section(title, subtitle=""):
-    st.markdown(
-        f'<div class="section"><div class="section-title">{html.escape(title)}</div>'
-        f'<div class="section-sub">{html.escape(subtitle)}</div></div>',
-        unsafe_allow_html=True
-    )
+    st.subheader(title)
+    if subtitle:
+        st.caption(subtitle)
 
 
 # ---------- Hero ----------
 st.markdown("""
 <div class="hero">
-    <div class="hero-title">🎓 <span>CampusPulse</span></div>
-    <div class="hero-sub">AI-powered student feedback intelligence · From student voices to actionable campus insights</div>
-    <div class="pill">● AI ANALYSIS ACTIVE · V6</div>
+<div class="hero-title"><span>CampusPulse</span></div>
+    <div class="hero-sub">Student feedback, organized for thoughtful campus action.</div>
+    <div class="pill">PROTOTYPE · MODEL OUTPUTS NEED HUMAN REVIEW</div>
 </div>
 """, unsafe_allow_html=True)
 
-tab_student, tab_admin = st.tabs(["🎓  Student Feedback", "📊  Admin Intelligence"])
+tab_student, tab_admin = st.tabs([":material/edit_note: Student feedback", ":material/insights: Admin intelligence"])
 
 
 # ---------- Student ----------
@@ -309,7 +170,7 @@ with tab_student:
     left, right = st.columns([1.55, 1], gap="large")
 
     with left:
-        section("Tell us what happened", "Describe the issue naturally. No special format is required.")
+        section("Tell us what happened", "Describe the issue in your own words. No special format is required.")
         feedback = st.text_area(
             "Feedback",
             placeholder="Example: The Wi-Fi in C block keeps disconnecting after 7 PM.",
@@ -321,12 +182,13 @@ with tab_student:
             placeholder="Optional · C Block / Main Gate / Library",
             label_visibility="visible",
         )
+        st.caption("Please leave out names and other details that could identify you or someone else.")
 
         d1, d2 = st.columns([1, 1])
         with d1:
-            submitted = st.button("✨  Analyze & Submit", type="primary", use_container_width=True)
+            submitted = st.button("Analyze & submit", type="primary", width="stretch")
         with d2:
-            demo = st.button("🧪  Demo example", use_container_width=True)
+            demo = st.button("Load demo example", width="stretch")
 
         if demo:
             import random
@@ -356,48 +218,47 @@ with tab_student:
 
     with right:
         section("What happens next", "CampusPulse converts one sentence into structured insight.")
-        st.markdown("""
-        <div class="insight">
-            <div><span class="badge badge-blue">01</span> <strong>Understand</strong></div>
-            <div class="muted" style="margin:7px 0 13px 39px;">Detect sentiment and confidence.</div>
-            <div><span class="badge badge-blue">02</span> <strong>Classify</strong></div>
-            <div class="muted" style="margin:7px 0 13px 39px;">Identify the campus category.</div>
-            <div><span class="badge badge-blue">03</span> <strong>Connect</strong></div>
-            <div class="muted" style="margin:7px 0 13px 39px;">Find related complaints and fine-grained aspects.</div>
-            <div><span class="badge badge-blue">04</span> <strong>Flag</strong></div>
-            <div class="muted" style="margin:7px 0 0 39px;">Surface uncertain predictions for human review.</div>
-        </div>
-        """, unsafe_allow_html=True)
+        with st.container(border=True):
+            st.markdown("**01 · Understand**")
+            st.caption("Suggest sentiment and a model score.")
+            st.markdown("**02 · Classify**")
+            st.caption("Identify the campus category.")
+            st.markdown("**03 · Connect**")
+            st.caption("Find similar wording and possible aspects.")
+            st.markdown("**04 · Review**")
+            st.caption("Flag uncertain predictions for a person to check.")
 
     result = st.session_state.get("last_result")
 
     if result:
-        section("Analysis result", "AI-generated classification for the submitted feedback.")
+        section("Analysis result", "Automated suggestions to help organize this report; scores are not calibrated confidence estimates.")
 
         sent_conf = result.get("sentiment_confidence", 0)
         cat_conf = result.get("category_confidence", 0)
-        sent_cls = sentiment_badge(result.get("sentiment", ""))
         sent_text = str(result.get("sentiment", "Unknown")).title()
-        sent_conf_cls, sent_conf_text = confidence_class(sent_conf)
-        cat_conf_cls, cat_conf_text = confidence_class(cat_conf)
+        cat_conf_text = score_band(cat_conf)
 
         c1, c2, c3 = st.columns(3)
         with c1:
-            st.markdown(metric_card("Sentiment", sent_text, f"{sent_conf:.0%} confidence"), unsafe_allow_html=True)
-            st.markdown(f'<span class="badge {sent_cls}">{sent_text}</span>', unsafe_allow_html=True)
+            with st.container(border=True):
+                st.metric("Suggested sentiment", sent_text)
+                st.caption(f"Model score: {sent_conf:.0%} · uncalibrated")
         with c2:
-            st.markdown(metric_card("Category", result.get("category", "Unknown"), f"{cat_conf:.0%} confidence"), unsafe_allow_html=True)
-            st.markdown(f'<span class="badge {cat_conf_cls}">{cat_conf_text}</span>', unsafe_allow_html=True)
+            with st.container(border=True):
+                st.metric("Suggested category", result.get("category", "Unknown"))
+                st.caption(f"Model score: {cat_conf:.0%} · {cat_conf_text}")
         with c3:
-            st.markdown(metric_card("Related issues", result.get("similar_issue_count", 0), "matched complaints"), unsafe_allow_html=True)
+            with st.container(border=True):
+                st.metric("Possible text matches", result.get("similar_issue_count", 0))
+                st.caption("Lexical matches; check whether they describe the same issue.")
 
         if result.get("review_status") == "Needs review":
-            st.warning("⚠️ Low-confidence prediction · human review recommended.")
+            st.warning("Review recommended · the model flagged this result for attention.")
             reasons = result.get("review_reasons", [])
             if reasons:
                 st.caption(" · ".join(reasons))
         else:
-            st.success("✓ Prediction confidence is above the review threshold.")
+            st.info("No review flag was raised by the current prototype. This does not confirm the prediction is correct.")
 
         if result.get("hybrid_adjusted"):
             st.info("🧠 Context-aware language checks were applied to conversational wording.")
@@ -410,154 +271,148 @@ with tab_student:
             cols = st.columns(min(4, max(1, len(result["aspects"]))))
             for col, item in zip(cols, result["aspects"]):
                 with col:
-                    st.markdown(metric_card(item["aspect"], f'{item["confidence"]:.0%}', "aspect confidence"), unsafe_allow_html=True)
+                    with st.container(border=True):
+                        st.markdown(f"**{item['aspect']}**")
+                        st.metric("Aspect model score", f'{item["confidence"]:.0%}')
 
         if result.get("similar_issues"):
-            section("Related complaints", "Potentially connected feedback already seen by CampusPulse.")
-            for item in result["similar_issues"]:
-                src = "Live" if item.get("source") == "live" else "Demo"
-                st.markdown(
-                    f'<div class="insight"><span class="badge badge-blue">{html.escape(src)}</span> '
-                    f'<strong>{html.escape(str(item.get("category","")))} · {html.escape(str(item.get("location","")))}</strong>'
-                    f'<span class="muted"> · similarity {float(item.get("similarity",0)):.2f}</span>'
-                    f'<div style="margin-top:8px;">{html.escape(str(item.get("feedback","")))}</div></div>',
-                    unsafe_allow_html=True
-                )
-                st.write("")
+            section("Possible text matches", "Similarity finds overlapping wording. Review the examples before grouping them as one issue.")
+            for item in result["similar_issues"][:3]:
+                src = "Student submission" if item.get("source") == "live" else "Synthetic demo"
+                with st.container(border=True):
+                    st.caption(f"{src} · similarity {float(item.get('similarity', 0)):.2f}")
+                    st.markdown(f"**{item.get('category', 'Uncategorized')} · {item.get('location', 'Location not specified')}**")
+                    st.write(item.get("feedback", ""))
         elif str(result.get("sentiment", "")).lower() == "negative":
             st.info("No sufficiently similar complaint was found yet. Matching becomes more useful as live feedback grows.")
 
 
 # ---------- Admin ----------
 with tab_admin:
-    all_df = get_feedback()
     live_df = get_feedback("live")
     synthetic_df = get_feedback("synthetic_demo")
 
-    section("Campus intelligence", "A live view of what students are saying across the campus.")
+    data_mode = st.segmented_control(
+        "Dashboard data",
+        options=["Synthetic demo", "Live submissions"],
+        default="Synthetic demo",
+        key="admin_data_mode",
+    )
+    using_synthetic = data_mode == "Synthetic demo"
+    dataset_df = synthetic_df.copy() if using_synthetic else live_df.copy()
 
-    total = len(all_df)
-    live = len(live_df)
-    negative = int((all_df["sentiment"].str.lower() == "negative").sum()) if not all_df.empty else 0
-    categories = all_df["category"].nunique() if not all_df.empty else 0
-
-    m1, m2, m3, m4 = st.columns(4)
-    with m1:
-        st.markdown(metric_card("All feedback", total, "live + demo records"), unsafe_allow_html=True)
-    with m2:
-        st.markdown(metric_card("Live submissions", live, "student-entered feedback"), unsafe_allow_html=True)
-    with m3:
-        st.markdown(metric_card("Negative", negative, "feedback needing attention"), unsafe_allow_html=True)
-    with m4:
-        st.markdown(metric_card("Categories", categories, "campus issue areas"), unsafe_allow_html=True)
-
-    section("Feedback landscape", "Distribution of sentiment and campus categories.")
-    left, right = st.columns(2, gap="large")
-    with left:
-        st.markdown("**Sentiment**")
-        if not all_df.empty:
-            st.bar_chart(all_df["sentiment"].str.title().value_counts(), height=280)
-        else:
-            st.info("No feedback yet.")
-    with right:
-        st.markdown("**Categories**")
-        if not all_df.empty:
-            st.bar_chart(all_df["category"].value_counts(), height=280)
-        else:
-            st.info("No feedback yet.")
-
-    section("Negative feedback trend", "Weekly volume of negative feedback.")
-    tr = trend_data(all_df)
-    if not tr.empty:
-        st.line_chart(tr, height=300)
+    if using_synthetic:
+        st.info(
+            f"Synthetic demo data · {len(synthetic_df):,} fictional records. These are examples for the walkthrough, not student submissions.",
+            icon=":material/science:",
+        )
     else:
-        st.info("No negative feedback yet.")
+        st.caption("Live student submissions only. Synthetic demo records are not included.")
 
-    section("Top recurring issues", "The areas receiving the most negative feedback right now.")
-    clusters = issue_clusters(all_df)
-    if not clusters.empty:
-        top = clusters.head(3)
-        cards = st.columns(3)
-        for col, (_, r) in zip(cards, top.iterrows()):
-            p = str(r["priority"])
-            cls = "issue-high" if p == "High" else ("issue-medium" if p == "Medium" else "issue-watch")
-            col.markdown(
-                f'<div class="insight {cls}">'
-                f'<div class="card-label">{html.escape(str(r["category"]))}</div>'
-                f'<div style="font-size:1.08rem;font-weight:750;margin-top:6px;">{html.escape(str(r["location"]))}</div>'
-                f'<div style="margin-top:10px;"><strong>{int(r["feedback_count"])}</strong> negative reports</div>'
-                f'<div class="small-note" style="margin-top:6px;">Priority: {html.escape(p)} · {html.escape(str(r["trend"]))}</div>'
-                f'</div>',
-                unsafe_allow_html=True
-            )
-
-        st.markdown("<div style='height:10px'></div>", unsafe_allow_html=True)
-        st.dataframe(clusters, use_container_width=True, hide_index=True)
+    if dataset_df.empty:
+        st.info("No records are available in this view yet.")
     else:
-        st.info("No recurring issues yet.")
+        section("Explore feedback", "Filter the current dataset, compare its labels, and inspect report examples.")
 
-    section("Fine-grained aspects", "Additional themes detected by the EduRABSA-trained model.")
-    if not all_df.empty and "aspects_json" in all_df.columns:
-        aspect_rows = []
-        for raw in all_df["aspects_json"].dropna():
-            try:
-                for item in json.loads(raw):
-                    if item.get("aspect"):
-                        aspect_rows.append(item["aspect"])
-            except Exception:
-                pass
-        if aspect_rows:
-            st.bar_chart(pd.Series(aspect_rows).value_counts().head(10), height=300)
-        else:
-            st.info("Aspect data will appear after V5/V6 live submissions.")
-    else:
-        st.info("Aspect data is not available yet.")
+        filter_cols = st.columns([1.1, 1.1, 1, 1.5])
+        categories_list = ["All categories"] + sorted(dataset_df["category"].dropna().astype(str).unique().tolist())
+        locations_list = ["All locations"] + sorted(dataset_df["location"].dropna().astype(str).unique().tolist())
+        sentiments_list = ["All sentiments", "Negative", "Neutral", "Positive"]
+        with filter_cols[0]:
+            selected_category = st.selectbox("Category", categories_list, key="dashboard_category")
+        with filter_cols[1]:
+            selected_location = st.selectbox("Location", locations_list, key="dashboard_location")
+        with filter_cols[2]:
+            selected_sentiment = st.selectbox("Sentiment", sentiments_list, key="dashboard_sentiment")
+        with filter_cols[3]:
+            search_text = st.text_input("Search feedback", placeholder="Try: Wi-Fi, exams, food…", key="dashboard_search")
 
-    section("Live submissions", "Newest student-entered feedback.")
-    if not live_df.empty:
-        cols = [
-            c for c in [
-                "created_at", "feedback", "sentiment", "sentiment_confidence",
-                "category", "category_confidence", "location", "review_status",
-                "aspects_json"
-            ] if c in live_df.columns
-        ]
-        st.dataframe(live_df[cols], use_container_width=True, hide_index=True)
-        csv = live_df[cols].to_csv(index=False).encode("utf-8")
-        st.download_button("⬇️ Export live submissions", csv, "campuspulse_live_feedback.csv", "text/csv")
-    else:
-        st.info("No live submissions yet.")
-
-    section("Issue explorer", "Filter the feedback behind a category or location before taking action.")
-    if not all_df.empty:
-        f1, f2 = st.columns(2)
-        categories_list = ["All"] + sorted(all_df["category"].dropna().astype(str).unique().tolist())
-        locations_list = ["All"] + sorted(all_df["location"].dropna().astype(str).unique().tolist())
-        with f1:
-            selected_category = st.selectbox("Category", categories_list, key="issue_category")
-        with f2:
-            selected_location = st.selectbox("Location", locations_list, key="issue_location")
-
-        filtered = all_df.copy()
-        if selected_category != "All":
+        filtered = dataset_df.copy()
+        if selected_category != "All categories":
             filtered = filtered[filtered["category"].astype(str) == selected_category]
-        if selected_location != "All":
+        if selected_location != "All locations":
             filtered = filtered[filtered["location"].astype(str) == selected_location]
+        if selected_sentiment != "All sentiments":
+            filtered = filtered[filtered["sentiment"].astype(str).str.lower() == selected_sentiment.lower()]
+        if search_text.strip():
+            filtered = filtered[filtered["feedback"].astype(str).str.contains(search_text.strip(), case=False, regex=False, na=False)]
+
+        negative_count = int((filtered["sentiment"].str.lower() == "negative").sum()) if not filtered.empty else 0
+        neutral_count = int((filtered["sentiment"].str.lower() == "neutral").sum()) if not filtered.empty else 0
+        positive_count = int((filtered["sentiment"].str.lower() == "positive").sum()) if not filtered.empty else 0
+        sentiment_word = "labels" if using_synthetic else "suggested labels"
+
+        k1, k2, k3, k4 = st.columns(4)
+        k1.metric("Reports in view", f"{len(filtered):,}", border=True)
+        k2.metric("Negative", f"{negative_count:,}", border=True, help=f"Model-assigned {sentiment_word}; review before taking action.")
+        k3.metric("Neutral", f"{neutral_count:,}", border=True)
+        k4.metric("Positive", f"{positive_count:,}", border=True)
+        st.caption(f"Showing {len(filtered):,} of {len(dataset_df):,} records in the selected dataset.")
 
         if filtered.empty:
-            st.info("No feedback matches these filters.")
+            st.info("No reports match these filters. Change a filter or clear the search text.")
         else:
-            show_cols = [c for c in ["created_at","feedback","sentiment","category","location","review_status"] if c in filtered.columns]
-            st.dataframe(filtered[show_cols].head(25), use_container_width=True, hide_index=True)
-    else:
-        st.info("Submit feedback to populate the issue explorer.")
+            section("Overview", "Counts describe the selected dataset and filters; they are not campus-wide rates.")
+            chart_left, chart_right = st.columns(2)
+            with chart_left:
+                st.markdown("**Sentiment labels**")
+                st.bar_chart(filtered["sentiment"].str.title().value_counts())
+            with chart_right:
+                st.markdown("**Feedback categories**")
+                st.bar_chart(filtered["category"].value_counts().head(10))
 
-    section("Demo data", "Synthetic records used to demonstrate the dashboard. They are not real student opinions.")
-    st.metric("Synthetic records", len(synthetic_df))
+            section("Weekly negative report counts", "Descriptive counts only. Changes in response volume can change these totals.")
+            tr = trend_data(filtered)
+            if not tr.empty and len(tr) >= 4 and int(tr["Negative feedback"].sum()) >= 5:
+                st.line_chart(tr, height=260)
+            elif not tr.empty:
+                st.info("There is not enough history in this view to draw a trend yet.")
+            else:
+                st.caption("No negative reports in the selected view.")
+
+            section("Most common negative report groups", "Grouped by model-assigned category and location; these are not confirmed issue clusters.")
+            groups = issue_clusters(filtered)
+            if not groups.empty:
+                st.dataframe(groups, width="stretch", hide_index=True)
+            else:
+                st.caption("No negative reports in the selected view.")
+
+        section("Aspect themes", "Themes returned by the aspect model; treat them as suggestions.")
+        if not filtered.empty and "aspects_json" in filtered.columns:
+            aspect_rows = []
+            for raw in filtered["aspects_json"].dropna():
+                try:
+                    for item in json.loads(raw):
+                        if item.get("aspect"):
+                            aspect_rows.append(item["aspect"])
+                except Exception:
+                    continue
+            if aspect_rows:
+                st.bar_chart(pd.Series(aspect_rows).value_counts().head(10))
+            else:
+                st.caption("No aspect labels are available for these records.")
+        else:
+            st.caption("Aspect data is not available in the current view.")
+
+        section("Feedback explorer", "Search and filters above apply here too.")
+        display_cols = [c for c in ["created_at", "feedback", "sentiment", "category", "location", "review_status"] if c in filtered.columns]
+        st.dataframe(filtered[display_cols].head(100), width="stretch", hide_index=True)
+        export_name = "campuspulse_synthetic_demo.csv" if using_synthetic else "campuspulse_live_feedback.csv"
+        st.download_button(
+            "Download filtered reports",
+            filtered[display_cols].to_csv(index=False).encode("utf-8"),
+            export_name,
+            "text/csv",
+        )
+
+    if not using_synthetic and not live_df.empty and "review_status" in live_df.columns:
+        # Keep raw review flags visible only for actual live submissions.
+        review_count = int((filtered["review_status"].astype(str).str.lower() == "needs review").sum()) if "review_status" in filtered.columns else 0
+        st.caption(f"Live submissions flagged for review: {review_count:,}. This is a model flag, not a completed review queue.")
 
 st.markdown("""
-<div style="margin-top:35px;padding-top:14px;border-top:1px solid rgba(255,255,255,.07);
-color:#666b79;font-size:.72rem;text-align:center;">
-CampusPulse · AI-powered student feedback intelligence · V6 · AI outputs are decision-support, not automatic disciplinary decisions.
+        <div style="margin-top:35px;padding-top:14px;border-top:1px solid #293a45;
+color:#9aaab3;font-size:.75rem;text-align:center;">
+CampusPulse · Prototype decision support · automated outputs require human review.
 </div>
 """, unsafe_allow_html=True)

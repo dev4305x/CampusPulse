@@ -1,0 +1,1023 @@
+{
+  "evaluation_type": "5-fold out-of-fold evaluation on eligible new campus responses after excluding exact-text overlap with existing labeled data; each evaluated response is held out exactly once.",
+  "split": {
+    "method": "KFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 20261030,
+    "exact_text_overlap_removed_from_base": 1,
+    "exact_text_overlap_excluded_from_evaluation": 1,
+    "existing_text_sources_checked_for_exact_duplicates": [
+      "student_feedback_sentiment.csv",
+      "campuspulse_realistic_synthetic_dataset.csv",
+      "campuspulse_mvp_feedback_1000.csv"
+    ],
+    "evaluation_response_ids": [
+      "CPR001",
+      "CPR002",
+      "CPR003",
+      "CPR004",
+      "CPR005",
+      "CPR006",
+      "CPR009",
+      "CPR010",
+      "CPR011",
+      "CPR012",
+      "CPR013",
+      "CPR014",
+      "CPR016",
+      "CPR017",
+      "CPR018",
+      "CPR019",
+      "CPR020",
+      "CPR021",
+      "CPR022",
+      "CPR023",
+      "CPR024",
+      "CPR025",
+      "CPR026",
+      "CPR027"
+    ]
+  },
+  "dataset": {
+    "total_rows": 27,
+    "eligible_rows": 25,
+    "pending_human_relabel_rows": 2,
+    "evaluation_rows_after_duplicate_exclusion": 24,
+    "eligible_sentiment_counts": {
+      "negative": 16,
+      "neutral": 9
+    },
+    "eligible_category_counts": {
+      "Wi-Fi": 10,
+      "Food": 7,
+      "Transport": 3,
+      "Academics": 2,
+      "Events": 1,
+      "Laboratory": 1,
+      "Infrastructure": 1
+    },
+    "feature_fields": [
+      "feedback"
+    ],
+    "metadata_fields_excluded_from_features": [
+      "timestamp_metadata",
+      "year_of_study_metadata",
+      "area_as_reported",
+      "location_metadata",
+      "frequency_metadata",
+      "response_id",
+      "review_status",
+      "review_note"
+    ],
+    "timestamp_used_as_feature": false
+  },
+  "existing_training_sources": {
+    "student_feedback_sentiment.csv": 724,
+    "campuspulse_realistic_synthetic_train.csv": 780,
+    "campuspulse_mvp_feedback_1000.csv": 1000,
+    "deduplicated_base_rows": 1994,
+    "final_candidate_unique_training_rows": 2019
+  },
+  "candidate_config": {
+    "sentiment": "word TF-IDF (1,2), unicode accent stripping, sublinear TF; LogisticRegression C=2, class_weight=balanced, max_iter=3000",
+    "category": "char_wb TF-IDF (3,5), sublinear TF; LogisticRegression C=2, class_weight=balanced, max_iter=3000"
+  },
+  "metrics": {
+    "sentiment": {
+      "baseline_raw_oof": {
+        "n": 24,
+        "accuracy": 0.5833,
+        "macro_f1": 0.3082,
+        "weighted_f1": 0.5325,
+        "macro_precision": 0.3833,
+        "macro_recall": 0.3259,
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "confusion_matrix_true_rows_pred_cols": [
+          [
+            13,
+            1,
+            1
+          ],
+          [
+            7,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "candidate_raw_oof": {
+        "n": 24,
+        "accuracy": 0.625,
+        "macro_f1": 0.3199,
+        "weighted_f1": 0.5543,
+        "macro_precision": 0.3889,
+        "macro_recall": 0.3481,
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "confusion_matrix_true_rows_pred_cols": [
+          [
+            14,
+            1,
+            0
+          ],
+          [
+            7,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "baseline_pipeline_hybrid_oof": {
+        "n": 24,
+        "accuracy": 0.625,
+        "macro_f1": 0.3199,
+        "weighted_f1": 0.5543,
+        "macro_precision": 0.3889,
+        "macro_recall": 0.3481,
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "confusion_matrix_true_rows_pred_cols": [
+          [
+            14,
+            1,
+            0
+          ],
+          [
+            7,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "candidate_pipeline_hybrid_oof": {
+        "n": 24,
+        "accuracy": 0.625,
+        "macro_f1": 0.3199,
+        "weighted_f1": 0.5543,
+        "macro_precision": 0.3889,
+        "macro_recall": 0.3481,
+        "labels": [
+          "negative",
+          "neutral",
+          "positive"
+        ],
+        "confusion_matrix_true_rows_pred_cols": [
+          [
+            14,
+            1,
+            0
+          ],
+          [
+            7,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "category": {
+      "baseline_raw_oof": {
+        "n": 24,
+        "accuracy": 0.75,
+        "macro_f1": 0.3881,
+        "weighted_f1": 0.7806,
+        "macro_precision": 0.4167,
+        "macro_recall": 0.4194,
+        "labels": [
+          "Academics",
+          "Administration",
+          "Cleanliness",
+          "Events",
+          "Food",
+          "Hostel",
+          "Infrastructure",
+          "Laboratory",
+          "Library",
+          "Safety",
+          "Transport",
+          "Wi-Fi"
+        ],
+        "confusion_matrix_true_rows_pred_cols": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            7
+          ]
+        ]
+      },
+      "candidate_raw_oof": {
+        "n": 24,
+        "accuracy": 0.8333,
+        "macro_f1": 0.4296,
+        "weighted_f1": 0.8565,
+        "macro_precision": 0.4306,
+        "macro_recall": 0.4556,
+        "labels": [
+          "Academics",
+          "Administration",
+          "Cleanliness",
+          "Events",
+          "Food",
+          "Hostel",
+          "Infrastructure",
+          "Laboratory",
+          "Library",
+          "Safety",
+          "Transport",
+          "Wi-Fi"
+        ],
+        "confusion_matrix_true_rows_pred_cols": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8
+          ]
+        ]
+      },
+      "baseline_pipeline_hybrid_oof": {
+        "n": 24,
+        "accuracy": 0.875,
+        "macro_f1": 0.463,
+        "weighted_f1": 0.8981,
+        "macro_precision": 0.4583,
+        "macro_recall": 0.4833,
+        "labels": [
+          "Academics",
+          "Administration",
+          "Cleanliness",
+          "Events",
+          "Food",
+          "Hostel",
+          "Infrastructure",
+          "Laboratory",
+          "Library",
+          "Safety",
+          "Transport",
+          "Wi-Fi"
+        ],
+        "confusion_matrix_true_rows_pred_cols": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8
+          ]
+        ]
+      },
+      "candidate_pipeline_hybrid_oof": {
+        "n": 24,
+        "accuracy": 0.875,
+        "macro_f1": 0.463,
+        "weighted_f1": 0.8981,
+        "macro_precision": 0.4583,
+        "macro_recall": 0.4833,
+        "labels": [
+          "Academics",
+          "Administration",
+          "Cleanliness",
+          "Events",
+          "Food",
+          "Hostel",
+          "Infrastructure",
+          "Laboratory",
+          "Library",
+          "Safety",
+          "Transport",
+          "Wi-Fi"
+        ],
+        "confusion_matrix_true_rows_pred_cols": [
+          [
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            8
+          ]
+        ]
+      }
+    }
+  },
+  "candidate_artifacts": {
+    "sentiment": {
+      "path": "campuspulse_models/sentiment_model_v5_candidate.pkl",
+      "training_rows": 2019,
+      "classes": [
+        "negative",
+        "neutral",
+        "positive"
+      ]
+    },
+    "category": {
+      "path": "campuspulse_models/category_model_v5_candidate.pkl",
+      "training_rows": 2019,
+      "classes": [
+        "Academics",
+        "Administration",
+        "Cleanliness",
+        "Events",
+        "Food",
+        "Hostel",
+        "Infrastructure",
+        "Laboratory",
+        "Library",
+        "Safety",
+        "Transport",
+        "Wi-Fi"
+      ]
+    }
+  },
+  "backup_dir": "campuspulse_models/backups_pre_real_feedback_20261031",
+  "backup_sha256": {
+    "sentiment_model_v4.pkl": "811a6c9d041e42bccad2da4ef474d9634dbc7582eb432ca0744a33ba55d4a1c8",
+    "category_model_v4.pkl": "0b78c22ae4c9df06d62de9d8575eafa0a552c6acc5c9fe32eca0930fabd60bd0"
+  },
+  "promotion": {
+    "decision": "not_promoted_pending_larger_representative_reviewed_sample",
+    "reason": "Only 25 eligible examples are available, with no verified positive examples; category coverage is sparse and rare categories have one example. Cross-validation is descriptive and cannot establish reliable generalization."
+  },
+  "runtime": {
+    "python": "3.12.8 isolated runtime",
+    "scikit_learn": "1.9.1 from archived venv",
+    "baseline_pickle_version": "1.8.0 (load emitted sklearn InconsistentVersionWarning)"
+  }
+}
